@@ -1,0 +1,2291 @@
+[
+  {
+    "numero": 1,
+    "numero_original": "1.",
+    "enunciado": "Durante la realización de una colangiografía intravenosa para valorar la permeabilidad de los conductos biliares, debemos conocer que el colédoco:",
+    "opciones": {
+      "A": "Surge de la unión del conducto cístico y el conducto pancreático.",
+      "B": "Surge desde el páncreas.",
+      "C": "Surge de la unión de los dos conductos hepáticos, derecho e izquierdo.",
+      "D": "Surge de la unión del conducto hepático común y el conducto cístico."
+    },
+    "raw_ocr": "1. Durante la realización de una colangiografía intravenosa para valorar la permeabilidad de los conductos\nbiliares, debemos conocer que el colédoco:\n\nA) Surge de la unión del conducto cístico y el conducto pancreático,\n\nB) Surge desde cl páncreas.\n\nC) Surge ce la unión de los dos conductos hepáticos, derecho e izquierdo.\n\nD) Surge de la unión del conducto hepático común y el conducta cístico.",
+    "fuente": "2021_sergas",
+    "anno": 2021,
+    "respuesta_correcta": null,
+    "tags": ["especifica"],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 2,
+    "numero_original": "2.",
+    "enunciado": "¿Cuál es la forma más fácil de tranquilizar a un paciente, de que se encuentre cómodo y poder satisfacer sus necesidades?",
+    "opciones": {
+      "A": "Realizar el estudio lo más rápido posible sin explicarle nada.",
+      "B": "Hablar con el paciente y explicarle el proceso.",
+      "C": "Ignorar al paciente.",
+      "D": "Llamar a un compañero y que se encargue de él."
+    },
+    "raw_ocr": "2. ¿Cuál es la forma más fácil de tranquilizar a un paciente, de que se encuentre cómodo y poder satisfacer sus\nnecesidades?:\n\nA) Realizar el estudio lo más rápido posible sin explicarle nada.\n\nB) Hablar con el paciente y explicarle el proceso.\n\nC) lgnorar al paciente.\n\nD) Llamar a un compañero y que se encargue de él,",
+    "fuente": "2021_sergas",
+    "anno": 2021,
+    "respuesta_correcta": null,
+    "tags": ["especifica"],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 3,
+    "numero_original": "3.",
+    "enunciado": "Preparación del paciente para un Cardio CT. Seleccione una:",
+    "opciones": {
+      "A": "Si no existen contraindicaciones, nitroglicerina sublingual, justo antes del TC.",
+      "B": "Haber firmado con anterioridad consentimiento informado.",
+      "C": "Reposo del paciente antes del estudio.",
+      "D": "Todas las respuestas anteriores son correctas."
+    },
+    "raw_ocr": "3. Preparación del paciente para un Cardio CT. Seleccione una:\n\nA) Si no existen contramdicaciones. nitroglicerina sublingual, justo antes del TC.\nB) Haber firmado con anterioridad consentimiento informado.\n\nC)Reposo cel paciente antes del estudio.\n\nD) Todas las respuestas anteriores son correctas.",
+    "fuente": "2021_sergas",
+    "anno": 2021,
+    "respuesta_correcta": null,
+    "tags": ["especifica"],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 5,
+    "numero_original": "5.",
+    "enunciado": "Los viales de material radiactivo se deben de almacenar hasta su administración al paciente en:",
+    "opciones": {
+      "A": "En el servicio de protección radiológica.",
+      "B": "En la sala de inyección.",
+      "C": "En la radiofarmacia.",
+      "D": "En la gammateca."
+    },
+    "raw_ocr": "5. Los viales de material radiactivo se deben de almacenar hasta su administración al paciente en:\nA) En el servicio de protección raciologita.\n\nB)En la sala de inyeccion,\n\nC)En  la radiofarmacia.\n\nD) En la Gammateca.",
+    "fuente": "2021_sergas",
+    "anno": 2021,
+    "respuesta_correcta": null,
+    "tags": ["especifica"],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 6,
+    "numero_original": "6.",
+    "enunciado": "El conjunto de métodos y procedimientos encaminados a destruir agentes infecciosos, que puedan ser causantes de transmisión de enfermedades, se denomina:",
+    "opciones": {
+      "A": "Limpieza.",
+      "B": "Asepsia.",
+      "C": "Fómite.",
+      "D": "Antisepsia."
+    },
+    "raw_ocr": "6. El conjunto de métodos y procedimientos encaminados a destruir agentes infecciosos, que puedan ser\ncausantes de transmisión de enfermedades, se denomina:\n\nA) Limpieza.\nB) Asepsia\nC) Fómite\nD) Antisepsia.",
+    "fuente": "2021_sergas",
+    "anno": 2021,
+    "respuesta_correcta": null,
+    "tags": ["especifica"],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 7,
+    "numero_original": "7.",
+    "enunciado": "En el estudio de la Edad Ósea. Seleccione una:",
+    "opciones": {
+      "A": "Se realiza proyección PA mano-muñeca izquierda.",
+      "B": "Se realiza proyección PA mano-muñeca derecha.",
+      "C": "Se realiza proyección PA mano-muñeca dominante.",
+      "D": "Se realiza proyección PA mano-muñeca no dominante."
+    },
+    "raw_ocr": "7. En el estudio de la Edad Ósea. Seleccione una:\n\nA)Se realiza proyección PÁ maro muneca izquierda.\nB)Se realiza proyección PA maro-muñeca derecha.\nC)Se realiza proyección PA mano-muñeca dominante.\n\nD)Se realiza proyección PA mano munecca no dominante.",
+    "fuente": "2021_sergas",
+    "anno": 2021,
+    "respuesta_correcta": null,
+    "tags": ["especifica"],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 8,
+    "numero_original": "8.",
+    "enunciado": "Las secuencias que se emplean para la cuantificación de flujo en RM Cardio son:",
+    "opciones": {
+      "A": "Secuencias de Eco balanceo.",
+      "B": "Secuencias en contraste de Phase (PC).",
+      "C": "Secuencias de inversión-recuperación.",
+      "D": "Secuencias de realce tardío."
+    },
+    "raw_ocr": "8. Las secuencias que se emplean para la cuantificación de flujo en RM Cardio son:\nA) Secuencias de Eco balanceo.\n\nB) Secuencias en contraste de Phase (PC).\n\nC) Secuencias de inversion-recuperación.\n\nD) Secuencias de realce tardío.",
+    "fuente": "2021_sergas",
+    "anno": 2021,
+    "respuesta_correcta": null,
+    "tags": ["especifica"],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 9,
+    "numero_original": "9.",
+    "enunciado": "¿Cuál es la función de la uretra?",
+    "opciones": {
+      "A": "Exclusivamente excretora.",
+      "B": "Exclusivamente excretora en mujeres.",
+      "C": "Excretora y reproductora en hombres.",
+      "D": "Las respuestas B y C son correctas."
+    },
+    "raw_ocr": "9. ¿Cuál es la función de la uretra?:\n\nA) Exclusivamente excrectora.\n\nB)Exclusivarmente excreclora en mujeres,\nC) Excretora y reproductora en hombres.\n\nD) Las respuestas B y C son correctas,",
+    "fuente": "2021_sergas",
+    "anno": 2021,
+    "respuesta_correcta": null,
+    "tags": ["especifica"],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 10,
+    "numero_original": "10.",
+    "enunciado": "Para la correcta realización de las ATM mediante el método de Schuller:",
+    "opciones": {
+      "A": "Se suspende la respiración durante la prueba.",
+      "B": "Se angula el rayo central de 25° a 30° en sentido caudal.",
+      "C": "Generalmente se realiza con boca abierta y boca cerrada.",
+      "D": "Todas son correctas."
+    },
+    "raw_ocr": "10. Para la correcta realización de las ATM mediante el método de Schuller:\nA)Se suspende la respiración durante la prueba.\n\nB)Se angula el rayo central de 25% a 30% en sentido caudal.\n\nC) Generalmente se realiza con boca abierta y boca cerrada.\n\nD) Todas son correctas.",
+    "fuente": "2021_sergas",
+    "anno": 2021,
+    "respuesta_correcta": null,
+    "tags": ["especifica"],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 11,
+    "numero_original": "11.",
+    "enunciado": "Las ventajas de una angiografía digital por sustracción (ADS) radican en:",
+    "opciones": {
+      "A": "Se realiza en tiempo real.",
+      "B": "Elimina determinadas estructuras anatómicas y muestra solo el vaso o vasos que están a estudio que contienen el medio de contraste.",
+      "C": "Las imágenes sustraídas aparecen invertidas.",
+      "D": "Todas las respuestas anteriores son correctas."
+    },
+    "raw_ocr": "11. Las ventajas de una angiografía digital por sustracción (ADS) radican en:\nA) Se realiza en tiempo real,\n\nB)£limina determinadas estructuras anatómicas y muestra solo el vaso o vasos que están a estudio que\ncontienen el medio de contraste.\n\nC) Las imágenes sustraidas aparecen invertidas.\n\nD) Podas las respuestas anteriores son correctas.",
+    "fuente": "2021_sergas",
+    "anno": 2021,
+    "respuesta_correcta": null,
+    "tags": ["especifica"],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 12,
+    "numero_original": "12.",
+    "enunciado": "La proyección lordótica de tórax se realiza para visualizar:",
+    "opciones": {
+      "A": "Bases pulmonares.",
+      "B": "Derrames pleurales.",
+      "C": "Los ápices pulmonares.",
+      "D": "Descartar líquido en los senos costofrénicos."
+    },
+    "raw_ocr": "12. La proyección Lordótica de tórax se realiza para visualizar:\n\nA) Bases pulmonares,\n\nB) Derrames pleurales.\n\nC) Los áp.ces pulmonares.\n\nD) Descartar líquido en los senos costofrénicos.",
+    "fuente": "2021_sergas",
+    "anno": 2021,
+    "respuesta_correcta": null,
+    "tags": ["especifica"],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 13,
+    "numero_original": "13.",
+    "enunciado": "En dosimetría personal usan dosímetros de termoluminiscencia. ¿Qué características poseen?",
+    "opciones": {
+      "A": "Archivables y de gran equivalencia a tejido.",
+      "B": "Reutilizables y de gran equivalencia a tejido.",
+      "C": "Se desactivan a temperatura ambiente.",
+      "D": "Imprecisos en la medida de dosis altas."
+    },
+    "raw_ocr": "13. En dosimetría personal usan dosímetros de termoluminiscencia. ¿Qué características poseen?\nA) Archivables y de gran equivalencia a tejido.\nB) Reutilizables y de gran equivalencia a tejido.\n\nC) Se desextitan a temperatura ambiente.\n\nD) Imprecisos en la medida de dosis altas.",
+    "fuente": "2021_sergas",
+    "anno": 2021,
+    "respuesta_correcta": null,
+    "tags": ["especifica"],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 14,
+    "numero_original": "14.",
+    "enunciado": "¿Cuál de las siguientes sustancias tiene mayor densidad radiológica?",
+    "opciones": {
+      "A": "La grasa.",
+      "B": "El músculo.",
+      "C": "El agua.",
+      "D": "El hueso."
+    },
+    "raw_ocr": "14. ¿Cuál de las siguientes sustancias tiene mayor densidad radiológica?:\nA) La grisi.\n\nB) El músculo.\n\nC) El agua.\n\nD) El hueso.",
+    "fuente": "2021_sergas",
+    "anno": 2021,
+    "respuesta_correcta": null,
+    "tags": ["especifica"],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 15,
+    "numero_original": "15.",
+    "enunciado": "¿Cómo se llama el acelerador de partículas de tipo circular que se usa para la producción de elementos radiactivos que sirven para la realización de diagnósticos, como la realización de tomografía por emisión de positrones (PET)?",
+    "opciones": {
+      "A": "Gammateca.",
+      "B": "Ciclotrón.",
+      "C": "Megatron.",
+      "D": "Electrón."
+    },
+    "raw_ocr": "15. ¿Cómo se llama el acelerador de partículas de tipo circular que se Usa para la producción de elementos\nradiactivos que sirven para la realización de diagnósticos, como la realización de tomografía por emisión de\npositrones (PET)?:\n\nA) Gammateca.\nB) Ciclotrón.\n\nC) Megatron,\n\nD) Electron,",
+    "fuente": "2021_sergas",
+    "anno": 2021,
+    "respuesta_correcta": null,
+    "tags": ["especifica"],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 16,
+    "numero_original": "16.",
+    "enunciado": "En dosimetría por luminiscencia:",
+    "opciones": {
+      "A": "Se utiliza sobre todo fluoruro de calcio.",
+      "B": "Se usa sobre todo fluoruro de litio.",
+      "C": "Se utiliza sulfuro de zinc.",
+      "D": "Se utiliza antraceno."
+    },
+    "raw_ocr": "16. En dosimetría por luminiscencia:\n\nA) Se utiliza sobre todo fluoruro de calcio.\n\nB) Se usa sobre todo fluoruro de litic.\n\nC) Se utiliza sulfuro de zinc.\n\nD) Se utiliza antraceno.",
+    "fuente": "2021_sergas",
+    "anno": 2021,
+    "respuesta_correcta": null,
+    "tags": ["especifica"],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 17,
+    "numero_original": "17.",
+    "enunciado": "Señale el criterio de protección radiológica según la afirmación \"la dosis de radiación debe ser tan baja como razonablemente sea posible\". Seleccione una:",
+    "opciones": {
+      "A": "COPION.",
+      "B": "ALARA.",
+      "C": "ACLARA.",
+      "D": "ENRESA."
+    },
+    "raw_ocr": "17. Señale el criterio de protección radiológica según la afirmación \"la dosis de radiación debe ser tan baja como razonablemente sea posible\". Seleccione una:\nA) COPION.\n\nB) ALARA.\n\nC) ACLARA.\n\nD) ENRESA,",
+    "fuente": "2021_sergas",
+    "anno": 2021,
+    "respuesta_correcta": null,
+    "tags": ["especifica"],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 18,
+    "numero_original": "18.",
+    "enunciado": "La proyección PA de muñeca con lateralización cubital se utiliza para visualizar:",
+    "opciones": {
+      "A": "Pisiforme.",
+      "B": "El astrágalo.",
+      "C": "Escafoides.",
+      "D": "Cuboides."
+    },
+    "raw_ocr": "18. La proyección PA de muñeca con lateralización cubital se utiliza para visualizar:\nA) Pisiforme.\n\nB) El astrágalo.\n\nC) Escafoides.\n\nD) Cuboides.",
+    "fuente": "2021_sergas",
+    "anno": 2021,
+    "respuesta_correcta": null,
+    "tags": ["especifica"],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 19,
+    "numero_original": "19.",
+    "enunciado": "En la utilización de la escala de coma de Glasgow para medir el nivel de conciencia de una persona, la puntuación se comprende entre:",
+    "opciones": {
+      "A": "Entre 3 y 15 puntos.",
+      "B": "Entre 0 y 5 puntos.",
+      "C": "Entre 7 y 10 puntos.",
+      "D": "Entre 1 y 5 puntos."
+    },
+    "raw_ocr": "19. En la utilización de la escala de coma de Glasgow para medir el nivel de conciencia de una persona, la\npuntuación se comprende entre:\n\nA) Entre 3 y 15 puntos.\n\nB) Entre 0 y 5 puntos.\n\nC)Entre 7 y 10 puntos,\n\nD)Entre | y 5 puntos.",
+    "fuente": "2021_sergas",
+    "anno": 2021,
+    "respuesta_correcta": null,
+    "tags": ["especifica"],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 20,
+    "numero_original": "20.",
+    "enunciado": "¿Qué hormona intestinal estimula las contracciones de la vesícula biliar?",
+    "opciones": {
+      "A": "Secretina.",
+      "B": "Leptina.",
+      "C": "Colecistoquinina.",
+      "D": "Pancreozimina."
+    },
+    "raw_ocr": "20. ¿Qué hormona intestinal estimula las contracciones de la vesícula biliar?\nA) 5Secretina.\n\nB) Leptina.\n\nC) Colecistoquinina.\n\nD) Pancreozimina.",
+    "fuente": "2021_sergas",
+    "anno": 2021,
+    "respuesta_correcta": null,
+    "tags": ["especifica"],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 21,
+    "numero_original": "21.",
+    "enunciado": "En la tomografía por emisión de positrones (PET), señale la respuesta falsa:",
+    "opciones": {
+      "A": "Implica la inyección intravenosa de un radiofármaco emisor de positrones.",
+      "B": "Los datos de escaneo se pueden reconstruir y mostrar como una imagen tridimensional.",
+      "C": "Produce datos planos que solo se pueden usar para crear una imagen bidimensional.",
+      "D": "Técnica de imagen no invasiva para la cuantificación de radiactividad en vivo."
+    },
+    "raw_ocr": "21. En la tomografía por emisión de positrones (PET), señale la respuesta falsa:\n\nA) llmolca la inyeccion intravenosa ce un radiofármaco ermsor de positrones.\n\nB) Los datos de escaneo se pueden reconstruir y mostrar como ura imagen tridimensional,\nC) Produce datos planos que solo se pueden usar para crear una imagen bidimensional.\n\nD) Técnica de imagen no invasiva para la cuantificación de radiactividad en vivo.",
+    "fuente": "2021_sergas",
+    "anno": 2021,
+    "respuesta_correcta": null,
+    "tags": ["especifica"],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 22,
+    "numero_original": "22.",
+    "enunciado": "La fractura de escafoides que se asocia a una luxación del semilunar, se denomina con el epónimo de:",
+    "opciones": {
+      "A": "Galeazzi.",
+      "B": "Jefferson.",
+      "C": "Chopart.",
+      "D": "De Quervain."
+    },
+    "raw_ocr": "22. La fractura de escafoides que se asocia a una luxación del semilunar, se denomina con el epónimo de :\nA) Galcazzi.\n\nB)Jefferson.\n\nC) Chopart.\n\nD) De Quervain.",
+    "fuente": "2021_sergas",
+    "anno": 2021,
+    "respuesta_correcta": null,
+    "tags": ["especifica"],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 23,
+    "numero_original": "23.",
+    "enunciado": "En angiografía cerebral y tras la introducción del contraste, como norma general, se realizarán radiografías en la siguiente secuencia:",
+    "opciones": {
+      "A": "Fase de contraste, fase arterial, fase venosa.",
+      "B": "Fase parenquimatosa, fase arterial y fase venosa.",
+      "C": "Fase arterial, fase venosa y fase parenquimatosa.",
+      "D": "Fase arterial, fase capilar o parenquimatosa y fase venosa."
+    },
+    "raw_ocr": "23. En angiografía cerebral y tras la introducción del contraste, como norma general, se realizarán radiografías\nen la siguiente secuencia:\n\nA) '5im contraste, fase arterial, fase venosa.\n\nB) l ase parenquimatosa, fase arterial y lase venosa.\n\nC) Fase arterial. fase venosa y parenquimatosa.\n\nD) Fase arterial, fase capilar o parenquimatosa y fase venosa.",
+    "fuente": "2021_sergas",
+    "anno": 2021,
+    "respuesta_correcta": null,
+    "tags": ["especifica"],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 24,
+    "numero_original": "24.",
+    "enunciado": "La técnica radiográfica que consiste en la introducción de contraste en la porción distal de un territorio vascular venoso, para el estudio de las venas del mismo, obteniendo imágenes con fines diagnósticos, se denomina:",
+    "opciones": {
+      "A": "Angiografía.",
+      "B": "Infografía.",
+      "C": "Flebografía.",
+      "D": "Fistulografía."
+    },
+    "raw_ocr": "24. La técnica radiográfica que consiste en la introducción de contraste en la porción distal de un territorio vascular venoso, para el estudio de las venas del mismo, obteniendo imágenes con fines diagnósticos, se\ndenomina:\n\nA) Angioorafía.\n\nB) infografía,\n\nC) Flebografia.\n\nD) Fistulografía.",
+    "fuente": "2021_sergas",
+    "anno": 2021,
+    "respuesta_correcta": null,
+    "tags": ["especifica"],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 25,
+    "numero_original": "25.",
+    "enunciado": "¿Cuál es el principal objetivo de la protección radiológica?",
+    "opciones": {
+      "A": "Asegurar que el número de estudios sea el mayor posible para diagnosticar al paciente.",
+      "B": "Asegurar que el uso de las radiaciones sea lo más alto posible para obtener mejores resultados.",
+      "C": "Asegurar un nivel adecuado de protección a las personas y al medio ambiente, sin limitar de forma indebida el beneficio que supone el tratamiento y diagnóstico mediante el uso de las radiaciones.",
+      "D": "Todas son falsas."
+    },
+    "raw_ocr": "25. ¿Cuál es el principal objetivo de la protección radiológica?:\n\nA) Asegurar que el púmero de estudios sea el mayor posible para diagnosticar al paciente.\n\nB) Asegurar que el uso de las radiaciones sea lo mas alta posible para obtener mejores resultados.\n\nC) Asegurar un nivel adecuado de protección a las personas y al medio ambiente, sin limitar de forma indebida\nel beneficio que supone el tratamiento y diagnóstico mediante el uso de las radiaciones.\n\nD) Todas son falsas.",
+    "fuente": "2021_sergas",
+    "anno": 2021,
+    "respuesta_correcta": null,
+    "tags": ["especifica"],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 26,
+    "numero_original": "26.",
+    "enunciado": "¿Qué empresa se encarga de gestionar los residuos radiactivos?",
+    "opciones": {
+      "A": "APRESA.",
+      "B": "ENRESA.",
+      "C": "VIPRESA.",
+      "D": "RADIACIVOSA."
+    },
+    "raw_ocr": "26. ¿Qué empresa se encarga de gestionar los residuos radiactivos?:\nA) APRESA.\n\nB) ENRESA.\n\nC) VIPRESA.\n\nD) RADIACIIVOSA,",
+    "fuente": "2021_sergas",
+    "anno": 2021,
+    "respuesta_correcta": null,
+    "tags": ["especifica"],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 27,
+    "numero_original": "27.",
+    "enunciado": "¿Cómo se realiza en el TAC el estudio inicial de litiasis urinaria o cólico nefrítico?",
+    "opciones": {
+      "A": "Se realiza con protocolo de SmartPrep.",
+      "B": "Se realiza sin contraste y con baja dosis.",
+      "C": "Se realiza con contraste y con baja dosis.",
+      "D": "Se realiza en tres fases: arterial, portal y tardía o excretora."
+    },
+    "raw_ocr": "27. ¿Cómo se realiza en el TAC el estudio inicial de litiasis urinaria o cólico nefrítico?:\nA) Se realiza con protocolo de SmartPrep.\n\nB) Se realiza sin contraste y con baja dosis.\n\nC) Se realiza con contraste y con baja dosis.\n\nD) Se realiza en tres fases: arterial, portal y tardía o excretora.",
+    "fuente": "2021_sergas",
+    "anno": 2021,
+    "respuesta_correcta": null,
+    "tags": ["especifica"],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 28,
+    "numero_original": "28.",
+    "enunciado": "En la realización de un enema opaco, la proyección axial anteroposterior (AP) para demostrar pólipos u otros procesos patológicos en la cara rectosigmoidea, el rayo central:",
+    "opciones": {
+      "A": "Tendrá una angulación de 30-40° caudal.",
+      "B": "Tendrá una angulación de 30-40° cefálica.",
+      "C": "Será perpendicular al plano medio sagital.",
+      "D": "Será perpendicular al plano medio coronal."
+    },
+    "raw_ocr": "28. En la realización de un enema opaco, la proyección axial anteroposterior (AP) para demostrar pólipos u otros procesos patológicos en la cara rectosigmoidea, el rayo central:\n\nA) Tendra una anculación de 30-40\" caudal,\nB) Tendrá una angulación de 30-40\" cofalica.\nC) Será perpendicular al plano medico sagital.\n\nD) Sera perpendicular al plano medio coronal.",
+    "fuente": "2021_sergas",
+    "anno": 2021,
+    "respuesta_correcta": null,
+    "tags": ["especifica"],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 29,
+    "numero_original": "29.",
+    "enunciado": "La custodia de documentos es la función principal del Servicio de archivos. Estas funciones son:",
+    "opciones": {
+      "A": "Circulación de historias clínicas.",
+      "B": "Archivado de historias.",
+      "C": "Gestión de historias.",
+      "D": "Todas las respuestas anteriores son ciertas."
+    },
+    "raw_ocr": "29. La custodia de documentos es la función principal del Servicio de archivos. Estas funciones son:\nA) Crrculación de historias clínicas.\n\nB) Archivado de historias,\n\nC) Gestión de historias.\n\nD) Todas las respuestas anteriores son cierías,",
+    "fuente": "2021_sergas",
+    "anno": 2021,
+    "respuesta_correcta": null,
+    "tags": ["especifica"],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 30,
+    "numero_original": "30.",
+    "enunciado": "¿Cuál es la clasificación de las barreras higiénicas aplicadas para prevenir o limitar las infecciones nosocomiales?",
+    "opciones": {
+      "A": "Barreras físicas, químicas, biológicas y profilácticas.",
+      "B": "Barreras físicas, químicas, biológicas y educativas.",
+      "C": "Barreras químicas, quimioterápicas y educativas.",
+      "D": "Barreras biológicas, educativas y desinfectantes."
+    },
+    "raw_ocr": "30. ¿Cuál es la clasificación de las barreras higiénicas aplicadas para prevenir o limitar las infecciones\nnosocomiales?\n\nA) Barreras fisicas, quimicas, biológicas y profilácticas.\n\nB) Barreras físicas, químicas, biologicas y educativas.\n\nC) Barreras químicas, quimioterápicas y educativas.\n\nD) Barreras biológicas, educativas y desinfectantes.",
+    "fuente": "2021_sergas",
+    "anno": 2021,
+    "respuesta_correcta": null,
+    "tags": ["especifica"],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 31,
+    "numero_original": "31.",
+    "enunciado": "En la flebografía renal, la cateterización se realiza generalmente:",
+    "opciones": {
+      "A": "A través de una arteria del miembro superior hasta llegar a la vena renal.",
+      "B": "A través de una vena del miembro superior hasta llegar a la vena renal.",
+      "C": "A través del conducto urinario, uréter y hasta la vena renal.",
+      "D": "A través de una punción lumbar hasta la vena renal."
+    },
+    "raw_ocr": "31. En la flebografía renal, la cateterización se realiza generalmente:\n\nA) través de una arteria del miembro superior hasta llegar a la vena renal,\nB)A través de una vena del miembro sunerior hasta llegar a la vena renal.\nC)A través del conducto urinario, urcter y hasta la vena renal.\n\nD) través de una punción lumbar hasta la vena renal.",
+    "fuente": "2021_sergas",
+    "anno": 2021,
+    "respuesta_correcta": null,
+    "tags": ["especifica"],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 32,
+    "numero_original": "32.",
+    "enunciado": "En una mama con prótesis de silicona, ¿se utilizará el exposímetro automático para realizar la mamografía?",
+    "opciones": {
+      "A": "Sí, en la proyección cráneo-caudal.",
+      "B": "Sí, en la proyección medio-lateral, para la perfecta visualización de la zona axilar.",
+      "C": "No, de modo general usaremos técnica manual.",
+      "D": "Las respuestas A y B son correctas."
+    },
+    "raw_ocr": "32. En una mama con prótesis de silicona, ¿se utilizará el exposímetro automático para realizar la mamografía?\nA)sí, en la proyección cráneo-caudal.\n\nB)5i, en la proyección medio-lateral, para la perfecta visualización de la 7ona axilar.\n\nC)No, de modo general usaremos técnica manual.\n\nD) las respuestas Á y Bson correctas.",
+    "fuente": "2021_sergas",
+    "anno": 2021,
+    "respuesta_correcta": null,
+    "tags": ["especifica"],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 33,
+    "numero_original": "33.",
+    "enunciado": "Una INTRANET sirve para:",
+    "opciones": {
+      "A": "Que todos los empleados de una empresa puedan acceder a internet y a su correo.",
+      "B": "Poner los recursos de una red de ordenadores a disposición de un grupo de personas para que puedan compartir el uso de aplicaciones, impresoras, acceso a la información, etc.",
+      "C": "Que un conjunto de ordenadores puedan estar interconectados entre sí.",
+      "D": "Poder tener control de acceso de los usuarios a los ordenadores que la forman."
+    },
+    "raw_ocr": "33. Una INTRANET sirve para:\nA) Que todos los empleados de una empresa puedan acceder a internet y a su correo,\n\nB) Porer los recursos de ina red de ordenadores a dispos ción de un grupo de personas para que puedan\ncompartir el uso ce aplicaciones, impresoras, acceso a la nformación etc...\n\nC) Que un conjunto de ordenadores puedan estar interconectados entre sí.\n\nD) Poder tener contro! de acceso de los usuarios a los ordenadores que la forrnan.",
+    "fuente": "2021_sergas",
+    "anno": 2021,
+    "respuesta_correcta": null,
+    "tags": ["especifica"],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 34,
+    "numero_original": "34.",
+    "enunciado": "¿Cuál no es una contraindicación para realizar una arteriografía cerebral?",
+    "opciones": {
+      "A": "Alergia a los medios de contraste.",
+      "B": "Infección o daño en las arterias de entrada.",
+      "C": "Insuficiencia cardíaca, problemas de coagulación, anemia o deshidratación.",
+      "D": "Personas mayores."
+    },
+    "raw_ocr": "34. Cuál no es una contraindicación para realizar una arteriografia cerebral.\nA) Alergia a los mecios de cortraste.\n\nB) Infección o daño en las arterias de entrada.\n\nC)Insuficiencia cardíaca, problemas de corgulac:ón, anemia a deshidratación.\n\nD) Personas mayores.",
+    "fuente": "2021_sergas",
+    "anno": 2021,
+    "respuesta_correcta": null,
+    "tags": ["especifica"],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 35,
+    "numero_original": "35.",
+    "enunciado": "La relación entre la energía de la radiación ionizante y el tejido blando al que se transfiere se denomina:",
+    "opciones": {
+      "A": "Eficacia biológica relativa.",
+      "B": "Transferencia lineal de energía (LET).",
+      "C": "Tasa de replicación.",
+      "D": "Efecto estocástico."
+    },
+    "raw_ocr": "35. La relación entre la energía de la radiación ¡onizante y el tejido blando al que se transfiere se denomina :\nA) Eficacia biologica relativa.\n\nB) Transferencia lineal de energia. (LET)\n\nC) Tasa de replicación.\n\nD) Efecto estocástico.",
+    "fuente": "2021_sergas",
+    "anno": 2021,
+    "respuesta_correcta": null,
+    "tags": ["especifica"],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 36,
+    "numero_original": "36.",
+    "enunciado": "La cantidad de contraste que se inyecta a un paciente va a depender de...",
+    "opciones": {
+      "A": "Patología.",
+      "B": "Peso.",
+      "C": "Edad.",
+      "D": "Tensión."
+    },
+    "raw_ocr": "36. La cantidad de contraste que se inyecta a un paciente va a depender de...\n\nA) Patología.\n\nB) Peso.\n\nC) Edad.\n\nD) Tensión.",
+    "fuente": "2021_sergas",
+    "anno": 2021,
+    "respuesta_correcta": null,
+    "tags": ["especifica"],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 37,
+    "numero_original": "37.",
+    "enunciado": "Según lo establecido en el Reglamento sobre protección sanitaria contra radiaciones ionizantes, RD 783/2001, para un trabajador expuesto, el límite de dosis equivalente para la piel será de:",
+    "opciones": {
+      "A": "700 mSv durante todo periodo de 5 años oficiales.",
+      "B": "500 mSv por año oficial, aplicada a la dosis promediada sobre cualquier superficie de la piel.",
+      "C": "Al ser un trabajador expuesto, no están establecidos límites.",
+      "D": "150 mSv por año oficial."
+    },
+    "raw_ocr": "37. Según lo establecido en el Reglamento sobre protección sanitaria contra radiaciones ionizantes, RD\n783/2001, para un trabajador expuesto, el límite de dosis equivalente para la piel será de:\n\nA)700 mSv durante toco periodo de 5 años oficiales.\n\nB) 500 mSv por año oficial. aplicada a la dosis promediada sobre cualquier superficie de lem,\n\nC)Al ser un trabajador expuesto, no están establecidos límites.\n\nD) 150 mSv por año oficial.",
+    "fuente": "2021_sergas",
+    "anno": 2021,
+    "respuesta_correcta": null,
+    "tags": ["especifica"],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 38,
+    "numero_original": "38.",
+    "enunciado": "Las características de un contraste deben ser:",
+    "opciones": {
+      "A": "Hidrosoluble, baja toxicidad, rápida eliminación.",
+      "B": "Poder de contraste, baja toxicidad, alta tolerancia clínica.",
+      "C": "Alto poder de contraste, baja toxicidad, rápida eliminación.",
+      "D": "Alto poder de contraste, baja toxicidad, hidrosoluble."
+    },
+    "raw_ocr": "38. Las caracteristicas de un contraste deben ser:\nA)Hidrosoluble, baja toxicidad, rápida eliminación.\n\nB) Poder de contraste, baja toxicidad, alta tolerancia clínica.\nC)Alto poder de contraste, baja toxicidad, rápica eliminacion,\n\nD) Alto poder de contraste, baja toxicidad, hidrosoluble.",
+    "fuente": "2021_sergas",
+    "anno": 2021,
+    "respuesta_correcta": null,
+    "tags": ["especifica"],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 39,
+    "numero_original": "39.",
+    "enunciado": "¿Qué se utiliza en estudios generales con pacientes pediátricos no colaboradores?",
+    "opciones": {
+      "A": "Métodos de relajación.",
+      "B": "Sedación.",
+      "C": "Sedación o procedimientos físicos con bandas, sacos de arena, cuñas, siempre que ellos sean suficientes para la inmovilización.",
+      "D": "Solo procedimientos físicos."
+    },
+    "raw_ocr": "39. ¿Qué se utiliza en estudios generales con pacientes pediátricos no colaboradores?:\nA) Métodos de relajación.\n\nB) Sedación.\n\nC) Sedación o procedimientos físicos con bandas, sacos de arena, cuñas, siempre que ellos sean suficientes\npara la inmovilización,\n\nD)Solo procedimientos fisICOS,",
+    "fuente": "2021_sergas",
+    "anno": 2021,
+    "respuesta_correcta": null,
+    "tags": ["especifica"],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 40,
+    "numero_original": "40.",
+    "enunciado": "La dosimetría de termoluminiscencia responde a la dosis de forma:",
+    "opciones": {
+      "A": "Amplificada.",
+      "B": "Lineal.",
+      "C": "Exponencial.",
+      "D": "Proporcional."
+    },
+    "raw_ocr": "40. La dosimetría de termoluminiscencia responde a la dosis de forma:\nA) Amplificada.\n\nB) langencial.\n\nC) Exponencial.\n\nD) Proporcional.",
+    "fuente": "2021_sergas",
+    "anno": 2021,
+    "respuesta_correcta": null,
+    "tags": ["especifica"],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 41,
+    "numero_original": "41.",
+    "enunciado": "El efecto Compton tiene lugar entre:",
+    "opciones": {
+      "A": "Los rayos X de moderada energía y los electrones de la capa externa de un átomo con que interaccionan.",
+      "B": "Los rayos X de alta energía y los electrones de la capa externa del átomo con que chocan.",
+      "C": "Los rayos X de alta energía y los electrones de capas internas.",
+      "D": "Los rayos X de energía media y electrones de capas internas."
+    },
+    "raw_ocr": "41. El efecta Compton tiene lugar entre:\n\nA) Los rayos X de moderada energía y los electrones de la capa externa de un átomo con que interaccionan.\nB) Los rayos X de alta energia y los electrones de la capa externa del átomo con que chocan.\n\nC) Los rayos X de alta energía y los electrones de capas internas.\n\nD) Los rayos X de energía media y electrones de capas internas.",
+    "fuente": "2021_sergas",
+    "anno": 2021,
+    "respuesta_correcta": null,
+    "tags": ["especifica"],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 42,
+    "numero_original": "42.",
+    "enunciado": "La antena de cuerpo (body coil) en el equipo de resonancia magnética:",
+    "opciones": {
+      "A": "Recoge radiotransferencias procedentes de los tejidos del paciente.",
+      "B": "Emite pulsos de radiofrecuencia.",
+      "C": "Se encuentra alojada en el interior del equipo.",
+      "D": "Todas las anteriores son correctas."
+    },
+    "raw_ocr": "42. La antena de cuerpo (body coil) en el equipo de resonancia magnética:\nA) Recoge radiotrecuencias procedentes ce los tejidos del paciente,\n\nB) Emite pulsos de radiofrecuencia.\n\nC) Se encuentra alojada en el interior del equipo.\n\nD) Todas las anteriores son correctas.",
+    "fuente": "2021_sergas",
+    "anno": 2021,
+    "respuesta_correcta": null,
+    "tags": ["especifica"],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 43,
+    "numero_original": "43.",
+    "enunciado": "¿Cuál es el campo de visión (FOV) más adecuado de una imagen digital?",
+    "opciones": {
+      "A": "El más grande posible.",
+      "B": "El más aproximado al tamaño de la anatomía que se estudia.",
+      "C": "El FOV no influye en la calidad de la imagen.",
+      "D": "Equivalente al número de píxeles."
+    },
+    "raw_ocr": "43. ¿Cuál es el campo de visión (FOV) más adecuado de una imagen digital?:\nA) El más grande posible.\n\nB)El más aproximado al tamaño de la anatomía que se estudia,\n\nC) EL FOV no influye en la calidad de la imagen.\n\nD) Equivalente al número de pixeles.",
+    "fuente": "2021_sergas",
+    "anno": 2021,
+    "respuesta_correcta": null,
+    "tags": ["especifica"],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 44,
+    "numero_original": "44.",
+    "enunciado": "Los sistemas que integran los equipos radiográficos actuales de digitalización son:",
+    "opciones": {
+      "A": "Sistema de recogida de datos.",
+      "B": "Sistema de análisis, procesamiento y reconstrucción de la imagen.",
+      "C": "Sistema de visualización y almacenamiento (archivo).",
+      "D": "Todas las respuestas son correctas."
+    },
+    "raw_ocr": "44. Los sistemas que integran los equipos radiográficos actuales de digitalización son:\n\nA) SIstema de recogida de datos.\n\nB) Sistema de analisis, procesaco y reconstrucción de la imagen.\n\nC) Sistema de visualización y almacenamiento ío archivo).\n\nD)Todas las respuestas son correctas.",
+    "fuente": "2021_sergas",
+    "anno": 2021,
+    "respuesta_correcta": null,
+    "tags": ["especifica"],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 45,
+    "numero_original": "45.",
+    "enunciado": "¿Cómo se denomina el escudo de malla de alambre, generalmente de cobre, construido alrededor de la máquina de Resonancia Magnética para atenuar las fuentes externas de RF?",
+    "opciones": {
+      "A": "Escudo de NewLon.",
+      "B": "Jaula de Bloc.",
+      "C": "Escudo de Decay.",
+      "D": "Jaula de Faraday."
+    },
+    "raw_ocr": "45. ¿Cómo se denomina el escudo de malla de alambre, generalmente de cobre, construido alrededor de la\nmáquina de Resonancia Magnética para atenuar las fuentes externas de RF?:\n\nA) Escudo de NewLon.\n\nB)Jaula de Bloc.\n\nC) Escudo de Decay.\n\nD)Jaula de Faraday.",
+    "fuente": "2021_sergas",
+    "anno": 2021,
+    "respuesta_correcta": null,
+    "tags": ["especifica"],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 46,
+    "numero_original": "46.",
+    "enunciado": "La acalasia es:",
+    "opciones": {
+      "A": "Prolapso de una parte del intestino hacia la luz de una parte adyacente.",
+      "B": "Protusión del estómago a través del hiato esofágico.",
+      "C": "Trastorno motor del esófago que provoca falta de relajación de la musculatura del tubo digestivo.",
+      "D": "Trastorno recurrente que provoca una ulceración inflamatoria del colon."
+    },
+    "raw_ocr": "46. La acalasia es:\n\nA)Prolapso de una parte del intestino hacía la luz de una parte adyacente.\n\nB) Protusión del estómago a traves del hiato esofágico.\n\nC) Trastorno motor del esofago que provoca falta de relajación de la musculatura del tubo digestivo.\n\nD)Trastorno recurrente que provoca una Lilceración inflamatoria del colon.",
+    "fuente": "2021_sergas",
+    "anno": 2021,
+    "respuesta_correcta": null,
+    "tags": ["especifica"],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 47,
+    "numero_original": "47.",
+    "enunciado": "Si queremos visualizar las imágenes en el PACS, ¿qué usamos?",
+    "opciones": {
+      "A": "Una estación de trabajo.",
+      "B": "Un sistema de video digital.",
+      "C": "Un CR (Computed Radiography).",
+      "D": "Todas son correctas."
+    },
+    "raw_ocr": "47. Si queremos visualizar las imágenes en el PACS, ¿qué usamos?\n\nA) Una estación de trabajo.\n\nB)Un sistema video digital.\n\nC) Un CR (Cormputed Radiography).\n\nD) Todas son correctas,",
+    "fuente": "2021_sergas",
+    "anno": 2021,
+    "respuesta_correcta": null,
+    "tags": ["especifica"],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 48,
+    "numero_original": "48.",
+    "enunciado": "Ante una situación de parada respiratoria, se realizarán las insuflaciones y compresiones esternales alternas, con una relación masaje-ventilación en caso de un adulto de:",
+    "opciones": {
+      "A": "15:2.",
+      "B": "30:2.",
+      "C": "5:2.",
+      "D": "15:5."
+    },
+    "raw_ocr": "48. Ante una situación de parada—respiratoria, se realizarán las insuflaciones y compresiones esternales\nalternas, con una relación masaje¡ventilación en caso de un adulto de:\n\nA) 15:2.\n\nB)30:2.\n\nC) 5:2.\n\nD)15:5.",
+    "fuente": "2021_sergas",
+    "anno": 2021,
+    "respuesta_correcta": null,
+    "tags": ["especifica"],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 49,
+    "numero_original": "49.",
+    "enunciado": "Los efectos en la piel producidos por fluoroscopia de alta dosis siguen una relación entre la dosis y la respuesta de tipo:",
+    "opciones": {
+      "A": "Sigmoide.",
+      "B": "Fraccionada.",
+      "C": "Accidental.",
+      "D": "Conductiva."
+    },
+    "raw_ocr": "49. Los efectos en la piel producidos por fluoroscopia de alta dosis siguen una relación entre la dosis y la\nrespuesta de tipo:\n\nA) Sigmoide.\nB)Fraccionada.\nC) Accidental.\n\nD) Conductiva,",
+    "fuente": "2021_sergas",
+    "anno": 2021,
+    "respuesta_correcta": null,
+    "tags": ["especifica"],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 50,
+    "numero_original": "50.",
+    "enunciado": "Indique cuál de las siguientes funciones del técnico en imagen para el diagnóstico no es correcta:",
+    "opciones": {
+      "A": "El técnico preparará la sala de exploración para la prueba.",
+      "B": "Nunca explicará al paciente el tipo de exploración que se le va a realizar.",
+      "C": "El técnico deberá llamar al paciente por su nombre y apellidos.",
+      "D": "Debe realizar un examen de calidad a la prueba realizada."
+    },
+    "raw_ocr": "50. Indique cuál de las siguientes funciones del técnico en imagen para el diagnóstico no es correcta:\nA) El técnico preparará la sala de exploración para la prueba.\n\nB) Nunca explicará al paciente cl tipo de exploración que se le va a realizar.\n\nC)Fl técnico deberá llamar al paciente por su nombre y apellidos.\n\nD) Debe realizar un examen de calidad a la prueba realizada.",
+    "fuente": "2021_sergas",
+    "anno": 2021,
+    "respuesta_correcta": null,
+    "tags": ["especifica"],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 51,
+    "numero_original": "51.",
+    "enunciado": "La escala de coma de Glasgow (GCS) permite medir el nivel de conciencia de una persona y para ello utiliza tres parámetros, ¿cuáles son?",
+    "opciones": {
+      "A": "Respuesta verbal, respuesta ocular y respuesta motora.",
+      "B": "Respuesta verbal, respuesta motora y deambulación.",
+      "C": "Respuesta motora, tolerancia al dolor y respuesta ocular.",
+      "D": "Respuesta verbal, tolerancia al dolor y deambulación."
+    },
+    "raw_ocr": "51. La escala de coma de Glasgow (GCS), permite medir el nivel de conciencia de una persona y para ello\n\nutiliza tres parámetros, ¿cuáles son?\n\nA) Respuesta verhal, respuesta ocular y respuesta motora.\nB) Resauesta verbal, respuesta rrotora y deamoulación.\nC)Respuesta motora, tolerancia al dolor y respuesta ocular,\n\nD)Respuesta verbal, tolerancia al dolor y deambulación.",
+    "fuente": "2021_sergas",
+    "anno": 2021,
+    "respuesta_correcta": null,
+    "tags": ["especifica"],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 52,
+    "numero_original": "52.",
+    "enunciado": "En un enema opaco, ¿cuál de las siguientes posiciones es la correcta para poder visualizar la flexura cólica derecha y las porciones ascendente y rectosigmoidea del colon?",
+    "opciones": {
+      "A": "Anteroposterior con rayo central paralelo al plano coronal.",
+      "B": "Lateral estricta.",
+      "C": "Oblicua posterior izquierda.",
+      "D": "Oblicua posterior derecha."
+    },
+    "raw_ocr": "52. En un enema opaco, ¿cuál de las siguientes posiciones es la correcta para poder visualizar la flexura cólica\nderecha y las porciones ascendente y rectosigmoidea del colon?:\nA) Antero posterior con rayo central paralelo al plano coronal.\nB) Lateral estricta.\n\nC) Oblicua posterior izquierda.\n\nD) Oblicua posterior derecha,",
+    "fuente": "2021_sergas",
+    "anno": 2021,
+    "respuesta_correcta": null,
+    "tags": ["especifica"],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 53,
+    "numero_original": "53.",
+    "enunciado": "Señale la respuesta correcta en relación a la proyección de Waters:",
+    "opciones": {
+      "A": "Angula 5º en sentido craneal.",
+      "B": "No se colima el área de las cavidades sinusales.",
+      "C": "Se realiza la proyección parietoacantial o parietoacantial transoral.",
+      "D": "Siempre se realiza con la boca abierta."
+    },
+    "raw_ocr": "53. Señale la respuesta correcta en relación a la proyección de Waters:\nA) angula 5º en sentido craneal.\n\nB) No se colima el área de las cavidades sinusales.,\n\nC) Se realiza er proyección parietoacantial o parietoacantial transoral,\n\nD) Siempre se realiza con la boca abierta.",
+    "fuente": "2021_sergas",
+    "anno": 2021,
+    "respuesta_correcta": null,
+    "tags": ["especifica"],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 54,
+    "numero_original": "54.",
+    "enunciado": "¿Cuál es la función del agente alcalino que se añade al revelador?",
+    "opciones": {
+      "A": "Mitigar la oxidación del líquido revelador.",
+      "B": "Impedir que se revelen los granos no expuestos.",
+      "C": "Endurecer la gelatina.",
+      "D": "Proporcionar el pH básico para activar al revelador."
+    },
+    "raw_ocr": "54. ¿Cúal es la función del agente alcalino que se añade al revelador?:\nA) Mitigar la oxidación del líquido revelador.\n\nB) Impedir que se revelen los granos no expuestos.\n\nC) Endurecer la gelatina.\n\nD) Proporcionar el pH básico para activar al revelador.",
+    "fuente": "2021_sergas",
+    "anno": 2021,
+    "respuesta_correcta": null,
+    "tags": ["especifica"],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 55,
+    "numero_original": "55.",
+    "enunciado": "¿Qué tipos de sincronización cardíaca tendremos en un Cardio CT?",
+    "opciones": {
+      "A": "Sincronización prospectiva.",
+      "B": "Sincronización retrospectiva.",
+      "C": "La a) y la b) son correctas.",
+      "D": "El Cardio CT no necesita sincronización."
+    },
+    "raw_ocr": "55. ¿Qué tipos de sincronización cardíaca tendremos en un Cardio CT?:\n\nA) Sincronización prospectiva.\nB)Sincronización retrospectiva.\nC) La a) y la b) son correctas.\n\nD) El Cardio CI no necesita sincronización.",
+    "fuente": "2021_sergas",
+    "anno": 2021,
+    "respuesta_correcta": null,
+    "tags": ["especifica"],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 56,
+    "numero_original": "56.",
+    "enunciado": "¿En qué estudio, antes de empezar, se le administra al paciente concentrados de limón o una rodaja de limón? Seleccione una:",
+    "opciones": {
+      "A": "Ortopantomografía.",
+      "B": "CT dental.",
+      "C": "Sialografía.",
+      "D": "Dacriocistografía."
+    },
+    "raw_ocr": "56. En qué estudio, antes de empezar, se le administra al paciente concentrados de limón o una rodaja de\nlimón. Seleccione una:\n\nA) Ortopantomografia.\n\nB) Dental CT.\n\nC) Sialografía.\n\nD) Dacriocistografía,",
+    "fuente": "2021_sergas",
+    "anno": 2021,
+    "respuesta_correcta": null,
+    "tags": ["especifica"],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 57,
+    "numero_original": "57.",
+    "enunciado": "A Andrés, con dolor en flanco derecho y fiebre, se le diagnostica mediante eco-TC, ocupación de la vesícula por material francamente purulento, con indicación de cirugía inmediata, ¿cómo se denomina esta ocupación?",
+    "opciones": {
+      "A": "Colecistitis enfisematosa.",
+      "B": "Empiema vesicular.",
+      "C": "Coledocolitiasis.",
+      "D": "Colecistitis isquémica."
+    },
+    "raw_ocr": "57. A Andrés, con dolor en flanco derecho y fiebre, se le diagnostica mediante eco - tc, ocupación de la\nvesícula por material francamente purulento, con indicación de cirugía inmediata, ¿cómo se denomina esta\nocupación?\n\nA) Colecistitis enfisematosa.\nB) Empiema vesicular.\nC) Coledocolitiasis.\n\nD) Colecistitis isquémica.",
+    "fuente": "2021_sergas",
+    "anno": 2021,
+    "respuesta_correcta": null,
+    "tags": ["especifica"],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 58,
+    "numero_original": "58.",
+    "enunciado": "Señala cuál de las siguientes afirmaciones no corresponde al PET:",
+    "opciones": {
+      "A": "Usa radiaciones emitidas desde dentro del cuerpo.",
+      "B": "Nos da imagen morfológica y funcional.",
+      "C": "Es una técnica no invasiva de diagnóstico.",
+      "D": "La radiación se transmite a través del cuerpo."
+    },
+    "raw_ocr": "58. Señala cuál de las siguientes afirmaciones no corresponde al PET:\n\nA)Usa radaciones emitidas desde dentro del cuerpo.\n\nB) Nos da imagen morfológica y funcional,\n\nC) Es una técnica no invasiva de diagnóstico.\n\nD) la radiación se transmite a traves del cuerpo.",
+    "fuente": "2021_sergas",
+    "anno": 2021,
+    "respuesta_correcta": null,
+    "tags": ["especifica"],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 59,
+    "numero_original": "59.",
+    "enunciado": "Nos envían desde Urgencias a Noelia, paciente politraumatizada con sospecha de fracturas de columna lumbar. ¿Qué fracturas de la columna lumbar son las que tienen una mayor incidencia de asociación a lesiones intraabdominales?",
+    "opciones": {
+      "A": "Fracturas del cuerpo vertebral.",
+      "B": "Fracturas del pedículo.",
+      "C": "Fracturas de apófisis transversas.",
+      "D": "Fracturas de apófisis articulares."
+    },
+    "raw_ocr": "59. Nos envían desde Urgencias a Noelia, paciente politraumatizada con sospecha de fracturas de columna\nlumbar. ¿Qué fracturas de la columna lumbar son las que tienen una mayor incidencia de asociación a lesiones\nintraabdominales?\n\nA) Fracturas del cuerpo vertebral.\nB) Fracturas del pediculo.\nC) Fracturas de apófisis transversas.\n\nD) Fracturas de apófisis articulares.",
+    "fuente": "2021_sergas",
+    "anno": 2021,
+    "respuesta_correcta": null,
+    "tags": ["especifica"],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 60,
+    "numero_original": "60.",
+    "enunciado": "Cuando llega un paciente a la sección de RM, ¿cuál de las siguientes actuaciones haría primero el técnico?",
+    "opciones": {
+      "A": "El scout view para dar comienzo al estudio.",
+      "B": "Ayudar al paciente a acomodarse en la camilla.",
+      "C": "Cerciorarse de la identificación del paciente.",
+      "D": "Explicar en qué consiste la prueba."
+    },
+    "raw_ocr": "60. Cuando llega un paciente a la sección de RM, ¿cuál de las siguientes actuaciones haría primero el técnico?\nA) El scout view para dar comienzo al estudio.\n\nB)Ayudar al paciente a ueornodarse en la camilla.\n\nC) Cerciorarse de la identificación del paciente.\n\nD) Explicar en qué consiste la prueba.",
+    "fuente": "2021_sergas",
+    "anno": 2021,
+    "respuesta_correcta": null,
+    "tags": ["especifica"],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 61,
+    "numero_original": "61.",
+    "enunciado": "La magnitud que cuantifica el ruido de una imagen obtenida en un detector digital es:",
+    "opciones": {
+      "A": "Eficiencia de detección cuántica.",
+      "B": "Nivel de ventana.",
+      "C": "Curva característica.",
+      "D": "Ecualización tisular."
+    },
+    "raw_ocr": "61. La magnitud que cuantifica el ruido de una imagen obtenida en un detector digital es:\nA) Eficiencia de detección cuántica,\n\nB)Nivel de ventana.\n\nC) Curva caracteristica,\n\nD) Ecualización tisular,",
+    "fuente": "2021_sergas",
+    "anno": 2021,
+    "respuesta_correcta": null,
+    "tags": ["especifica"],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 62,
+    "numero_original": "62.",
+    "enunciado": "A Maite, de 49 años, le estamos realizando un estudio mamográfico, ¿qué proyección muestra las lesiones que se encuentran en la zona posteromedial profunda de la mama?",
+    "opciones": {
+      "A": "Proyección de Eklund.",
+      "B": "Proyección craneocaudal para el escote.",
+      "C": "Proyección mediolateral oblicua.",
+      "D": "Proyección tangencial."
+    },
+    "raw_ocr": "62. A Maite, de 49 años, le estamos realizando un estudio mamográfico, ¿que proyección muestra las lesiones\nque se encuentran en la zona posteromedial profunda de la mama?\n\nA)Provección de Eklund,\n\nB) Proyección craneocaucal para el escote.\n\nC) Proyección mediolateral oblicua.\n\nD) Proyección tangencial,",
+    "fuente": "2021_sergas",
+    "anno": 2021,
+    "respuesta_correcta": null,
+    "tags": ["especifica"],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 63,
+    "numero_original": "63.",
+    "enunciado": "Andrés es un paciente varón de 67 años que acude a urgencias por dolor de cabeza de nueva aparición de alta intensidad, vómitos, disminución de alerta y agitación. ¿Qué estudio nos solicitarán desde urgencias?",
+    "opciones": {
+      "A": "TC Craneal.",
+      "B": "TC Craneal con contraste.",
+      "C": "RM Craneal.",
+      "D": "ECO Doppler cervical."
+    },
+    "raw_ocr": "63. Andrés es un paciente varón de 67 años que acude a urgencias por dolor de cabeza de nueva aparición de alta intensidad, vómitos, disminución de alerta y agitación. ¿Qué estudio nos solicitarán desde urgencias?:\n\nA) TC Craneal.\n\nB) TC Craneal con contraste,\n\nC) RM-Craneal.\n\nD)ECO-Doppler cervica!.",
+    "fuente": "2021_sergas",
+    "anno": 2021,
+    "respuesta_correcta": null,
+    "tags": ["especifica"],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 64,
+    "numero_original": "64.",
+    "enunciado": "Paciente de 40 años que acude al servicio de urgencias por un cólico renal y se le pide una rx de abdomen.",
+    "opciones": {
+      "A": "No se le pone protector genital debido a que nos tapa información esencial para diagnosticar piedras en los uréteres.",
+      "B": "Se colocaría el protector genital siempre ya que no influye para ver los riñones.",
+      "C": "Si es hombre, se coloca el protector genital; a la mujer nunca, tras preguntar y comprobar que no hay riesgo de embarazo.",
+      "D": "No es necesaria la realización de la prueba."
+    },
+    "raw_ocr": "64. Paciente de 40 años que acude al servicio de urgencias por un cólico renal y se le pide una rx de abdomen;\n\nA) No se le pone protector genital debido a que nos tapa información esencial para diagnosticar piedras en los\nuréteres.\n\nB)Se colacaria el protector genital siempre ya que no infiuye para ver los riñores,\n\nC) Si es hombre, se coloca el protector genital, A la mujer nunca, tras preguntar y comprobar que no hay\nresgo de embarazo.\n\nD) No es necesarla la realización de la prueba.",
+    "fuente": "2021_sergas",
+    "anno": 2021,
+    "respuesta_correcta": null,
+    "tags": ["especifica"],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 65,
+    "numero_original": "65.",
+    "enunciado": "¿Qué deberías hacer si se produce un vertido de 99mTc en el interior de una vitrina de manipulación en cámara caliente?",
+    "opciones": {
+      "A": "Realizar la descontaminación antes de salir.",
+      "B": "Clausurar la cámara caliente durante 3 días para que decaiga la actividad.",
+      "C": "Para este radionúclido las dosis de radiación son muy pequeñas, no necesitamos medir la tasa de dosis, ni la descontaminación.",
+      "D": "Medir la tasa de dosis con un detector apropiado y después decidir la actuación a seguir."
+    },
+    "raw_ocr": "65. ¿Qué deberías hacer si se produce un vertido de 99mTc en el interior de una vitrina de manipulación en\ncámara caliente?\n\nA) Realizar la descontaminación antes de salir.\n\nB) Clausurar la camara caliente durante 3 días para que decaiga la activiiad,\n\nC) Para este radionucieido las dosis de raciación son muy pequeñas, no necesitamos medir la tasa de dosis, ni\nla descontaminación.\n\nD) Medir la tasa de dosis con un detector apropiado y después decidir la actuación a seguir.",
+    "fuente": "2021_sergas",
+    "anno": 2021,
+    "respuesta_correcta": null,
+    "tags": ["especifica"],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 66,
+    "numero_original": "66.",
+    "enunciado": "Tenemos un paciente pediátrico al que sospechan raquitismo. Para ello se le solicitan una serie de radiografías. ¿Cuáles serían las más acertadas?",
+    "opciones": {
+      "A": "Cráneo.",
+      "B": "Columna vertebral.",
+      "C": "Rodillas, tobillos y muñecas.",
+      "D": "Todas las respuestas anteriores son correctas."
+    },
+    "raw_ocr": "66. Tenemos un paciente pediátrico al que sospechan raquitismo. Para ello se le solicitan una serie de\nradiografías. ¿Cuáles serían las más acertadas?\n\nA) Craneo.\n\nB)Columna vertebral.\n\nC) Rodillas, tobillos y muñecas.\n\nD) Todas las respuestas anteriores son correctas.",
+    "fuente": "2021_sergas",
+    "anno": 2021,
+    "respuesta_correcta": null,
+    "tags": ["especifica"],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 67,
+    "numero_original": "67.",
+    "enunciado": "¿Qué respuesta tiene el cristalino si durante años el paciente realiza pruebas con radiación de bajas dosis?",
+    "opciones": {
+      "A": "El paciente puede llegar a ver doble.",
+      "B": "Nada, solo serían visibles con radiación de altas dosis.",
+      "C": "Opacificación definitiva del cristalino (cataratas).",
+      "D": "Acromatopsia."
+    },
+    "raw_ocr": "67. ¿Qué respuesta tiene el cristalino si durante años el paciente realiza pruebas con radiación de bajas dosis?\nA) El paciente puede llegar a ver doble.\n\nB) Nada, solo serían visibles cor radiación de altas dosis.\n\nC)Opacificación definitiva del cristalino (cataratas).\n\nD) Acromatopsia.",
+    "fuente": "2021_sergas",
+    "anno": 2021,
+    "respuesta_correcta": null,
+    "tags": ["especifica"],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 68,
+    "numero_original": "68.",
+    "enunciado": "Ignacio, 23 años, paciente politraumatizado por caída de motocicleta a alta velocidad. ¿En qué caso se debe realizar un TC craneal antes de realizar cualquier otra exploración radiológica?",
+    "opciones": {
+      "A": "Hematoma facial.",
+      "B": "Escalp craneal.",
+      "C": "Estallido de globo ocular.",
+      "D": "Midriasis."
+    },
+    "raw_ocr": "68. Ignacio, 23 años, paciente politraumatizado por caida de motocicleta a alta velocidad. ¿En qué caso se debe realizar un Tc craneal antes de realizar cualquier otra exploración radiológica?\n\nA) Hematoma facial\n\nB) Scalp craneal.\n\nC)Estallido de globo ocular,\n\nD) Midriasis.",
+    "fuente": "2021_sergas",
+    "anno": 2021,
+    "respuesta_correcta": null,
+    "tags": ["especifica"],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 69,
+    "numero_original": "69.",
+    "enunciado": "Antón, de 51 años, que acude por dolor en hipocondrio derecho, fiebre e ictericia, se le realiza una ecografía por sospecha de patología biliar. Se visualiza un cálculo que aparece como una estructura blanca que arroja una sombra oscura tras de sí, por lo cual este cálculo es:",
+    "opciones": {
+      "A": "Anecoico.",
+      "B": "Anecgénico.",
+      "C": "Ecogénico.",
+      "D": "Isotrópico."
+    },
+    "raw_ocr": "69. Antón, de 51 años, que acude por dolor en hipocondrio derecho, fiebre e ictericia, se le realiza una ecografía por sospecha de patología biliar. Se visualiza un cálculo que aparece como una estructura blanca que arroja una sombra oscura tras de si, por lo cual este cálculo es:\n\nA) Anecóico.\nB) Anecogénico.\nC) Ecogénico.\n\nD) Isotropico,",
+    "fuente": "2021_sergas",
+    "anno": 2021,
+    "respuesta_correcta": null,
+    "tags": ["especifica"],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 70,
+    "numero_original": "70.",
+    "enunciado": "La distribución de átomos en un cristal de haluro de plata es:",
+    "opciones": {
+      "A": "Plana.",
+      "B": "Cúbica.",
+      "C": "Triangular.",
+      "D": "Aleatoria."
+    },
+    "raw_ocr": "70. La distribución de átomos en un cristal de haluro de plata es:\n\nA) Plana.\n\nB) Cúbica.\n\nC) Triangular.\n\nD) Aleatoria.",
+    "fuente": "2021_sergas",
+    "anno": 2021,
+    "respuesta_correcta": null,
+    "tags": ["especifica"],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 71,
+    "numero_original": "71.",
+    "enunciado": "Paciente que presenta una fractura que se extiende a través de los pedículos de C2, con una subluxación de C2 sobre C3, ¿ante qué fractura nos encontramos?",
+    "opciones": {
+      "A": "Fractura del cavador de arcilla.",
+      "B": "Fractura de la odontoides.",
+      "C": "Fractura de Jefferson.",
+      "D": "Fractura del ahorcado."
+    },
+    "raw_ocr": "71. Paciente que presenta una fractura que se extiende a través de los pedículos de C2, con una subluxación\nde C2 sobre C3, ¿ante qué fractura nos encontramos?\n\nA) Fractura del cavador de arcilla.\n\nB) Fractura de la odontoides.\n\nC) Fractura de Jefferson.\n\nD)Fractura del ahorcado.",
+    "fuente": "2021_sergas",
+    "anno": 2021,
+    "respuesta_correcta": null,
+    "tags": ["especifica"],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 72,
+    "numero_original": "72.",
+    "enunciado": "En un esofagogastroduodenal, ¿qué tipo de contraste utilizaremos con un paciente ante una sospecha de perforación de víscera hueca abdominal?",
+    "opciones": {
+      "A": "Yodados liposolubles.",
+      "B": "Sulfato de bario.",
+      "C": "Yodados hidrosolubles.",
+      "D": "Ninguno."
+    },
+    "raw_ocr": "72. En un esofagogastroduodenal, ¿qué tipo de contraste utilizaremos con un paciente ante una sospecha de\nperforación de víscera hueca abdominal?\n\nA) Yodados liposolubles.\n\nB) sulfato de Bario.\n\nC)Yodados hidrosolubles.\n\nD) Ninguno.",
+    "fuente": "2021_sergas",
+    "anno": 2021,
+    "respuesta_correcta": null,
+    "tags": ["especifica"],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 73,
+    "numero_original": "73.",
+    "enunciado": "Uxía, 32 años, es remitida a nuestro servicio de Radiología por sospecha de rotura de implante mamario. Para evaluar la posibilidad de una ruptura intracapsular y extracapsular que incluya el área posterior al implante, ¿la técnica más eficaz será?",
+    "opciones": {
+      "A": "TC.",
+      "B": "RM.",
+      "C": "Mamografía craneo caudal.",
+      "D": "Mamografía localizada."
+    },
+    "raw_ocr": "73. Uxía, 32 años, es remitida a nuestro servicio de Radiología por sospecha de rotura de implante mamario. Para evaluar la posibilidad de una ruptura intracapsular y extracapsular que incluya el área posterior al\nimplante, ¿la técnica más eficaz será?\n\nA) TC.\nB) RM.\nC) Mamografía craneo caudal.\n\nD) Mamogratía localizada.",
+    "fuente": "2021_sergas",
+    "anno": 2021,
+    "respuesta_correcta": null,
+    "tags": ["especifica"],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 74,
+    "numero_original": "74.",
+    "enunciado": "Un paciente es citado para realizar un estudio de Enema Opaco. Una vez realizado se le introduce gas en el colon. ¿Con qué nombre se conoce este procedimiento?",
+    "opciones": {
+      "A": "Técnica baritada.",
+      "B": "Técnica de doble contraste.",
+      "C": "Técnica gas yodada.",
+      "D": "Todas las respuestas anteriores son correctas."
+    },
+    "raw_ocr": "74. Un paciente es citado para realizar un estudio de Enema Opaco. Una vez realizado se le introduce gas en el colon. ¿Con qué nombre se conoce este procedimiento?\n\nA)Técnica baritada .\n\nB) Tecnica de doble contraste.\n\nC) Técnica gas yodada.\n\nD) Todas lus respuestas anteriores son correctas.",
+    "fuente": "2021_sergas",
+    "anno": 2021,
+    "respuesta_correcta": null,
+    "tags": ["especifica"],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 75,
+    "numero_original": "75.",
+    "enunciado": "Xoel es remitido desde Urgencias por caída de bicicleta, con sospecha clínica de luxación acromio-clavicular y se nos solicita radiografía de esa articulación en proyección AP axial (método de Alexander). ¿Qué angulación debe de tener el rayo central?",
+    "opciones": {
+      "A": "Angulación caudal de 45º.",
+      "B": "Angulación cefálica de 15º.",
+      "C": "Angulación caudal de 75º.",
+      "D": "Angulación cefálica de 45º."
+    },
+    "raw_ocr": "75. Xoel es remitido desde Urgencias por caída de bicicleta, con sospecha clínica de luxación acromio-clavicular y se nos solicita radiografía de esa articulación en proyección AP axial (método de Alexander), ¿Qué angulación debe de tener el rayo central?\n\nA) Angulación caudal de 45º.\nB) Angulación cefálica de 15º,\nC) Angulación caudal de 75º.\n\nD)Angulación cefálica de 45º.",
+    "fuente": "2021_sergas",
+    "anno": 2021,
+    "respuesta_correcta": null,
+    "tags": ["especifica"],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 76,
+    "numero_original": "76.",
+    "enunciado": "En una Angiografía Cerebral, ¿para qué utilizamos la sustracción digital?",
+    "opciones": {
+      "A": "Se retiran digitalmente las estructuras óseas de la imagen tomada para poder ver claramente los vasos sanguíneos.",
+      "B": "Se retiran digitalmente las partes blandas del paciente de la imagen tomada.",
+      "C": "Es un procedimiento mediante el cual añadimos color a las imágenes.",
+      "D": "Todas las respuestas anteriores son falsas."
+    },
+    "raw_ocr": "76. En una Angiografía Cerebral, ¿para qué utilizamos la sustracción digital?:\n\nA) Se retiran digitalmente las estructuras Óseas de la imagen tomada para poder ver claramente los vasos sanguincos.\n\nB) Se retiran digitalmente las partes blandas del paciente de la imagen tomada,\n\nC)Es un procedimiento mediante el cual añadimos color a las imágenes,\n\nD) Todas las respuestas anteriores son falsas.",
+    "fuente": "2021_sergas",
+    "anno": 2021,
+    "respuesta_correcta": null,
+    "tags": ["especifica"],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 77,
+    "numero_original": "77.",
+    "enunciado": "Un paciente menor de edad llega al servicio de RX, la madre quiere entrar en la sala de rayos mientras se realizan las radiografías al niño. Señale la respuesta correcta:",
+    "opciones": {
+      "A": "No se permitirá el paso a acompañantes, para evitar recibir radiación innecesaria.",
+      "B": "Siempre se permite el paso a todo acompañante que sea mayor de edad y bajo su responsabilidad.",
+      "C": "Exclusivamente se le permite el paso a la madre y siempre que el paciente lo requiera.",
+      "D": "Se permite al acompañante si es necesario, facilitándole garantías y medidas de protección."
+    },
+    "raw_ocr": "77. Un paciente menor de edad llega al servicio de RX, la madre quiere entrar en la sala de rayos mientras se realizan las radiografías al niño. Señale la respuesta correcta:\n\nA) No se permitirá el paso a acompañantes, para evitar recibir radiación innecesaria.\n\nB) Siempre se permite el paso a todo acompañante que sea mayor de edad y bajo su responsabilidad.\nC) Exclusivamente se le permite el paso a la madre y siempre que el paciente lo requiera,\n\nD)Se permite al acompañante si es necesario, facilitandole garantías y medidas de protección.",
+    "fuente": "2021_sergas",
+    "anno": 2021,
+    "respuesta_correcta": null,
+    "tags": ["especifica"],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 78,
+    "numero_original": "78.",
+    "enunciado": "Nos llaman del servicio de prematuros para realizar una radiografía de tórax a un bebé. ¿Cómo actuaríamos?",
+    "opciones": {
+      "A": "Se hace con la incubadora abierta.",
+      "B": "Colocamos un paño cubriendo el chasis.",
+      "C": "Ponemos protección gonadal.",
+      "D": "B y C son correctas."
+    },
+    "raw_ocr": "78. Nos llaman del servicio de prematuros para realizar una radiografía de tórax a un bebé. ¿Cómo actuaríamos?\n\nA) Se hace con la incubadora abierta.\n\nB) Colocamos un paño cubriendo el chasis.\n\nC) Ponemos protección gonadal,\n\nD) B y C son correctas.",
+    "fuente": "2021_sergas",
+    "anno": 2021,
+    "respuesta_correcta": null,
+    "tags": ["especifica"],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 79,
+    "numero_original": "79.",
+    "enunciado": "Mateo, 87 años, es remitido para realizar un TC craneal por sospecha de hematoma subdural. ¿Los hematomas subdurales se localizan en?",
+    "opciones": {
+      "A": "Entre la duramadre y el cerebro.",
+      "B": "Entre la aracnoides y la duramadre.",
+      "C": "Entre la duramadre y el parénquima.",
+      "D": "Entre la aracnoides y la piamadre."
+    },
+    "raw_ocr": "79. Mateo, 87 años, es remitido para realizar un Tc craneal por sospecha de hematoma subdural. ¿Los hematomas subdurales se localizan en?\n\nA) Entre la duramadre y el cerebro,\n\nB) Entre la aracnoides y la duramadre,\n\nC) Entre la duramadre y e! parenquima.\n\nD) Entre la aracnoides y la piamadre,",
+    "fuente": "2021_sergas",
+    "anno": 2021,
+    "respuesta_correcta": null,
+    "tags": ["especifica"],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 80,
+    "numero_original": "80.",
+    "enunciado": "Paciente que llega a urgencias con la sospecha de una invaginación intestinal, ¿qué tipo de prueba se le realizaría?",
+    "opciones": {
+      "A": "TC abdominal sin contraste y baja dosis.",
+      "B": "Enema opaco o enema de aire-gas.",
+      "C": "Ecografía abdominal.",
+      "D": "TLGD."
+    },
+    "raw_ocr": "80. Paciente que llega a urgencias con la sospecha de una invaginación intestinal, ¿qué tipo de prueba se le\nrealizaría?\n\nA) TC abdominal sin contraste y baja dosis.\n\nB) Enema opaco o enema de aire- gas.\n\nC) Ecografía abdomira!.\n\nD) TLGD.",
+    "fuente": "2021_sergas",
+    "anno": 2021,
+    "respuesta_correcta": null,
+    "tags": ["especifica"],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 81,
+    "numero_original": "81.",
+    "enunciado": "Se define como reacción adversa no renal aguda, aquella que tras la inyección de contraste sucede en el plazo de:",
+    "opciones": {
+      "A": "Entre 1 hora y 1 semana tras la inyección de contraste.",
+      "B": "1 hora tras la inyección de contraste.",
+      "C": "Más de 1 semana después de la inyección de contraste.",
+      "D": "Más de 1 año después de la inyección de contraste."
+    },
+    "raw_ocr": "81. Se define como reacción adversa no renal aguda, aquella que tras la inyección de contraste sucede en el\nplazo de:\n\nA)Entre 1 hora y 1 semana tras la inyeccion de contraste.\n\nB) 1 hora tras la inyección de contraste,\n\nC) Más de 1 semana después de la inyección de contraste.\n\nD) Mas de 1 año después de la Inyección de contraste.",
+    "fuente": "2021_sergas",
+    "anno": 2021,
+    "respuesta_correcta": null,
+    "tags": ["especifica"],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 82,
+    "numero_original": "82.",
+    "enunciado": "Se consideran factores de riesgo para la extravasación de contraste cuando éste es administrado por vía intravenosa:",
+    "opciones": {
+      "A": "El uso de agujas metálicas.",
+      "B": "El uso de medios de contraste hiperosmolares.",
+      "C": "La administración de grandes volúmenes.",
+      "D": "Todas las respuestas anteriores son correctas."
+    },
+    "raw_ocr": "82. Se consideran factores de riesgo para la extravasación de contraste cuando éste es administrado por vía intravenosa:\n\nA) El uso de agujas metálicas.\n\nB) El uso de medios de contraste hiperosmolares.\n\nC) La administración de grandes volúmenes.\n\nD) Podas las respuestas anterjores son correctas.",
+    "fuente": "2021_sergas",
+    "anno": 2021,
+    "respuesta_correcta": null,
+    "tags": ["especifica"],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 83,
+    "numero_original": "83.",
+    "enunciado": "Ante una sospecha de aire libre intraperitoneal, ¿qué proyección radiográfica emplearíamos?",
+    "opciones": {
+      "A": "Decúbito supino.",
+      "B": "Decúbito sobre el lado derecho.",
+      "C": "El paciente en prono.",
+      "D": "Ninguna de las respuestas anteriores es correcta."
+    },
+    "raw_ocr": "83. Ante una sospecha de aire libre intraperitoneal, ¿que proyección radlográfica emplearíamos?\n\nA) Decúbito supino.\n\nB)Decubito sobre el lado derecho.\n\nC) El paciente en prono.\n\nD) Ninguna de las respuestas anteriores es correcta.",
+    "fuente": "2021_sergas",
+    "anno": 2021,
+    "respuesta_correcta": null,
+    "tags": ["especifica"],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 84,
+    "numero_original": "84.",
+    "enunciado": "Andrea llega a urgencias aquejada de sinusitis. El médico que la explora le solicita una radiografía. ¿Qué proyección realizaremos?",
+    "opciones": {
+      "A": "TOWNE'S.",
+      "B": "HIRTS.",
+      "C": "CALDWELL.",
+      "D": "WATER'S."
+    },
+    "raw_ocr": "84. Andrea llega a urgencias aquejada de sinusitis. El médico que la explora le solicita una radiografía. ¿Qué\nproyección realizaremos?:\n\nA) TOWNE'S.\n\nB) HIRTS.\n\nC) CALDWELL.\n\nD) WATER'S.",
+    "fuente": "2021_sergas",
+    "anno": 2021,
+    "respuesta_correcta": null,
+    "tags": ["especifica"],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 85,
+    "numero_original": "85.",
+    "enunciado": "En el caso de pacientes que no pueden permanecer de pie o colocarse en decúbito lateral y en los que se sospecha de niveles hidroaéreos y gas libre en el abdomen, ¿qué proyección sería la indicada?",
+    "opciones": {
+      "A": "AP en decúbito supino.",
+      "B": "AP en decúbito prono.",
+      "C": "Lateral en decúbito supino.",
+      "D": "Lateral en decúbito prono."
+    },
+    "raw_ocr": "85. En el caso de pacientes que no pueden permanecer de pie o colocarse en decúbito lateral y en los que se\nsospecha de niveles hidroaáreos y gas libre en el abdomen, ¿qué proyección sería la indicada?\n\nA) AP en decúbito supino.\n\nB) AP en decúbito prono.\n\nC) Lateral en decúbito supino,\n\nD) Lateral en decúbito prono,",
+    "fuente": "2021_sergas",
+    "anno": 2021,
+    "respuesta_correcta": null,
+    "tags": ["especifica"],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 86,
+    "numero_original": "86.",
+    "enunciado": "Jesús va a realizarse un estudio mediante RM por sospecha de atresia coronaria congénita. Para la planificación del estudio es necesario conocer que la arteria coronaria izquierda (ACI) se divide en:",
+    "opciones": {
+      "A": "Arteria descendente anterior y arteria circunfleja.",
+      "B": "Artería descendente posterior y arteria marginal.",
+      "C": "Arteria descendente posterior y rama obtusa aguda.",
+      "D": "Arteria descendente anterior y cardiaca magna."
+    },
+    "raw_ocr": "86. Jesús va a realizarse un estudio mediante RM por sospecha de atresia coronaria congénita. Para la\nplanificación del estudio es necesario conocer que la arteria coronaria izquierda (ACI) se divide en:\n\nA) Arteria descendente anterior y arteria circunfleja\n\nB) Artería descendente posterior y arteria marginal.\n\nC) Arteria descendente posterior y rama obtusa aguda.\n\nD)Arteria descendente anterior y cardiaca magna.",
+    "fuente": "2021_sergas",
+    "anno": 2021,
+    "respuesta_correcta": null,
+    "tags": ["especifica"],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 87,
+    "numero_original": "87.",
+    "enunciado": "Después de realizar una radiografía de tórax (PA y Lat), existe la sospecha de que el paciente tiene neumotórax. ¿Qué proyección complementaria le pedirán para demostrar o descartar el neumotórax?",
+    "opciones": {
+      "A": "PA Tórax en inspiración.",
+      "B": "PA Tórax en espiración.",
+      "C": "Oblicua de Tórax.",
+      "D": "Proyección Lordótica de Tórax."
+    },
+    "raw_ocr": "87. Después de realizar una radiografía de tórax (PA y Lat), existe la sospecha de que el paciente tiene\nNeumotórax. ¿Qué proyección complementaria le pedirán para demostrar o descartar el Neumotórax?;\nA) PA Torax en inspiración.\n\nB) PA Tórax en espiracion.\n\nC) Oblicua de Tórax.\n\nD) Proyección Lordótica de Tórax.",
+    "fuente": "2021_sergas",
+    "anno": 2021,
+    "respuesta_correcta": null,
+    "tags": ["especifica"],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 88,
+    "numero_original": "88.",
+    "enunciado": "El médico solicita una uretrocistografía, que está indicada para el estudio de...",
+    "opciones": {
+      "A": "Ver riñón.",
+      "B": "Ver sistemas pielocaliciales.",
+      "C": "Ver vejiga, uretra y unión vesicouretral.",
+      "D": "Todas las respuestas anteriores son correctas."
+    },
+    "raw_ocr": "88. El médico solicita una uretrocistografía, que está indicada para el estudio de...\nA) Ver riñón.\n\nB) Ver sistemas pielocaliciales.\n\nC) Ver vejiga, uretra y unión vesicouretral.\n\nD)Todas las respuestas anteriores son correctas.",
+    "fuente": "2021_sergas",
+    "anno": 2021,
+    "respuesta_correcta": null,
+    "tags": ["especifica"],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 89,
+    "numero_original": "89.",
+    "enunciado": "Nos reclaman de quirófano para asistir a una colangiografía. ¿Cómo colocaríamos el arco quirúrgico?",
+    "opciones": {
+      "A": "El tubo de rayos por encima del paciente y el intensificador por debajo del paciente.",
+      "B": "El tubo de rayos por debajo del paciente y el intensificador por encima del paciente.",
+      "C": "Realizamos el estudio con un portátil de rayos X.",
+      "D": "Colocaremos el tubo de rayos por el lado derecho del paciente y el intensificador por el lado izquierdo."
+    },
+    "raw_ocr": "89. Nos reclaman de quirófano para asistir a una colangiografía. ¿Cómo colocaríamos el arco quirúrgico?:\nA) El tubo de rayos por encima del paciente y el intensificador bor debajo del paciente.\n\nB) El tubo de rayos por debajo del paciente y el intensificador por encima del paciente.\n\nC) Realizamos el estudio con un portatil de rayos X,\n\nD) Colocaremos el tubo de rayos por el lado derecho del paciente y el intensificador por el lado izquierdo.",
+    "fuente": "2021_sergas",
+    "anno": 2021,
+    "respuesta_correcta": null,
+    "tags": ["especifica"],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 90,
+    "numero_original": "90.",
+    "enunciado": "¿Qué técnica de diagnóstico debemos utilizar primero, en lo posible, si la paciente viene con un dolor abdominal y nos asegura estar embarazada?",
+    "opciones": {
+      "A": "Radiografía de abdomen.",
+      "B": "Tomografía computarizada de baja dosis.",
+      "C": "Ecografía abdominal.",
+      "D": "Ninguna."
+    },
+    "raw_ocr": "90. ¿Qué técnica de diagnóstico debemos utilizar primero, en lo posible, si la paciente viene con un dolor\nabdominal y nos asegura estar embarazada?\n\nA) Radiografía de abdomen.\n\nB) Tomografía computarizada de baja dosis,\n\nC) Ecografía abdominal.\n\nD) Ninguna.",
+    "fuente": "2021_sergas",
+    "anno": 2021,
+    "respuesta_correcta": null,
+    "tags": ["especifica"],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 91,
+    "numero_original": "91.",
+    "enunciado": "¿Cuál es la principal contraindicación para la realización de una Angiografía Cerebral?",
+    "opciones": {
+      "A": "Tensión baja.",
+      "B": "Alérgico al contraste intravenoso.",
+      "C": "Paciente nervioso.",
+      "D": "Paciente obeso."
+    },
+    "raw_ocr": "91. ¿Cuál es la principal contraindicación para la realización de una Angiografía Cerebral?:\n\nA) Tensión baja.\n\nB) Alérgico al contraste intravenoso.\n\nC) Paciente nervioso.\n\nD) Paciente obeso.",
+    "fuente": "2021_sergas",
+    "anno": 2021,
+    "respuesta_correcta": null,
+    "tags": ["especifica"],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 92,
+    "numero_original": "92.",
+    "enunciado": "A Carmen se le va a realizar una aortografía torácica. Debido a la estructura de la aorta proximal, para observar el cayado aórtico se requiere una proyección:",
+    "opciones": {
+      "A": "Oblicua anterior derecha (OAD) a 25º.",
+      "B": "Oblicua anterior izquierda (OAI) a 45º.",
+      "C": "Anteroposterior estricta.",
+      "D": "Anteroposterior con angulación caudal de 45º."
+    },
+    "raw_ocr": "92. A Carmen se le va a realizar una aortografía torácica. Debido a la estructura de la aorta proximal, para observar el cayado aórtico se requiere una proyección:\n\nA) Oblicua anterior derecha (OAD) a 25º.\n\nB) Oblicua anterior izquierda (OAI) a 45º,\n\nC) Anteroposterior estricta.\n\nD) Anteroposterior con angulación caudal de 45º,",
+    "fuente": "2021_sergas",
+    "anno": 2021,
+    "respuesta_correcta": null,
+    "tags": ["especifica"],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 93,
+    "numero_original": "93.",
+    "enunciado": "Varón diagnosticado de fractura del boxeador, ¿dónde centraremos el haz para realizar la radiografía?",
+    "opciones": {
+      "A": "En los metatarsianos.",
+      "B": "En las falanges distales de la mano.",
+      "C": "En los metacarpianos.",
+      "D": "En los huesos proximales del carpo."
+    },
+    "raw_ocr": "93. Varón diagnosticado de fractura del boxeador, ¿dónde centraremos el haz para realizar la radiografía?\n\nA) En los metatarsianos.\n\nB)En las falanges distales de la maNo.\n\nC) En los metacarpianos,\n\nD) En los huesos proximales del carpo.",
+    "fuente": "2021_sergas",
+    "anno": 2021,
+    "respuesta_correcta": null,
+    "tags": ["especifica"],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 94,
+    "numero_original": "94.",
+    "enunciado": "Si a Elisa se le realiza una flebografía de miembros inferiores, ¿dónde se le inyectará normalmente el contraste?",
+    "opciones": {
+      "A": "En el dorso del pie.",
+      "B": "En el muslo de la pierna a estudio.",
+      "C": "En el tobillo de la pierna a estudio.",
+      "D": "En la planta del pie."
+    },
+    "raw_ocr": "94. Si a Elisa se le realiza una Flebografía de miembros inferiores, ¿dónde se le inyectará normalmente el contraste?;\n\nA) En el dorso del pie.\n\nB) En el muslo de la pierna a estudio.\n\nC) En el tobillo de la pierna a estudio,\n\nD) En la planta del pie.",
+    "fuente": "2021_sergas",
+    "anno": 2021,
+    "respuesta_correcta": null,
+    "tags": ["especifica"],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 95,
+    "numero_original": "95.",
+    "enunciado": "Niño de 6 años que llega al servicio de RX derivado de urgencias por alta sospecha de apendicitis, ¿qué prueba realizarías?",
+    "opciones": {
+      "A": "Ecografía.",
+      "B": "TC de baja dosis.",
+      "C": "Enema opaco.",
+      "D": "Radiografía simple de abdomen."
+    },
+    "raw_ocr": "95. Niño de 6 años que llega al servicio de RX derivado de urgencias por alta sospecha de apendicitis, ¿qué\nprueba realizarías?\n\nA) Ecografia,\n\nB) TC de baja dosis.\n\nC)Enema opaco.\n\nD) Radiografía simple de abdomen.",
+    "fuente": "2021_sergas",
+    "anno": 2021,
+    "respuesta_correcta": null,
+    "tags": ["especifica"],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 96,
+    "numero_original": "96.",
+    "enunciado": "En una radiografía AP de columna lumbar para delimitar los espacios intervertebrales, se intenta reducir la lordosis lumbar mediante:",
+    "opciones": {
+      "A": "Extensión de piernas y rodillas.",
+      "B": "Flexión de rodillas y piernas.",
+      "C": "Rotación externa de rodillas.",
+      "D": "Rotación interna de rodillas."
+    },
+    "raw_ocr": "96. En una radiografía AP de columna lumbar para delimitar los espacios intervertebrales, se intenta reducir la lordosis lumbar mediante:\n\nA) Extensión de piernas y rodillas,\n\nB) Flexión de rodillas y piernas.\n\nC) Rotación externa de rodillas,\n\nD) Rotación interna de rodillas.",
+    "fuente": "2021_sergas",
+    "anno": 2021,
+    "respuesta_correcta": null,
+    "tags": ["especifica"],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 97,
+    "numero_original": "97.",
+    "enunciado": "Si al realizar una RM de rodilla, la estructura a representar es mayor que el campo de visión o FOV seleccionado, ¿cómo se llama ese tipo de artefacto?",
+    "opciones": {
+      "A": "Artefacto del ángulo suprimido.",
+      "B": "Artefacto de desplazamiento químico.",
+      "C": "Artefacto de envolvimiento o Aliasing.",
+      "D": "Artefacto de fase opuesta o Bording."
+    },
+    "raw_ocr": "97. Si al realizar una RM de rodilla, la estructura a representar es mayor que el campo de visión o FOV\nseleccionado, cómo se llama ese tipo de artefacto:\n\nA) Artefacto del angulo suprimido.\n\nB) Artefacto de desplazamiento químico.\n\nC)Artefacto de envolvimiento o Aliasing.\n\nD) Artefacto de fase opuesta o Bordeing.",
+    "fuente": "2021_sergas",
+    "anno": 2021,
+    "respuesta_correcta": null,
+    "tags": ["especifica"],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 98,
+    "numero_original": "98.",
+    "enunciado": "El médico de Enrique le comunica tras las pruebas realizadas que tiene un cálculo coraliforme. ¿Dónde podemos encontrarlo?",
+    "opciones": {
+      "A": "En el trayecto de los uréteres.",
+      "B": "En el riñón.",
+      "C": "En el páncreas.",
+      "D": "En la próstata."
+    },
+    "raw_ocr": "98. El médico de Enrique le comunica tras las pruebas realizadas que tiene un cálculo coraliforme. ¿Dónde\npodemos encontrarlo?\n\nA) En el trayecto de los uréteres,\n\nB) En el riñon.\n\nC) En el páncreas.\n\nD) En la próstata.",
+    "fuente": "2021_sergas",
+    "anno": 2021,
+    "respuesta_correcta": null,
+    "tags": ["especifica"],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 99,
+    "numero_original": "99.",
+    "enunciado": "Si nos hablan del plan de emergencia interior de una instalación de Medicina Nuclear, ¿qué diríamos?",
+    "opciones": {
+      "A": "Estará reflejado en el diario de operación.",
+      "B": "Contendrá los métodos de trabajo y reglas de manipulación que garanticen la operación segura de la instalación.",
+      "C": "Incluirá un análisis de riesgos que puedan derivarse del funcionamiento en régimen normal.",
+      "D": "Debe incluirse en la solicitud de autorización de funcionamiento."
+    },
+    "raw_ocr": "99. Si nos hablan del plan de emergencia interior de una instalación de Medicina Nuclear, ¿qué diríamos?\nA) Estará reflejado en ol diario de operacion.\n\nB) Conmtendrá los métodos de trabajo y reglas de manipulacion que garantice la operación segura de la\ninstalacion.\n\nC) Incluirá un análisis de riesgos que puedan derivarse del funcionamiento en régimen normal\n\nD) Debe incluirse en la solicitud de autorización de funcionamiento.",
+    "fuente": "2021_sergas",
+    "anno": 2021,
+    "respuesta_correcta": null,
+    "tags": ["especifica"],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 100,
+    "numero_original": "100.",
+    "enunciado": "En el caso de realizar un PET-TAC, ¿qué realizamos primero?",
+    "opciones": {
+      "A": "Primero el PET y después el TAC.",
+      "B": "Primero el TAC y después el PET.",
+      "C": "Se realizan los dos a la vez fusionando las imágenes.",
+      "D": "Primero se realiza una teleradiografía y después el PET."
+    },
+    "raw_ocr": "100. En el caso de realizar un PET-TAC, ¿qué realizamos primero?\n\nA) Primero el PET y después el TAC.\n\nB) Primero el TAC y después el PET.\n\nC) Se realizan los dos a la vez fusionando las imágenes\n\nD) Primero se realiza una teleradiografía y después el PET.",
+    "fuente": "2021_sergas",
+    "anno": 2021,
+    "respuesta_correcta": null,
+    "tags": ["especifica"],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 101,
+    "numero_original": "101.",
+    "enunciado": "Paciente remitido del servicio de reumatología, el cual solicita RX según el método de Norgaard, ¿qué proyección realizaremos?",
+    "opciones": {
+      "A": "AP de las dos manos.",
+      "B": "Lateral de ambas manos.",
+      "C": "AP bilateral oblicua de la mano.",
+      "D": "PA de la mano izquierda."
+    },
+    "raw_ocr": "101. Paciente remitido del servicio de reumatología, el cual solicita RX según el método de Norgaard, ¿qué proyección realizaremos?\n\nA) AP de las dos manos.\n\nB) lateral de ambas manos,\n\nC)AP bilateral oblicua de la mano.\n\nD) PA de la mano izquierda.",
+    "fuente": "2021_sergas",
+    "anno": 2021,
+    "respuesta_correcta": null,
+    "tags": ["especifica"],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 102,
+    "numero_original": "102.",
+    "enunciado": "Se le programa una cita a un paciente con varios estudios en el mismo día. ¿En qué orden se realizarían?",
+    "opciones": {
+      "A": "Rx simple de abdomen, esofagogastroduodenal, urografía intravenosa.",
+      "B": "Urografía intravenosa, rx simple de abdomen, esofagogastroduodenal.",
+      "C": "Rx simple de abdomen, urografía intravenosa, esofagogastroduodenal.",
+      "D": "Ninguna de las respuestas anteriores es correcta."
+    },
+    "raw_ocr": "102. Se le programa una cita a un paciente con varios estudios en el mismo dia. ¿En qué orden se realizarían?\n\nA)Rx simple de abdomen, esofagogastroduodenal, urografia intravenosa.\n\nB) Urografía intravenosa, rx simple de abdomen, esofagogastroduodenal.\n\nC) Rx simple de abdomen, urografía intravenosa, esofagogastroduodenal,\n\nD) Ninguna de las respuestas anteriores es correcta,",
+    "fuente": "2021_sergas",
+    "anno": 2021,
+    "respuesta_correcta": null,
+    "tags": ["especifica"],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 103,
+    "numero_original": "103.",
+    "enunciado": "Por norma general, cuando realizamos un TC de tórax, ¿qué debe abarcar?",
+    "opciones": {
+      "A": "Ápices pulmonares hasta diafragma.",
+      "B": "Ápices pulmonares hasta crestas ilíacas.",
+      "C": "Ápices pulmonares hasta glándulas suprarrenales.",
+      "D": "Ápices pulmonares hasta bases pulmonares."
+    },
+    "raw_ocr": "103. Por norma general cuando realizamos un TC Tórax, ¿qué debe abarcar?:\n\nA) Apices pulmonares hasta diafragma.\n\nB) Apices pulmonares hasta crestas ilíacas.\n\nC) Ápices pulmonares hasta glándulas suprarrenales.\n\nD) Ápices pulmonares hasta bases pulmonares,",
+    "fuente": "2021_sergas",
+    "anno": 2021,
+    "respuesta_correcta": null,
+    "tags": ["especifica"],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 104,
+    "numero_original": "104.",
+    "enunciado": "Estamos en quirófano realizando una arteriografía y nos piden que magnifiquemos una imagen durante la intervención. ¿Qué lleva asociado esta magnificación?",
+    "opciones": {
+      "A": "Conseguir ver mejor una zona a estudio y bajar la dosis al paciente.",
+      "B": "Conseguir ver mejor una zona a estudio, pero aumentamos la dosis al paciente.",
+      "C": "Solamente magnificar la zona a estudio.",
+      "D": "Protegemos al personal de quirófano bajando la dosis."
+    },
+    "raw_ocr": "104. Estamos en quirófano realizando una Arteriografía y nos piden que magnifiquemos una imagen durante la intervención. ¿Qué lleva asociado esta magnificación?:\n\nA) Conseguir ver mejor una zona a estudio y bajar la dosis al paciente.\n\nB)Conseguir ver mejor una zona a estudio, pero aumentamos la dosis al paciente,\n\nC) Solamente magnificar la zona a estudio.\n\nD) Protegemos al personal de quirófano bajando la dosis,",
+    "fuente": "2021_sergas",
+    "anno": 2021,
+    "respuesta_correcta": null,
+    "tags": ["especifica"],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 105,
+    "numero_original": "105.",
+    "enunciado": "En un paciente con cuadro de abdomen agudo en el que sospechan perforación intestinal, ¿qué exploración radiológica estaría indicada?",
+    "opciones": {
+      "A": "Abdomen en decúbito prono.",
+      "B": "Abdomen en decúbito supino.",
+      "C": "Abdomen en decúbito lateral izquierdo.",
+      "D": "Abdomen en 'trendelenburg'."
+    },
+    "raw_ocr": "105. En un paciente con cuadro de abdomen agudo en el que sospechan perforación intestinal, ¿qué exploración radiológica estaría indicada?\n\nA) Abdomen en decúbito prono,\n\nB) Abdomen en decubito supino.\n\nC) Abdomen en decúbito lateral izquierdo.\n\nD) Abdomen en \"trendelenburg\",",
+    "fuente": "2021_sergas",
+    "anno": 2021,
+    "respuesta_correcta": null,
+    "tags": ["especifica"],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 106,
+    "numero_original": "106.",
+    "enunciado": "A Carmen le estamos realizando un estudio mamográfico y no se le puede completar la proyección mediolateral oblicua (MLO) rutinaria debido a pectus excavatum. ¿Qué proyección estaría recomendada realizarle?",
+    "opciones": {
+      "A": "Proyección craneocaudal exagerada.",
+      "B": "Proyección tangencial.",
+      "C": "Proyección inferomedial oblicua.",
+      "D": "Proyección lateromedial oblicua."
+    },
+    "raw_ocr": "106. A Carmen le estamos realizando un estudio mamográfico y no se le puede completar la proyección mediolateral oblicua (MLO) rutinaria debido a pectus excavatum. ¿Qué proyección estaría recomendado realizarle?\n\nA) Proyección craneocaudal exagerada.\n\nB)Proyección tangencial.\n\nC) Proyección inferomedial oblicua.\n\nD) Proyección lateromedial oblicua.",
+    "fuente": "2021_sergas",
+    "anno": 2021,
+    "respuesta_correcta": null,
+    "tags": ["especifica"],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 107,
+    "numero_original": "107.",
+    "enunciado": "Se sospecha de una obstrucción de intestino delgado en la Rx simple de abdomen en un paciente que colabora. ¿Qué realizaríamos?",
+    "opciones": {
+      "A": "Rx abdomen en decúbito prono.",
+      "B": "Rx decúbito lateral derecho.",
+      "C": "Rx de abdomen en bipedestación.",
+      "D": "Rx decúbito lateral izquierdo."
+    },
+    "raw_ocr": "107. Se sospecha de una obstrucción de intestino delgado en la Rx simple de abdomen en un paciente que colabora. ¿Qué realizaríamos?\n\nA) Rx abdomen en decúbito prono.\n\nB) Rx decúbito lateral derecho.\n\nC) Rx de andomen en bipedestación.\n\nD) Rx decúbito lateral izquierdo,",
+    "fuente": "2021_sergas",
+    "anno": 2021,
+    "respuesta_correcta": null,
+    "tags": ["especifica"],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 108,
+    "numero_original": "108.",
+    "enunciado": "Si tenemos que realizar una AP de vejiga, ¿hacia dónde se dirige el rayo central?",
+    "opciones": {
+      "A": "Perpendicular a la película entrando por el plano sagital medio a unos 5 cm de la sínfisis púbica.",
+      "B": "Con angulación caudal de 15º entrando por el plano sagital medio a unos 5 cm de la sínfisis púbica.",
+      "C": "Con una angulación caudal de 15º entrando por el plano medio a nivel de las crestas.",
+      "D": "Con una angulación craneal de 15º entrando por el plano sagital medio a unos 5 cm de la sínfisis púbica."
+    },
+    "raw_ocr": "108. Si tenemos que realizar una AP de vejiga, ¿hacia dónde se dirige el rayo central?\n\nA) Perpendicular a la película entrando por el plano sagital medio a unos 5 cm de la sínfisis púbica.\n\nB) Con angulación caudal de 15º entrando por el plano sagital medio a unos 5 cm de la sínfisis púbica,\nC) Con una angulación caudal 15º entrando por el plano medio a nivel de las crestas.\n\nD) Con una angulación craneal de 15º entrando por el plano sagital medio a unos 5 cm de la sínfisis púbica.",
+    "fuente": "2021_sergas",
+    "anno": 2021,
+    "respuesta_correcta": null,
+    "tags": ["especifica"],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 109,
+    "numero_original": "109.",
+    "enunciado": "¿Cuál es la vía de acceso más común para la realización de una urografía?",
+    "opciones": {
+      "A": "Arterías periféricas.",
+      "B": "Venosa central.",
+      "C": "Venosa periférica.",
+      "D": "Intramuscular."
+    },
+    "raw_ocr": "109. ¿Cuál es la vía de acceso más común para la realización de una urografía?\nA) Arterías periféricas.\n\nB) Venosa central.\n\nC) Venosa periférica.\n\nD) Intramuscular.",
+    "fuente": "2021_sergas",
+    "anno": 2021,
+    "respuesta_correcta": null,
+    "tags": ["especifica"],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 110,
+    "numero_original": "110.",
+    "enunciado": "Ante una sospecha clínica de una hernia de hiato, para verificarlo, ¿cuál sería la prueba que emplearías?",
+    "opciones": {
+      "A": "TEGD.",
+      "B": "Mamografía.",
+      "C": "Resonancia Magnética.",
+      "D": "Ecografía."
+    },
+    "raw_ocr": "110. Ante una sospecha clínica de una hernia de hiato, para verificarlo, ¿cuál sería la prueba que emplearías?\nA) TEGD.\n\nB) Mamoorafía.\n\nC) Resonancia Magnética.\n\nD) Ecografía,",
+    "fuente": "2021_sergas",
+    "anno": 2021,
+    "respuesta_correcta": null,
+    "tags": ["especifica"],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  }
+]
