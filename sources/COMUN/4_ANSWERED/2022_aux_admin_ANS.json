@@ -1,0 +1,233 @@
+[
+  {
+    "numero": 1,
+    "numero_original": "1.",
+    "enunciado": "De acuerdo con la Ley General de Sanidad, ¿cuál de los siguientes NO es un derecho de los usuarios de las administraciones públicas sanitarias?",
+    "opciones": {
+      "A": "Elegir el médico y los demás sanitarios titulados de acuerdo con las condiciones contempladas en esta Ley, en las disposiciones que se dicten para su desarrollo y en las que regulen el trabajo sanitario en los Centros de Salud.",
+      "B": "Que se le asigne un médico y un enfermero, cuyos nombres se le darán a conocer, que serán sus interlocutores principales con el equipo asistencial. En caso de ausencia, otro integrante del equipo asumirá tal responsabilidad.",
+      "C": "La confidencialidad de toda la información relacionada con su proceso y con su estancia en instituciones sanitarias públicas y privadas que colaboren con el sistema público.",
+      "D": "Ser advertido de si los procedimientos de pronóstico, diagnóstico y terapéuticos que se le apliquen pueden ser utilizados en función de un proyecto docente o de investigación."
+    },
+    "raw_ocr": "1. De acuerdo con la Ley General de Sanidad, ¿cuál de los siguientes NO es un derecho de los usuarios de las\nadministraciones públicas sanitarias?\n\nA) Elegir el médico y los demás sanitarios titulados de acuerdo con las condiciones contempladas en esta Ley,\nen las disposiciones que se dicten para su desarrollo y en las que regulen el trabajo sanitario en los Centros de\nSalud.\n\nB) Que se le asigne un médico y un enfermero, cuyos nombres se le darán a conocer, que serán sus\ninterlocutores principales con el equipo asistencial. En caso de ausencia, otro integrante del equipo asumirá tal\nresponsabilidad.\n\nC) La confidencialidad de toda la información relacionada con su proceso y con su estancia en instituciones\nsanitarias públicas y privadas que colaboren con el sistema público.\n\nD) Ser advertido de si los procedimientos de pronóstico, diagnóstico y terapéuticos que se le apliquen pueden\nser utilizados en función de un proyecto docente o de investigación.",
+    "fuente": "2022_aux_admin",
+    "anno": 2022,
+    "respuesta_correcta": "B",
+    "tags": [],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 2,
+    "numero_original": "2.",
+    "enunciado": "El personal estatutario de los servicios de salud se clasifica teniendo en cuenta:",
+    "opciones": {
+      "A": "La edad, el nivel del título exigido para el ingreso y el tipo de nombramiento.",
+      "B": "La edad, el género y el nivel del título exigido para el ingreso.",
+      "C": "El género, la función desarrollada y el nivel del título exigido para el ingreso.",
+      "D": "La función desarrollada, el nivel del título exigido para el ingreso y el tipo de nombramiento."
+    },
+    "raw_ocr": "2. El personal estatutario de los servicios de salud se clasifica teniendo en cuenta:\n\nA) La edad, el nivel del título exigido para el ingreso y el tipo de nombramiento.\nB) La edad, el género y el nivel del título exigido para el ingreso.\nC) El género, la función desarrollada y el nivel del título exigido para el ingreso.\nD) La función desarrollada, el nivel del título exigido para el ingreso y el tipo de nombramiento.",
+    "fuente": "2022_aux_admin",
+    "anno": 2022,
+    "respuesta_correcta": "D",
+    "tags": [],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 3,
+    "numero_original": "3.",
+    "enunciado": "Según el artículo 43 de la Constitución española, los poderes públicos fomentarán:",
+    "opciones": {
+      "A": "La educación social, la educación física y el deporte.",
+      "B": "La educación sanitaria, la educación física y el deporte.",
+      "C": "La educación sanitaria, la educación cultural y el deporte.",
+      "D": "La educación social, la educación sanitaria y la educación cultural."
+    },
+    "raw_ocr": "3. Según el artículo 43 de la Constitución española, los poderes públicos fomentarán:\n\nA) La educación social, la educación física y el deporte.\n\nB) La educación sanitaria, la educación física y el deporte.\n\nC) La educación sanitaria, la educación cultural y el deporte.\n\nD) La educación social, la educación sanitaria y la educación cultural.",
+    "fuente": "2022_aux_admin",
+    "anno": 2022,
+    "respuesta_correcta": "B",
+    "tags": [],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 4,
+    "numero_original": "4.",
+    "enunciado": "De acuerdo con el artículo 16 de la Ley Orgánica de medidas de protección integral contra la violencia de género, indique la respuesta INCORRECTA:",
+    "opciones": {
+      "A": "Dentro del Consejo Interterritorial del Sistema Nacional de Salud se constituirá una comisión contra la violencia de género.",
+      "B": "La comisión contra la violencia de género estará compuesta por representantes de todas las Comunidades Autónomas con competencias en la materia.",
+      "C": "La comisión contra la violencia de género emitirá un informe anual que será remitido al Observatorio estatal de la Violencia sobre la Mujer y al Pleno del Consejo Interterritorial.",
+      "D": "El presidente de la comisión contra la violencia de género informará semestralmente al Defensor del Pueblo de las actuaciones llevadas a cabo en la materia."
+    },
+    "raw_ocr": "4. De acuerdo con el artículo 16 de la Ley Orgánica de medidas de protección integral contra la violencia de\ngénero, indique la respuesta INCORRECTA:\n\nA) Dentro del Consejo Interterritorial del Sistema Nacional de Salud se constituirá una comisión contra la\nviolencia de género.\n\nB) La comisión contra la violencia de género estará compuesta por representantes de todas las Comunidades\nAutónomas con competencias en la materia.\n\nC) La comisión contra la violencia de género emitirá un informe anual que será remitido al Observatorio estatal\nde la Violencia sobre la Mujer y al Pleno del Consejo Interterritorial.\n\nD) El presidente de la comisión contra la violencia de género informará semestralmente al Defensor del Pueblo\nde las actuaciones llevadas a cabo en la materia.",
+    "fuente": "2022_aux_admin",
+    "anno": 2022,
+    "respuesta_correcta": "D",
+    "tags": [],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 5,
+    "numero_original": "5.",
+    "enunciado": "De acuerdo con el Decreto 206/2005, uno de los requisitos de los aspirantes para poder acceder en un concurso-oposición por el turno de promoción interna sería:",
+    "opciones": {
+      "A": "Estar en servicio activo en instituciones sanitarias del Servicio Gallego de Salud, y con nombramiento como personal estatutario fijo durante, por lo menos, cuatro años en la categoría de procedencia.",
+      "B": "Estar en servicio activo en instituciones sanitarias del Servicio Gallego de Salud, y con nombramiento como personal estatutario fijo durante, por lo menos, tres años en la categoría de procedencia.",
+      "C": "Estar en servicio activo en instituciones sanitarias del Servicio Gallego de Salud, y con nombramiento como personal estatutario fijo durante, por lo menos, dos años en la categoría de procedencia.",
+      "D": "Estar en servicio activo en instituciones sanitarias del Servicio Gallego de Salud, y con nombramiento como personal estatutario fijo durante, por lo menos, un año en la categoría de procedencia."
+    },
+    "raw_ocr": "5. De acuerdo con el Decreto 206/2005, uno de los requisitos de los aspirantes para poder acceder en un\nconcurso-oposición por el turno de promoción interna sería:\n\nA) Estar en servicio activo en instituciones sanitarias del Servicio Gallego de Salud, y con nombramiento como\npersonal estatutario fijo durante, por lo menos, cuatro años en la categoría de procedencia.\n\nB) Estar en servicio activo en instituciones sanitarias del Servicio Gallego de Salud, y con nombramiento como\npersonal estatutario fijo durante, por lo menos, tres años en la categoría de procedencia.\n\nC) Estar en servicio activo en instituciones sanitarias del Servicio Gallego de Salud, y con nombramiento como\npersonal estatutario fijo durante, por lo menos, dos años en la categoría de procedencia.\n\nD) Estar en servicio activo en instituciones sanitarias del Servicio Gallego de Salud, y con nombramiento como\npersonal estatutario fijo durante, por lo menos, un año en la categoría de procedencia.",
+    "fuente": "2022_aux_admin",
+    "anno": 2022,
+    "respuesta_correcta": "C",
+    "tags": [],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 6,
+    "numero_original": "6.",
+    "enunciado": "¿Cuál de los siguientes NO es un derecho del personal estatutario de los servicios de salud?",
+    "opciones": {
+      "A": "Mantener debidamente actualizados los conocimientos.",
+      "B": "Recibir asistencia y protección de las administraciones públicas.",
+      "C": "La movilidad voluntaria.",
+      "D": "La acción social."
+    },
+    "raw_ocr": "6. ¿Cuál de los siguientes NO es un derecho del personal estatutario de los servicios de salud?\n\nA) Mantener debidamente actualizados los conocimientos.\n\nB) Recibir asistencia y protección de las administraciones públicas.\nC) La movilidad voluntaria.\n\nD) La acción social.",
+    "fuente": "2022_aux_admin",
+    "anno": 2022,
+    "respuesta_correcta": "A",
+    "tags": [],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 7,
+    "numero_original": "7.",
+    "enunciado": "De acuerdo con la Ley de Salud de Galicia, se tipifica como infracción sanitaria grave:",
+    "opciones": {
+      "A": "La reincidencia en la comisión de infracciones leves en los últimos nueve meses.",
+      "B": "La reincidencia en la comisión de infracciones leves en los últimos seis meses.",
+      "C": "La reincidencia en la comisión de infracciones leves en los últimos tres meses.",
+      "D": "La reincidencia en la comisión de infracciones leves en el último mes."
+    },
+    "raw_ocr": "7. De acuerdo con la Ley de Salud de Galicia, se tipifica como infracción sanitaria grave:\n\nA) La reincidencia en la comisión de infracciones leves en los últimos nueve meses.\n\nB) La reincidencia en la comisión de infracciones leves en los últimos seis meses.\n\nC) La reincidencia en la comisión de infracciones leves en los últimos tres meses.\n\nD) La reincidencia en la comisión de infracciones leves en el último mes.",
+    "fuente": "2022_aux_admin",
+    "anno": 2022,
+    "respuesta_correcta": "C",
+    "tags": [],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 8,
+    "numero_original": "8.",
+    "enunciado": "¿De quién es la función de elegir de entre sus miembros al presidente de la Xunta de Galicia?",
+    "opciones": {
+      "A": "Del Parlamento de Galicia.",
+      "B": "De la Xunta de Galicia.",
+      "C": "Del Rey.",
+      "D": "Del Tribunal Superior de Justicia de Galicia."
+    },
+    "raw_ocr": "8. ¿De quién es la función de elegir de entre sus miembros al presidente de la Xunta de Galicia?\nA) Del Parlamento de Galicia.\n\nB) De la Xunta de Galicia.\n\nC) Del Rey.\n\nD) Del Tribunal Superior de Justicia de Galicia.",
+    "fuente": "2022_aux_admin",
+    "anno": 2022,
+    "respuesta_correcta": "A",
+    "tags": [],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 9,
+    "numero_original": "9.",
+    "enunciado": "De acuerdo con la Ley de Salud de Galicia, indique cuál de las siguientes afirmaciones es FALSA:",
+    "opciones": {
+      "A": "En el Sistema Público de Salud de Galicia están configurados 15 distritos sanitarios.",
+      "B": "Cada distrito sanitario contará con un hospital en su ámbito geográfico.",
+      "C": "La división territorial del Sistema Público de Salud de Galicia se estructura en 7 áreas sanitarias.",
+      "D": "Las zonas sanitarias son las unidades básicas de prestación de servicios sanitarios."
+    },
+    "raw_ocr": "9. De acuerdo con la Ley de Salud de Galicia, indique cuál de las siguientes afirmaciones es FALSA:\n\nA) En el Sistema Público de Salud de Galicia están configurados 15 distritos sanitarios.\n\nB) Cada distrito sanitario contará con un hospital en su ámbito geográfico.\n\nC) La división territorial del Sistema Público de Salud de Galicia se estructura en 7 áreas sanitarias.\n\nD) Las zonas sanitarias son las unidades básicas de prestación de servicios sanitarios.",
+    "fuente": "2022_aux_admin",
+    "anno": 2022,
+    "respuesta_correcta": "A",
+    "tags": [],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 11,
+    "numero_original": "11.",
+    "enunciado": "De acuerdo con la Ley de Salud de Galicia, si una misma acción u omisión fuese constitutiva de dos o más infracciones, se tomará en consideración:",
+    "opciones": {
+      "A": "Únicamente aquella que implique mayor sanción.",
+      "B": "La totalidad de las infracciones cometidas.",
+      "C": "Únicamente aquella que implique menor sanción.",
+      "D": "Ninguna respuesta es correcta."
+    },
+    "raw_ocr": "11. De acuerdo con la Ley de Salud de Galicia, si una misma acción u omisión fuese constitutiva de dos o más\ninfracciones, se tomará en consideración:\nA) Únicamente aquella que implique mayor sanción.\n\nB) La totalidad de las infracciones cometidas.\nC) Únicamente aquella que implique menor sanción.\n\nD) Ninguna respuesta es correcta.",
+    "fuente": "2022_aux_admin",
+    "anno": 2022,
+    "respuesta_correcta": "A",
+    "tags": [],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 12,
+    "numero_original": "12.",
+    "enunciado": "¿Qué ley regula el Estatuto de Autonomía de Galicia?",
+    "opciones": {
+      "A": "Ley Orgánica 1/1980, de 5 de abril.",
+      "B": "Ley Orgánica 1/1980, de 6 de abril.",
+      "C": "Ley Orgánica 1/1981, de 5 de abril.",
+      "D": "Ley Orgánica 1/1981, de 6 de abril."
+    },
+    "raw_ocr": "12. ¿Qué ley regula el Estatuto de Autonomía de Galicia?\nA) Ley Orgánica 1/1980, de 5 de abril.\nB) Ley Orgánica 1/1980, de 6 de abril.\nC) Ley Orgánica 1/1981, de 5 de abril.\nD) Ley Orgánica 1/1981, de 6 de abril.",
+    "fuente": "2022_aux_admin",
+    "anno": 2022,
+    "respuesta_correcta": "D",
+    "tags": [],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  }
+]

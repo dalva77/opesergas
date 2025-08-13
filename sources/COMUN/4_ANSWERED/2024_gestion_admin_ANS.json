@@ -1,0 +1,254 @@
+[
+  {
+    "numero": 1,
+    "numero_original": "1.",
+    "enunciado": "Escoja la respuesta correcta.",
+    "opciones": {
+      "A": "La convocatoria de elecciones al Parlamento de Galicia se realiza mediante Decreto que se publica en el Diario Oficial de Galicia y entra en vigor al día siguiente de su publicación.",
+      "B": "La convocatoria de elecciones al Parlamento de Galicia se realiza mediante Decreto que se publica en el Boletín Oficial del Estado y entra en vigor el mismo día de su publicación.",
+      "C": "La convocatoria de elecciones al Parlamento de Galicia se realiza mediante Decreto que se publica en el Diario Oficial de Galicia y entra en vigor el mismo día de su publicación.",
+      "D": "La convocatoria de elecciones al Parlamento de Galicia se realiza mediante Decreto que se publica simultáneamente en el Boletín Oficial de Estado y en el Diario Oficial de Galicia y entra en vigor el mismo día de su publicación."
+    },
+    "raw_ocr": "1. Escoja la respuesta correcta\n\nA) La convocatoria de elecciones al Parlamento de Galicia se realiza mediante Decreto que se publica en el\nDiario Oficial de Galicia y entra en vigor al día siguiente de su publicación\n\nB) La convocatoria de elecciones al Parlamento de Galicia se realiza mediante Decreto que se publica en el\nBoletín Oficial del Estado y entra en vigor el mismo día de su publicación\n\nC) La convocatoria de elecciones al Parlamento de Galicia se realiza mediante Decreto que se publica en el\nDiario Oficial de Galicia y entra en vigor el mismo día de su publicación\n\nD) La convocatoria de elecciones al Parlamento de Galicia se realiza mediante Decreto que se publica\nsimultáneamente en el Boletín Oficial de Estado y en el Diario Oficial de Galicia y entra en vigor el mismo día de su publicación",
+    "fuente": "2024_gestion_admin",
+    "anno": 2024,
+    "respuesta_correcta": "C",
+    "tags": [],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 2,
+    "numero_original": "2.",
+    "enunciado": "De acuerdo con el artículo 7 de la Ley Orgánica 6/1985, de 1 de julio, del Poder Judicial, ¿a quién se le reconoce legitimación para la defensa de intereses legítimos colectivos?",
+    "opciones": {
+      "A": "A las corporaciones, asociaciones y organizaciones sindicales para la defensa de cualquiera derechos e intereses legítimos.",
+      "B": "A las corporaciones, asociaciones y organizaciones sindicales cuando estén legalmente habilitados para su defensa y promoción.",
+      "C": "A las corporaciones, asociaciones, organizaciones sindicales y grupos que resulten afectados o que estén legalmente habilitados para su defensa y promoción.",
+      "D": "A cualquier particular que vea afectados sus derechos e intereses legítimos."
+    },
+    "raw_ocr": "2. De acuerdo con el artículo 7 de la Ley Orgánica 6/1985, de 1 de julio, del Poder Judicial ¿a quién se le\nreconoce legitimación para la defensa de intereses légitimos colectivos?\n\nA) A las corporaciones, asociaciones y organizaciones sindicales para la defensa de cualquiera derechos e\nintereses legítimos\n\nB) A las corporaciones, asociaciones y organizaciones sindicales cuando estén legalmente habilitados para su\ndefensa y promoción\n\nC) A las corporaciones, asociaciones, organizaciones sindicales y grupos que resulten afectados o que estén\nlegalmente habilitados para su defensa y promoción\n\nD) A cualquier particular que vea afectados sus derechos e intereses legítimos",
+    "fuente": "2024_gestion_admin",
+    "anno": 2024,
+    "respuesta_correcta": "C",
+    "tags": [],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 3,
+    "numero_original": "3.",
+    "enunciado": "Para la reforma de los Estatutos de Autonomía, ¿qué se requiere?",
+    "opciones": {
+      "A": "La aprobación de las Cortes Generales mediante una ley ordinaria.",
+      "B": "La aprobación del Gobierno mediante mayoría absoluta.",
+      "C": "En todo caso la aprobación del Congreso, del Senado y de la Asamblea Legislativa de la correspondiente Comunidad Autónoma.",
+      "D": "En todo caso la aprobación por las Cortes Generales mediante Ley Orgánica."
+    },
+    "raw_ocr": "3. Para la reforma de los Esatutos de Autonomía ¿qué se requiere?\nA) La aprobación de las Cortes Generales mediante una ley ordinaria\nB) La aprobación del Gobierno mediante mayoria absoluta\n\nC) En todo caso la aprobación del Congreso, del Senado y de la Asamblea Legislativa de la correspondiente\nComunidad Autónoma\n\nD) En todo caso la aprobación por las Cortes Generales mediante Ley Orgánica",
+    "fuente": "2024_gestion_admin",
+    "anno": 2024,
+    "respuesta_correcta": "D",
+    "tags": [],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 4,
+    "numero_original": "4.",
+    "enunciado": "¿Qué actividad puede supervisar el Valedor do Pobo?",
+    "opciones": {
+      "A": "La de la Administración Autonómica gallega, la del Parlamento y la de la Administración local en materias que sean competencia de la Comunidad Autónoma gallega.",
+      "B": "La de la Administración Autonómica gallega, la de sus entes y empresas públicas o dependientes, así como la de la Administración local en aquellas materias que son competencia de la Comunidad Autónoma gallega.",
+      "C": "La de la Administración Autonómica gallega, la de sus entes y empresas públicas o dependientes, la de la Administración local en aquellas materias que sean competencia de la Comunidad Autónoma gallega y la del Presidente autonómico.",
+      "D": "Todas las anteriores son correctas."
+    },
+    "raw_ocr": "4. ¿Qué actividad puede supervisar el Valedor do Pobo?\n\nA) La de la Administración Autonómica gallega, la del Parlamento y la de la Administración local en materias\nque sean competencia de la Comunidad Autónoma gallega\n\nB) La de la Administración Autonómica gallega, la de sus entes y empresas públicas o dependientes, así como\nla de la Administración local en aquellas materias que son competencia de la Comunidad Autónoma gallega\n\nC) La de la Administración Autonómica gallega, la de sus entes y empresas públicas o dependeientes, la de la\nAdministración local en aquellas materias que sean competencia de la Comunidad Autónoma gallega y la del\nPresidente autonómico\n\nD) Todas las anteriores son correctas",
+    "fuente": "2024_gestion_admin",
+    "anno": 2024,
+    "respuesta_correcta": "B",
+    "tags": [],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 5,
+    "numero_original": "5.",
+    "enunciado": "¿La tutela de qué libertades y derechos puede recabarse por un procedimiento basado en los principios de preferencia y sumariedad?",
+    "opciones": {
+      "A": "Los reconocidos en el artículo 14 y la Sección 1 del Capítulo Segundo del Título I de la Constitución y la objeción de conciencia reconocida en el artículo 30.",
+      "B": "Los reconocidos en la Sección 2 del Capítulo Segundo del Título I de la Constitución.",
+      "C": "Los reconocidos en el artículo 14 y la Sección 1 del Capítulo Segundo del Título I de la Constitución.",
+      "D": "Los reconocidos en la Sección 1 y 2 del Capítulo Segundo del Título I de la Constitución."
+    },
+    "raw_ocr": "5. ¿La tutela de qué libertades y derechos puede recabarse por un procedimiento basado en los principios de\npreferencia y sumariedad?\n\nA) Los reconocidos en el artículo 14 y la Sección 1* del Capítulo Segundo del Título | de la Constitución y la objeción de conciencia reconocida en el artículo 30\n\nB) Los reconocidos en la Sección 2* del Capítulo Segundo del Título | de la Constitución\n\nC) Los reconocidos en el artículo 14 y la Sección 1* del Capítulo Segundo del Título | de la Constitución\n\nD) Los reconocidos en la Sección 1*y 2* del Capítulo Segundo del Título | de la Constitución",
+    "fuente": "2024_gestion_admin",
+    "anno": 2024,
+    "respuesta_correcta": "C",
+    "tags": [],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 6,
+    "numero_original": "6.",
+    "enunciado": "De acuerdo con el artículo 3 del Estatuto de Autonomía de Galicia, ¿quién goza de la condición política de gallego?",
+    "opciones": {
+      "A": "Todas las personas nacidas en Galicia.",
+      "B": "Los ciudadanos españoles que, de acuerdo con las normas que dicte el Parlamento de Galicia, tengan vecindad administrativa en cualquiera de los municipios de Galicia.",
+      "C": "Los ciudadanos españoles que, de acuerdo con las leyes generales del Estado, tengan vecindad administrativa en cualquiera de los municipios de Galicia.",
+      "D": "Los ciudadanos españoles que tengan vecindad administrativa y desarrollen su actividad laboral en cualquiera de los municipios de Galicia."
+    },
+    "raw_ocr": "6. De acuerdo con el artículo 3 del Estatuto de Autonomía de Galicia ¿quién goza de la condición política de\ngallego?\n\nA) Todos las personas nacidas en Galicia\n\nB) Los ciudadanos españoles que, de acuerdo con las normas que dicte el Parlamento de Galicia, tengan\nvecindad administrativa en cualquiera de los municipios de Galicia\n\nC) Los ciudadanos españoles que, de acuerdo con las leyes generales del Estado, tengan vecindad\nadministrativa en cualquiera de los municipios de Galicia\n\nD) Los ciudadanos españoles que tengan vecindad administrativa y desarrollen su actividad laboral en\ncualquiera de los municipios de Galicia",
+    "fuente": "2024_gestion_admin",
+    "anno": 2024,
+    "respuesta_correcta": "C",
+    "tags": [],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 7,
+    "numero_original": "7.",
+    "enunciado": "¿Quién ejerce el control de la actividad de los órganos de las Comunidades Autónomas de acuerdo con el artículo 153 de la Constitución Española?",
+    "opciones": {
+      "A": "La jurisdicción contenciosa-administrativa, el de la administración autónoma y sus normas reglamentarias, así como la jurisdicción social cuando la legislación laboral les atribuya responsabilidad.",
+      "B": "El Gobierno, el del ejercicio de funciones delegadas a que se refiere el apartado 1 del artículo 150 de la Constitución Española.",
+      "C": "El Tribunal Constitucional, el relativo a la constitucionalidad de sus disposiciones normativas con fuerza de ley.",
+      "D": "El Gobierno, el Defensor del Pueblo y el Tribunal de Cuentas el económico y presupuestario."
+    },
+    "raw_ocr": "7. ¿Quién ejerce el control de la actividad de los órganos de las Comunidades Autónomas de acuerdo con el\nartículo 153 de la Constitución Española?\n\nA) La jusrisdicción contenciosa-administrativa, el de la administración autónoma y sus normas reglamentarias,\nasí como la jurisdicción social cuando la legislación laboral les atribuya responsabilidad\n\nB) El Gobierno, el del ejercicio de funciones delegadas a que se refiere el apartado 1 del artículo 150 de la\nConstitución Española\n\nC) El Tribunal Constitucional, el relativo a la constitucionalidad de sus disposiciones normativas con fuerza de ley\n\nD) El Gobierno, el Defensor del Pueblo y el Tribunal de Cuentas el económico y presupuestario",
+    "fuente": "2024_gestion_admin",
+    "anno": 2024,
+    "respuesta_correcta": "C",
+    "tags": [],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 8,
+    "numero_original": "8.",
+    "enunciado": "¿Cuál es el supremo órgano consultivo del Gobierno?",
+    "opciones": {
+      "A": "El Consejo de Ministros",
+      "B": "El Tribunal de Cuentas",
+      "C": "El Defensor del Pueblo",
+      "D": "El Consejo de Estado"
+    },
+    "raw_ocr": "8. ¿Cuál es el supremo órgano consultivo del Gobierno?\nA) El Consejo de Ministros\n\nB) El Tribunal de Cuentas\n\nC) El Defensor del Pueblo\n\nD) El Consejo de Estado",
+    "fuente": "2024_gestion_admin",
+    "anno": 2024,
+    "respuesta_correcta": "D",
+    "tags": [],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 9,
+    "numero_original": "9.",
+    "enunciado": "¿Cuáles de las siguientes materias están reservadas a Ley Orgánica según la Constitución Española?",
+    "opciones": {
+      "A": "La resolución de las abdicaciones, renuncias y cualquier duda de hecho o de derecho que ocurra en el orden de sucesión de la Corona.",
+      "B": "Las que señalen los términos de elección de senadores en cada provincia.",
+      "C": "Las que regulen las formas de ejercicio y requisitos de la iniciativa popular para la presentación de proposiciones de ley.",
+      "D": "Todas las anteriores son materias que requieren ser reguladas mediante una ley orgánica."
+    },
+    "raw_ocr": "9. Cuáles de las siguientes materias están reservadas a Ley Orgánica según la Constitucion Española\n\nA) La resolución de las abdicaciones, renuncias y cualquier duda de hecho o de derecho que ocurra en el orden\nde sucesión de la Corona\n\nB) Las que señalen los términos de elección de senadores en cada provincia\n\nC) Las que regulen las formas de ejercicio y requisitos de la iniciativa popular para la presentación de\nproposiciones de ley\n\nD) Todas las anteriores son materias que requieren ser reguladas mediante una ley orgánica",
+    "fuente": "2024_gestion_admin",
+    "anno": 2024,
+    "respuesta_correcta": "D",
+    "tags": [],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 10,
+    "numero_original": "10.",
+    "enunciado": "Indique la respuesta correcta.",
+    "opciones": {
+      "A": "Galicia, Cataluña, Valencia y Andalucía accedieron a la autonomía por la vía del artículo 151 de la Constitución Española.",
+      "B": "Galicia, País Vasco, Andalucía y Canarias accedieron a la autonomía por la vía del artículo 151 de la Constitución Española.",
+      "C": "Galicia, País Vasco, Cataluña y Andalucía accedieron a la autonomía por la vía del artículo 143 de la Constitución Española.",
+      "D": "Galicia, Cataluña, País Vasco y Andalucía accedieron a la autonomía por la vía del artículo 151 de la Constitución Española."
+    },
+    "raw_ocr": "10. Indique la respuesta correcta\n\nA) Galicia, Cataluña, Valencia y Andalucía accedieron a la autonomía por la vía del artículo 151 de la\nConstitucion Española\n\nB) Galicia, País Vasco, Andalucía y Canarias accedieron a la autonomía por la vía del artículo 151 de la\nConstitución Española\n\nC) Galicia, País Vasco, Cataluña y Andalucía accedieron a la autonomía por la vía del artículo 143 de la\nConstitución Española\n\nD) Galicia, Cataluña, País Vasco y Andalucía accedieron a la autonomía por la vía del artículo 151 de la\nConstitución Española",
+    "fuente": "2024_gestion_admin",
+    "anno": 2024,
+    "respuesta_correcta": "D",
+    "tags": [],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 11,
+    "numero_original": "11.",
+    "enunciado": "¿Quién es el máximo representante del Poder Judicial en la Comunidad Autónoma de Galicia?",
+    "opciones": {
+      "A": "El presidente del Consejo General del Poder Judicial",
+      "B": "El presidente del Tribunal Constitucional",
+      "C": "El presidente del Tribunal Supremo",
+      "D": "El presidente del Tribunal Superior de Justicia de Galicia"
+    },
+    "raw_ocr": "11. ¿Quién es el máximo representante del Poder Judicial en la Comunidad Autónoma de Galicia?\nA) El presidente del Consejo General del Poder Judicial\n\nB) El presidente del Tribunal Constitucional\n\nC) El presidente del Tribunal Supremo\n\nD) El presidente del Tribunal Superior de Justicia de Galicia",
+    "fuente": "2024_gestion_admin",
+    "anno": 2024,
+    "respuesta_correcta": "D",
+    "tags": [],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 12,
+    "numero_original": "12.",
+    "enunciado": "¿Conforme a qué principio ejerce sus funciones el Ministerio Fiscal? Señale la respuesta correcta.",
+    "opciones": {
+      "A": "Independencia jerárquica.",
+      "B": "Unidad de actuación.",
+      "C": "Desconcentración.",
+      "D": "Todas son correctas."
+    },
+    "raw_ocr": "12. ¿Conforme a qué principio ejerce sus funciones el Ministerio Fiscal?. Señale la respuesta correcta\n\nA) Independencia jerárquica\n\nB) Unidad de actuación\nC) Desconcentración\nD) Todas son correctas",
+    "fuente": "2024_gestion_admin",
+    "anno": 2024,
+    "respuesta_correcta": "B",
+    "tags": [],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  }
+]

@@ -1,0 +1,254 @@
+[
+  {
+    "numero": 1,
+    "numero_original": "1.",
+    "enunciado": "Conforme el artículo 46 de la Ley 14/1986, General de Sanidad, señale cuál es una característica fundamental del Sistema Nacional de Salud:",
+    "opciones": {
+      "A": "La elaboración de un marco común para la gestión efectiva de los servicios sanitarios privados.",
+      "B": "La concentración de recursos sanitarios públicos y privados.",
+      "C": "La prestación de una atención integral de la salud procurando altos niveles de calidad debidamente evaluados y controlados.",
+      "D": "La regulación e imposición de cotizaciones y tasas para la prestación de servicios sanitarios."
+    },
+    "raw_ocr": "1. Conforme el artículo 46 de la Ley 14/1986, General de Sanidad, señale cuál es una característica\nfundamental del Sistema Nacional de Salud:\n\nA) La elaboración de un marco común para la gestión efectiva de los servicios sanitarios privados.\nB) La concentración de recursos sanitarios públicos y privados.\n\nC) La prestación de una atención integral de la salud procurando altos niveles de calidad debidamente\nevaluados y controlados.\n\nD) La regulación e imposición de cotizaciones y tasas para la prestación de servicios sanitarios.",
+    "fuente": "2024_tecnico_lab",
+    "anno": 2024,
+    "respuesta_correcta": "C",
+    "tags": [],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 2,
+    "numero_original": "2.",
+    "enunciado": "Según la Constitución Española, el alto comisionado de las Cortes Generales, designado por éstas para la defensa de los derechos comprendidos en el Título I - De los derechos y deberes fundamentales, es:",
+    "opciones": {
+      "A": "El Defensor del pueblo.",
+      "B": "El Presidente del Senado.",
+      "C": "El Jefe de Estado.",
+      "D": "El Presidente del Gobierno."
+    },
+    "raw_ocr": "2. Según la Constitución Española, el alto comisionado de las Cortes Generales, designado por éstas para la\ndefensa de los derechos comprendidos en el Título I-De los derechos y deberes fundamentales, es:\n\nA) El Defensor del pueblo.\n\nB) El Presidente del Senado.\n\nC) El Jefe de Estado.\n\nD) El Presidente del Gobierno.",
+    "fuente": "2024_tecnico_lab",
+    "anno": 2024,
+    "respuesta_correcta": "A",
+    "tags": [],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 3,
+    "numero_original": "3.",
+    "enunciado": "Atendiendo al Decreto 206/2005, de provisión de plazas del personal estatutario del Servicio Gallego de Salud, quien se encuentre en situación de comisión de servicios:",
+    "opciones": {
+      "A": "Pasa a situación de reingreso al servicio activo.",
+      "B": "Tiene derecho a la reserva de su plaza o puesto de trabajo.",
+      "C": "Pasa a situación de excedencia voluntaria en su plaza de origen.",
+      "D": "Es obligatorio que participe en el próximo concurso de traslados que se celebre para su categoría."
+    },
+    "raw_ocr": "3. Atendiendo al Decreto 206/2005, de provisión de plazas del personal estatutario del Servicio Gallego de\nSalud, quien se encuentre en situación de comisión de servicios:\n\nA) Pasa a situación de reingreso al servicio activo.\n\nB) Tiene derecho a la reserva de su plaza o puesto de trabajo.\nC) Pasa a situación de excedencia voluntaria en su plaza de origen.\n\nD) Es obligatorio que participe en el próximo concurso de traslados que se celebre para su categoría.",
+    "fuente": "2024_tecnico_lab",
+    "anno": 2024,
+    "respuesta_correcta": "B",
+    "tags": [],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 4,
+    "numero_original": "4.",
+    "enunciado": "En relación con la selección de personal estatutario fijo, y según lo dispuesto en el artículo 6 del Decreto 206/2005, de provisión de plazas de personal estatutario del Servicio Gallego de Salud, cuando las peculiaridades de las tareas específicas que se van a desarrollar o el nivel de cualificación requerida así lo aconsejen, la selección se podrá realizar por:",
+    "opciones": {
+      "A": "El sistema de oposición.",
+      "B": "El sistema de concurso-oposición.",
+      "C": "El sistema de concurso.",
+      "D": "El sistema de promoción interna."
+    },
+    "raw_ocr": "4. En relación con la selección de personal estatutario fijo, y según lo dispuesto en el artículo 6 del Decreto 206/2005, de provisión de plazas de personal estatutario del Servicio Gallego de Salud, cuando las\npeculiaridades de las tareas específicas que se van a desarrollar o el nivel de cualificación requerida así lo aconsejen, la selección se podrá realizar por:\n\nA) El sistema de oposición.\n\nB) El sistema de concurso-oposición.\n\nC) El sistema de concurso.\n\nD) El sistema de promoción interna.",
+    "fuente": "2024_tecnico_lab",
+    "anno": 2024,
+    "respuesta_correcta": "C",
+    "tags": [],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 5,
+    "numero_original": "5.",
+    "enunciado": "Según lo establecido en el artículo 4 de la Ley 31/1995, de prevención de riesgos laborales, señale cuál es la definición correcta del 'riesgo laboral':",
+    "opciones": {
+      "A": "Las máquinas e instrumentos que se utilizan en el puesto de trabajo.",
+      "B": "Las enfermedades o patologías sufridas con motivo u ocasión del trabajo.",
+      "C": "Las actividades o medidas adoptadas para disminuir los riesgos del puesto de trabajo.",
+      "D": "La posibilidad de que un trabajador sufra un determinado daño derivado del trabajo."
+    },
+    "raw_ocr": "5. Según lo establecido en el artículo 4 de la Ley 31/1995, de prevención de riesgos laborales, señale cuál es la definición correcta del \"riesgo laboral\":\n\nA) Las máquinas e instrumentos que se utilizan en el puesto de trabajo.\n\nB) Las enfermedades o patologías sufridas con motivo u ocasión del trabajo.\n\nC) Las actividades o medidas adoptadas para disminuir los riesgos del puesto de trabajo.\n\nD) La posibilidad de que un trabajador sufra un determinado daño derivado del trabajo.",
+    "fuente": "2024_tecnico_lab",
+    "anno": 2024,
+    "respuesta_correcta": "D",
+    "tags": [],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 6,
+    "numero_original": "6.",
+    "enunciado": "Según la Ley 8/2008, de salud de Galicia, ¿a qué órgano corresponde la dirección del Sistema Público de Salud de Galicia?",
+    "opciones": {
+      "A": "Al Consello Consultivo de Galicia.",
+      "B": "Al Ministerio competente en materia de sanidad.",
+      "C": "A la Consellería competente en materia de sanidad.",
+      "D": "A la Consellería competente en materia de atención ciudadana."
+    },
+    "raw_ocr": "6. Según la Ley 8/2008, de salud de Galicia, ¿a qué órgano corresponde la dirección del Sistema Público de\nSalud de Galicia?\n\nA) Al Consello Consultivo de Galicia.\n\nB) Al Ministerio competente en materia de sanidad.\n\nC) A la Consellería competente en materia de sanidad.\n\nD) A la Consellería competente en materia de atención ciudadana.",
+    "fuente": "2024_tecnico_lab",
+    "anno": 2024,
+    "respuesta_correcta": "C",
+    "tags": [],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 7,
+    "numero_original": "7.",
+    "enunciado": "Atendiendo al Estatuto Marco, indique cuál de las siguientes retribuciones no se considera básica:",
+    "opciones": {
+      "A": "Sueldo asignado a cada categoría en función del título exigido para su desempeño.",
+      "B": "Trienios.",
+      "C": "Dos pagas extraordinarias al año.",
+      "D": "Complemento específico."
+    },
+    "raw_ocr": "7. Atendiendo al Estatuto Marco, indique cuál de las siguientes retribuciones no se considera básica:\n\nA) Sueldo asignado a cada categoría en función del título exigido para su desempeño.\n\nB) Trienios.\n\nC) Dos pagas extraordinarias al año.\n\nD) Complemento específico.",
+    "fuente": "2024_tecnico_lab",
+    "anno": 2024,
+    "respuesta_correcta": "D",
+    "tags": [],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 8,
+    "numero_original": "8.",
+    "enunciado": "Según la Ley Orgánica 3/2018, de protección de datos personales y garantía de derechos digitales, señale cuál de las siguientes afirmaciones es falsa, respecto al deber de confidencialidad:",
+    "opciones": {
+      "A": "Este deber se extingue cuando finalice la relación del obligado con el responsable o encargado del tratamiento.",
+      "B": "Los responsables del tratamiento de datos están sujetos al deber de confidencialidad.",
+      "C": "Los encargados del tratamiento de datos están sujetos al deber de confidencialidad.",
+      "D": "La obligación general del deber de confidencialidad será complementaria a los deberes de secreto profesional."
+    },
+    "raw_ocr": "8. Según la Ley Orgánica 3/2018, de protección de datos personales y garantía de derechos digitales, señale\ncuál de las siguientes afirmaciones es falsa, respecto al deber de confidencialidad:\n\nA) Este deber se extingue cuando finalice la relación del obligado con el responsable o encargado del\ntratamiento.\n\nB) Los responsables del tratamiento de datos están sujetos al deber de confidencialidad.\n\nC) Los encargados del tratamiento de datos están sujetos al deber de confidencialidad.\n\nD) La obligación general del deber de confidencialidad será complementaria a los deberes de secreto\nprofesional.",
+    "fuente": "2024_tecnico_lab",
+    "anno": 2024,
+    "respuesta_correcta": "A",
+    "tags": [],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 9,
+    "numero_original": "9.",
+    "enunciado": "Según el Estatuto Marco, atendiendo al nivel académico del título exigido para el ingreso, el personal estatutario sanitario se clasifica en:",
+    "opciones": {
+      "A": "Personal de formación universitaria y personal de formación profesional.",
+      "B": "Personal médico, personal de enfermería y personal de formación profesional.",
+      "C": "Personal licenciado sanitario y resto de personal.",
+      "D": "Personal titulado superior y personal titulado de grado medio."
+    },
+    "raw_ocr": "9. Según el Estatuto Marco, atendiendo al nivel académico del título exigido para el ingreso, el personal\nestatutario sanitario se clasifica en:\n\nA) Personal de formación universitaria y personal de formación profesional.\n\nB) Personal médico, personal de enfermería y personal de formación profesional.\nC) Personal licenciado sanitario y resto de personal.\n\nD) Personal titulado superior y personal titulado de grado medio.",
+    "fuente": "2024_tecnico_lab",
+    "anno": 2024,
+    "respuesta_correcta": "A",
+    "tags": [],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 10,
+    "numero_original": "10.",
+    "enunciado": "Indique cuál de las siguientes afirmaciones es falsa, respecto al Parlamento de Galicia, según el Estatuto de Autonomía:",
+    "opciones": {
+      "A": "Es inviolable.",
+      "B": "Será elegido por un plazo de cinco años.",
+      "C": "Ejerce la potestad legislativa de la Comunidad Autónoma.",
+      "D": "Está constituido por Diputados elegidos por sufragio universal."
+    },
+    "raw_ocr": "10. Indique cuál de las siguientes afirmaciones es falsa, respecto al Parlamento de Galicia, según el Estatuto de Autonomía:\n\nA) Es inviolable.\n\nB) Será elegido por un plazo de cinco años.\nC) Ejerce la potestad legislativa de la Comunidad Autónoma.\nD) Está constituido por Diputados elegidos por sufragio universal.",
+    "fuente": "2024_tecnico_lab",
+    "anno": 2024,
+    "respuesta_correcta": "B",
+    "tags": [],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 11,
+    "numero_original": "11.",
+    "enunciado": "Según lo establecido en el Decreto 206/2005, de provisión de plazas de personal estatutario del Servicio Gallego de Salud, no podrá formar parte de los tribunales de selección:",
+    "opciones": {
+      "A": "El personal eventual.",
+      "B": "El personal estatutario fijo.",
+      "C": "El personal funcionario de carrera.",
+      "D": "El personal laboral fijo de los centros vinculados al Sistema Nacional de Salud."
+    },
+    "raw_ocr": "11. Según lo establecido en el Decreto 206/2005, de provisión de plazas de personal estatutario del Servicio\nGallego de Salud, no podrá formar parte de los tribunales de selección:\nA) El personal eventual.\nB) El personal estatutario fijo.\nC) El personal funcionario de carrera.\nD) El personal laboral fijo de los centros vinculados al Sistema Nacional de Salud.",
+    "fuente": "2024_tecnico_lab",
+    "anno": 2024,
+    "respuesta_correcta": "A",
+    "tags": [],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 12,
+    "numero_original": "12.",
+    "enunciado": "De las siguientes opciones, señale cuál es la correcta sobre el Servicio Gallego de Salud, según lo establecido en la Ley 8/2008, de salud de Galicia:",
+    "opciones": {
+      "A": "Es una agencia pública.",
+      "B": "Está adscrito al Consello de la Xunta.",
+      "C": "No tiene plena capacidad para el cumplimiento de sus fines.",
+      "D": "Está dotado de personalidad jurídica propia."
+    },
+    "raw_ocr": "12. De las siguientes opciones, señale cuál es la correcta sobre el Servicio Gallego de Salud, según lo establecido en la Ley 8/2008, de salud de Galicia:\nA) Es una agencia pública.\nB) Está adscrito al Consello de la Xunta.\nC) No tiene plena capacidad para el cumplimiento de sus fines.\n\nD) Está dotado de personalidad jurídica propia.",
+    "fuente": "2024_tecnico_lab",
+    "anno": 2024,
+    "respuesta_correcta": "D",
+    "tags": [],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  }
+]

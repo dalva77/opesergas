@@ -1,0 +1,254 @@
+[
+  {
+    "numero": 1,
+    "numero_original": "1.",
+    "enunciado": "Entre los siguientes, indique cuál NO es un órgano de una área sanitaria del Sistema Público de Salud de Galicia:",
+    "opciones": {
+      "A": "Dirección Asistencial.",
+      "B": "Dirección de Atención Primaria.",
+      "C": "Dirección de Prevención de Riesgos Laborales.",
+      "D": "Dirección de Recursos Humanos."
+    },
+    "raw_ocr": "1. Entre los siguientes, indique cuál NO es un órgano de una área sanitaria del Sistema Público de Salud de\nGalicia:\nA) Dirección Asistencial.\n\nB) Dirección de Atención Primaria.\nC) Dirección de Prevención de Riesgos Laborales.\n\nD) Dirección de Recursos Humanos.",
+    "fuente": "2022_enfermeria_ap",
+    "anno": 2022,
+    "respuesta_correcta": "C",
+    "tags": [],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 2,
+    "numero_original": "2.",
+    "enunciado": "De conformidad con el artículo 1 de la Ley 14/1986, de 25 de abril, General de Sanidad, son titulares del derecho a la protección de la salud y a la atención sanitaria:",
+    "opciones": {
+      "A": "Todos los españoles residentes en el territorio nacional y en situación de alta en la Seguridad Social.",
+      "B": "Todos los españoles.",
+      "C": "Todos los españoles y los ciudadanos extranjeros que tengan establecida su residencia en la Unión Europea.",
+      "D": "Todos los españoles y los ciudadanos extranjeros que tengan establecida su residencia en el territorio nacional."
+    },
+    "raw_ocr": "2. De conformidad con el artículo 1 de la Ley 14/1986, de 25 de abril, General de Sanidad, son titulares del\nderecho a la protección de la salud y a la atención sanitaria:\n\nA) Todos los españoles residentes en el territorio nacional y en situación de alta en la Seguridad Social.\n\nB) Todos los españoles.\n\nC) Todos los españoles y los ciudadanos extranjeros que tengan establecida su residencia en la Unión Europea.\nD) Todos los españoles y los ciudadanos extranjeros que tengan establecida su residencia en el territorio\nnacional.",
+    "fuente": "2022_enfermeria_ap",
+    "anno": 2022,
+    "respuesta_correcta": "D",
+    "tags": [],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 3,
+    "numero_original": "3.",
+    "enunciado": "Según la Ley 55/2003, de 16 de diciembre, del Estatuto Marco del personal estatutario de los servicios de salud, el órgano específico de negociación colectiva del personal estatutario de cada servicio de salud es:",
+    "opciones": {
+      "A": "La mesa sectorial.",
+      "B": "La junta de personal de área.",
+      "C": "La junta de personal de área y la comisión de centro, cuando esta se constituya.",
+      "D": "La Mesa General."
+    },
+    "raw_ocr": "3. Según la Ley 55/2003, de 16 de diciembre, del Estatuto Marco del personal estatutario de los servicios de\nsalud, el órgano específico de negociación colectiva del personal estatutario de cada servicio de salud es:\n\nA) La mesa sectorial.\n\nB) La junta de personal de área.\n\nC) La junta de personal de área y la comisión de centro, cuando esta se constituya.\n\nD) La Mesa General.",
+    "fuente": "2022_enfermeria_ap",
+    "anno": 2022,
+    "respuesta_correcta": "A",
+    "tags": [],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 4,
+    "numero_original": "4.",
+    "enunciado": "La aprobación del proyecto de presupuesto de la Consellería de Sanidad y del Servicio Gallego de Salud corresponde a:",
+    "opciones": {
+      "A": "La Consellería de Sanidad.",
+      "B": "El Parlamento de Galicia.",
+      "C": "El Consello de Dirección de la Consellería de Sanidad.",
+      "D": "El Consello de la Xunta."
+    },
+    "raw_ocr": "4. La aprobación del proyecto de presupuesto de la Consellería de Sanidad y del Servicio Gallego de Salud\ncorresponde a:\n\nA) La Consellería de Sanidad.\n\nB) El Parlamento de Galicia.\n\nC) El Consello de Dirección de la Consellería de Sanidad.\n\nD) El Consello de la Xunta.",
+    "fuente": "2022_enfermeria_ap",
+    "anno": 2022,
+    "respuesta_correcta": "D",
+    "tags": [],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 5,
+    "numero_original": "5.",
+    "enunciado": "Según la Ley 55/2003, de 16 de diciembre, del Estatuto Marco del personal estatutario de los servicios de salud, ¿en qué supuesto se declarará al personal estatutario fijo en la situación de servicios especiales?",
+    "opciones": {
+      "A": "Cuando una incapacidad temporal se prolongue más de dieciocho meses.",
+      "B": "Cuando se declare la suspensión firme en virtud de sentencia.",
+      "C": "Cuando se acceda a una plaza de formación especializada mediante residencia.",
+      "D": "Cuando se acceda en comisión de servicios a una plaza de la Administración general abierta al personal estatutario."
+    },
+    "raw_ocr": "5. Según la Ley 55/2003, de 16 de diciembre, del Estatuto Marco del personal estatutario de los servicios de\nsalud, ¿en qué supuesto se declarará al personal estatutario fijo en la situación de servicios especiales?\n\nA) Cuando una incapacidad temporal se prolongue más de dieciocho meses.\n\nB) Cuando se declare la suspensión firme en virtud de sentencia.\n\nC) Cuando se acceda a una plaza de formación especializada mediante residencia.\n\nD) Cuando se acceda en comisión de servicios a una plaza de la Administración general abierta al personal\nestatutario.",
+    "fuente": "2022_enfermeria_ap",
+    "anno": 2022,
+    "respuesta_correcta": "C",
+    "tags": [],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 6,
+    "numero_original": "6.",
+    "enunciado": "De conformidad con el Decreto 206/2005, de 22 de julio, de provisión de plazas de personal estatutario del Servicio Gallego de Salud, la provisión de un puesto de supervisora de área se efectuará:",
+    "opciones": {
+      "A": "Por una comisión técnica especializada.",
+      "B": "Por el procedimiento de libre designación.",
+      "C": "Por el procedimiento de evaluación colegiada.",
+      "D": "Por el procedimiento de concurso de méritos."
+    },
+    "raw_ocr": "6. De conformidad con el Decreto 206/2005, de 22 de julio, de provisión de plazas de personal estatutario del\nServicio Gallego de Salud, la provisión de un puesto de supervisora de área se efectuará:\n\nA) Por una comisión técnica especializada.\n\nB) Por el procedimiento de libre designación.\n\nC) Por el procedimiento de evaluación colegiada.\n\nD) Por el procedimiento de concurso de méritos.",
+    "fuente": "2022_enfermeria_ap",
+    "anno": 2022,
+    "respuesta_correcta": "B",
+    "tags": [],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 7,
+    "numero_original": "7.",
+    "enunciado": "De acuerdo con la Ley gallega 3/2001, de 28 de mayo, la historia clínica:",
+    "opciones": {
+      "A": "Es propiedad del médico o profesional responsable.",
+      "B": "No puede contener valoraciones sobre la evolución clínica del paciente.",
+      "C": "Debe destruirse una vez que transcurran veinte años desde el fallecimiento del paciente.",
+      "D": "Debe contener suficiente información para documentar el proceso de atención sanitaria del paciente."
+    },
+    "raw_ocr": "7. De acuerdo con la Ley gallega 3/2001, de 28 de mayo, la historia clínica:\n\nA) Es propiedad del médico o profesional responsable.\n\nB) No puede contener valoraciones sobre la evolución clínica del paciente.\n\nC) Debe destruirse una vez que transcurran veinte años desde el fallecimiento del paciente.\n\nD) Debe contener suficiente información para documentar el proceso de atención sanitaria del paciente.",
+    "fuente": "2022_enfermeria_ap",
+    "anno": 2022,
+    "respuesta_correcta": "D",
+    "tags": [],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 8,
+    "numero_original": "8.",
+    "enunciado": "Atendiendo a lo que dispone la Ley 31/1995, de 8 de noviembre, de prevención de Riesgos Laborales, señale cuál NO es uno de los principios de la acción preventiva.",
+    "opciones": {
+      "A": "Evitar los riesgos.",
+      "B": "Tener en cuenta la evolución de la técnica.",
+      "C": "Adoptar medidas que antepongan la protección individual a la colectiva.",
+      "D": "Sustituir lo peligroso por lo que entrañe poco o ningún peligro."
+    },
+    "raw_ocr": "8. Atendiendo a lo que dispone la Ley 31/1995, de 8 de noviembre, de prevención de Riesgos Laborales,\nseñale cuál NO es uno de los principios de la acción preventiva.\n\nA) Evitar los riesgos.\n\nB) Tener en cuenta la evolución de la técnica.\n\nC) Adoptar medidas que antepongan la protección individual a la colectiva.\n\nD) Sustituir lo peligroso por lo que entrañe poco o ningún peligro.",
+    "fuente": "2022_enfermeria_ap",
+    "anno": 2022,
+    "respuesta_correcta": "C",
+    "tags": [],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 9,
+    "numero_original": "9.",
+    "enunciado": "De acuerdo con la Ley gallega 3/2001, de 28 de mayo, la historia clínica:",
+    "opciones": {
+      "A": "Debe ser única por paciente en todo el Sistema Público de Salud de Galicia.",
+      "B": "Debe ser entregada al paciente tras cada episodio asistencial.",
+      "C": "Debe incluir el médico o profesional responsable.",
+      "D": "Es propiedad del paciente."
+    },
+    "raw_ocr": "9. De acuerdo con la Ley gallega 3/2001, de 28 de mayo, la historia clínica:\nA) Debe ser única por paciente en todo el Sistema Público de Salud de Galicia.\n\nB) Debe ser entregada al paciente tras cada episodio asistencial.\n\nC) Debe incluir el médico o profesional responsable.\n\nD) Es propiedad del paciente.",
+    "fuente": "2022_enfermeria_ap",
+    "anno": 2022,
+    "respuesta_correcta": "C",
+    "tags": [],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 10,
+    "numero_original": "10.",
+    "enunciado": "De conformidad con el Decreto 206/2005, de 22 de julio, de provisión de plazas de personal estatutario del Servicio Gallego de Salud, quien se encuentre en comisión de servicios:",
+    "opciones": {
+      "A": "Pasará a la situación de excedencia en su centro de origen.",
+      "B": "Deberá solicitar el reingreso en su centro de origen, una vez finalizada la comisión.",
+      "C": "Deberá participar en el primer concurso de traslados que se convoque para su categoría o especialidad.",
+      "D": "Tendrá derecho a la reserva de su plaza o puesto de trabajo."
+    },
+    "raw_ocr": "10. De conformidad con el Decreto 206/2005, de 22 de julio, de provisión de plazas de personal estatutario\ndel Servicio Gallego de Salud, quien se encuentre en comisión de servicios:\n\nA) Pasará a la situación de excedencia en su centro de origen.\n\nB) Deberá solicitar el reingreso en su centro de origen, una vez finalizada la comisión.\n\nC) Deberá participar en el primer concurso de traslados que se convoque para su categoría o especialidad.\n\nD) Tendrá derecho a la reserva de su plaza o puesto de trabajo.",
+    "fuente": "2022_enfermeria_ap",
+    "anno": 2022,
+    "respuesta_correcta": "D",
+    "tags": [],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 11,
+    "numero_original": "11.",
+    "enunciado": "Indique qué derecho NO incluye, en materia de protección de datos de carácter personal, el título II de la Ley Orgánica 3/2018, de 5 de diciembre, de Protección de datos de carácter personal y garantía de los derechos digitales:",
+    "opciones": {
+      "A": "Derecho de rectificación.",
+      "B": "Derecho de supresión.",
+      "C": "Derecho de renuncia.",
+      "D": "Derecho a la portabilidad."
+    },
+    "raw_ocr": "11. Indique qué derecho NO incluye, en materia de protección de datos de carácter personal, el título II! de la\nLey Orgánica 3/2018, de 5 de diciembre, de Protección de datos de carácter personal y garantía de los\nderechos digitales:\n\nA) Derecho de rectificación.\n\nB) Derecho de supresión.\n\nC) Derecho de renuncia.\n\nD) Derecho a la portabilidad.",
+    "fuente": "2022_enfermeria_ap",
+    "anno": 2022,
+    "respuesta_correcta": "C",
+    "tags": [],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 12,
+    "numero_original": "12.",
+    "enunciado": "El personal estatutario del Servicio Gallego de Salud que no tome posesión de la plaza adquirida en concurso de traslados:",
+    "opciones": {
+      "A": "Pierde la condición de personal estatutario.",
+      "B": "Pasa a la situación de excedencia voluntaria por interés particular.",
+      "C": "Será objeto de expediente disciplinario.",
+      "D": "Pasa a la situación de excedencia forzosa."
+    },
+    "raw_ocr": "12. El personal estatutario del Servicio Gallego de Salud que no tome posesión de la plaza adquirida en concurso de traslados:\n\nA) Pierde la condición de personal estatutario.\n\nB) Pasa a la situación de excedencia voluntaria por interés particular.\n\nC) Será objeto de expediente disciplinario.\n\nD) Pasa a la situación de excedencia forzosa.",
+    "fuente": "2022_enfermeria_ap",
+    "anno": 2022,
+    "respuesta_correcta": "B",
+    "tags": [],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  }
+]

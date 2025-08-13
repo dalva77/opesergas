@@ -1,0 +1,233 @@
+[
+  {
+    "numero": 1,
+    "numero_original": "1.",
+    "enunciado": "De conformidad con el artículo 18 de la Ley 55/2003, del estatuto marco, constituye un derecho colectivo del personal estatutario:",
+    "opciones": {
+      "A": "El derecho a la percepción puntual de las retribuciones e indemnizaciones por razón del servicio.",
+      "B": "El derecho a la movilidad voluntaria, promoción interna y desarrollo profesional.",
+      "C": "El derecho al encuadramiento en el régimen general de la Seguridad Social, con los derechos y obligaciones que de ello se derivan.",
+      "D": "El derecho a la libre sindicación."
+    },
+    "raw_ocr": "1. De conformidad con el artículo 18 de la Ley 55/2003, del estatuto marco, constituye un derecho colectivo\ndel personal estatutario:\n\nA) El derecho a la percepción puntual de las retribuciones e indemnizaciones por razón del servicio.\nB) El derecho a la movilidad voluntaria, promoción interna y desarrollo profesional.\n\nC) El derecho al encuadramiento en el régimen general de la Seguridade Social, con los derechos y obligaciones que de ello se derivan.\n\nD) El derecho a la libre sindicación.",
+    "fuente": "2022_fisioterapia",
+    "anno": 2022,
+    "respuesta_correcta": "D",
+    "tags": [],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 2,
+    "numero_original": "2.",
+    "enunciado": "NO constituye un principio rector del Sistema Público de Salud de Galicia, de conformidad con el artículo 32 de la Ley 8/2008 de 10 de julio, de Salud de Galicia:",
+    "opciones": {
+      "A": "La información sobre las formas de vida saludables, los recursos y los servicios existentes.",
+      "B": "La universalidad del derecho a los servicios y prestaciones de cobertura pública.",
+      "C": "La ordenación de las relaciones con las personas en el sistema de salud.",
+      "D": "La promoción del uso racional del Sistema Público de Salud de Galicia."
+    },
+    "raw_ocr": "2. NO constituye un principio rector del Sistema Público de Salud de Galicia, de conformidad con el artículo 32 de la Ley 8/2008 de 10 de julio, de Salud de Galicia:\n\nA) La información sobre las formas de vida saludables, los recursos y los servicios existentes.\n\nB) La universalidad del derecho a los servicios y prestaciones de cobertura pública.\n\nC) La ordenación de las relaciones con las personas en el sistema de salud.\n\nD) La promoción del uso racional del Sistema Público de Salud de Galicia.",
+    "fuente": "2022_fisioterapia",
+    "anno": 2022,
+    "respuesta_correcta": "C",
+    "tags": [],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 3,
+    "numero_original": "3.",
+    "enunciado": "De acuerdo con el artículo 11 del Estatuto de Autonomía de Galicia, el procedimiento para la elección de diputados del Parlamento de Galicia se regulará por Ley, fijando dicho precepto el número de miembros de éste:",
+    "opciones": {
+      "A": "Entre 60 y 75 diputados.",
+      "B": "Entre 60 y 80 diputados.",
+      "C": "En 75 diputados.",
+      "D": "El Estatuto de Autonomía no determina un número mínimo ni máximo de diputados."
+    },
+    "raw_ocr": "3. De acuerdo con el artículo 11 del Estatuto de Autonomía de Galicia, el procedimiento para la elección de\ndiputados del Parlamento de Galicia se regulará por Ley, fijando dicho precepto el número de miembros de\néste:\n\nA) Entre 60 y 75 diputados.\n\nB) Entre 60 y 80 diputados.\n\nC) En 75 diputados.\n\nD) El Estatuto de Autonomía no determina un número mínimo ni máximo de diputados.",
+    "fuente": "2022_fisioterapia",
+    "anno": 2022,
+    "respuesta_correcta": "B",
+    "tags": [],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 5,
+    "numero_original": "5.",
+    "enunciado": "Según la Ley General de Sanidad, el control sanitario de la contaminación atmosférica, abastecimiento de aguas, saneamiento de aguas residuales, residuos urbanos e industriales, es una competencia:",
+    "opciones": {
+      "A": "Del Estado.",
+      "B": "De las Comunidades Autónomas.",
+      "C": "De las Diputaciones Provinciales.",
+      "D": "De los Ayuntamientos."
+    },
+    "raw_ocr": "5. Según la Ley General de Sanidad, el control sanitario de la contaminación atmosférica, abastecimiento de\naguas, saneamiento de aguas residuales, residuos urbanos e industriales, es una competencia:\n\nA) Del Estado.\n\nB) De las Comunidades Autónomas.\n\nC) De las Diputaciones Provinciales.\n\nD) De los Ayuntamientos.",
+    "fuente": "2022_fisioterapia",
+    "anno": 2022,
+    "respuesta_correcta": "D",
+    "tags": [],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 6,
+    "numero_original": "6.",
+    "enunciado": "La Constitución española de 1978 configura el derecho a la protección de la salud:",
+    "opciones": {
+      "A": "Como un principio rector de la política social y económica.",
+      "B": "Como un derecho fundamental.",
+      "C": "Como un derecho y un deber de los ciudadanos.",
+      "D": "Carece de relevancia jurídica."
+    },
+    "raw_ocr": "6. La Constitución española de 1978 configura el derecho a la proteción de la salud:\n\nA) Como un principio rector de la política social y económica.\n\nB) Como un derecho fundamental.\nC) Como un derecho y un deber de los ciudadanos.\n\nD) Carece de relevancia jurídica.",
+    "fuente": "2022_fisioterapia",
+    "anno": 2022,
+    "respuesta_correcta": "A",
+    "tags": [],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 7,
+    "numero_original": "7.",
+    "enunciado": "El cargo de presidente/a del Servicio Gallego de Salud lo ostenta:",
+    "opciones": {
+      "A": "La persona titular de la Consejería de Sanidad.",
+      "B": "El/la Gerente del Servicio Gallego de Salud.",
+      "C": "El/la presidente/a de la Xunta de Galicia.",
+      "D": "El/la Secretario/a General de la Consejería de Sanidad."
+    },
+    "raw_ocr": "7. El cargo de presidente/a del Servicio Gallego de Salud lo ostenta:\nA) La persona titular de la Consejería de Sanidad.\n\nB) El/la Gerente del Servicio Gallego de Salud.\nC) El/la presidente/a de la Xunta de Galicia.\n\nD) El/la Secretario/a General de la Consejería de Sanidad.",
+    "fuente": "2022_fisioterapia",
+    "anno": 2022,
+    "respuesta_correcta": "A",
+    "tags": [],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 8,
+    "numero_original": "8.",
+    "enunciado": "De conformidad con el artículo 20 de la Ley gallega 3/2001, reguladora del consentimiento informado y de la historia clínica de los pacientes, ¿cuál de la siguiente información no tiene que ser conservada indefinidamente?",
+    "opciones": {
+      "A": "Hojas de petición de interconsulta.",
+      "B": "Hojas de alta voluntaria.",
+      "C": "Informes de anestesia.",
+      "D": "Hojas de consentimiento informado."
+    },
+    "raw_ocr": "8. De conformidad con el artículo 20 de la Ley gallega 3/2001, reguladora del consentimiento informado y de\nla historia clínica de los pacientes, ¿cuál de la siguiente información no tiene que ser conservada\nindefinidamente?\n\nA) Hojas de petición de interconsulta.\n\nB) Hojas de alta voluntaria.\nC) Informes de anestesia.\n\nD) Hojas de consentimiento informado.",
+    "fuente": "2022_fisioterapia",
+    "anno": 2022,
+    "respuesta_correcta": "A",
+    "tags": [],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 9,
+    "numero_original": "9.",
+    "enunciado": "De conformidad con el Decreto 206/2005, del 22 de julio, de provisión de plazas del personal estatutario del Servicio Gallego de Salud, quien se encuentre en comisión de servicios:",
+    "opciones": {
+      "A": "Tendrá derecho a la reserva de su plaza o puesto de trabajo.",
+      "B": "Pasará a la situación de servicios especiales en su centro de origen.",
+      "C": "Deberá participar en el primer concurso de traslados que se convoque para su categoría o especialidad.",
+      "D": "Únicamente podrá permanecer tres meses en esta situación."
+    },
+    "raw_ocr": "9. De conformidad con el Decreto 206/2005, del 22 de julio, de provisión de plazas del personal estatutario\ndel Servicio Gallego de Salud, quien se encuentre en comisión de servicios:\n\nA) Tendrá derecho a la reserva de su plaza o puesto de trabajo.\n\nB) Pasará a la situación de servicios especiales en su centro de origen.\n\nC) Deberá participar en el primer concurso de traslados que se convoque para su categoría o especialidad.\nD) Únicamente podrá permanecer tres meses en esta situación.",
+    "fuente": "2022_fisioterapia",
+    "anno": 2022,
+    "respuesta_correcta": "A",
+    "tags": [],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 10,
+    "numero_original": "10.",
+    "enunciado": "Según la Ley gallega 3/2001, del 28 de mayo, reguladora del consentimiento informado y de la historia clínica de los pacientes, la historia clínica:",
+    "opciones": {
+      "A": "No debe contener valoraciones subjetivas sobre la evolución clínica del paciente.",
+      "B": "Debe contener suficiente información para documentar el proceso de atención sanitaria del paciente.",
+      "C": "Es propiedad del médico o profesional responsable.",
+      "D": "Debe destruirse cuando transcurran 20 años desde el fallecimiento del paciente."
+    },
+    "raw_ocr": "10. Según la Ley gallega 3/2001, del 28 de mayo, reguladora del consentimiento informado y de la historia\nclínica de los pacientes, la historia clínica:\n\nA) No debe contener valoraciones subjetivas sobre la evolución clínica del paciente.\n\nB) Debe contener suficiente información para documentar el proceso de atención sanitaria del paciente.\n\nC) Es propiedad del médico o profesional responsable.\n\nD) Debe destruirse cuando transcurran 20 años desde el fallecimiento del paciente.",
+    "fuente": "2022_fisioterapia",
+    "anno": 2022,
+    "respuesta_correcta": "B",
+    "tags": [],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 11,
+    "numero_original": "11.",
+    "enunciado": "Según el artículo 15 de la Ley 31/1995, de prevención de riesgos laborales, señale cuál NO es uno de los principios de acción preventiva:",
+    "opciones": {
+      "A": "Evitar riesgos.",
+      "B": "Combatir los riesgos en su origen.",
+      "C": "Adoptar medidas que antepongan la protección individual a la colectiva.",
+      "D": "Dar las debidas instrucciones a los trabajadores."
+    },
+    "raw_ocr": "11. Según el artículo 15 de la Ley 31/1995, de prevención de riesgos laborales, señale cuál NO es uno de los\nprincipios de acción preventiva:\nA) Evitar riesgos.\nB) Combatir los riesgos en su origen.\nC) Adoptar medidas que antepongan la protección individual a la colectiva.\nD) Dar las debidas instrucciones a los trabajadores.",
+    "fuente": "2022_fisioterapia",
+    "anno": 2022,
+    "respuesta_correcta": "C",
+    "tags": [],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 12,
+    "numero_original": "12.",
+    "enunciado": "De conformidad con lo previsto en la Ley 55/2003, del estatuto marco, ¿cuál de los siguientes complementos retributivos está destinado a remunerar el nivel del puesto que se desempeña?",
+    "opciones": {
+      "A": "Complemento de productividad.",
+      "B": "Complemento de destino.",
+      "C": "Complemento específico.",
+      "D": "Complemento de atención continuada."
+    },
+    "raw_ocr": "12. De conformidad con lo previsto en la Ley 55/2003, del estatuto marco, ¿cuál de los siguientes\ncomplementos retributivos está destinado a remunerar el nivel del puesto que se desempeña?\nA) Complemento de productividad.\nB) Complemento de destino.\nC) Complemento específico.\n\nD) Complemento de atención continuada.",
+    "fuente": "2022_fisioterapia",
+    "anno": 2022,
+    "respuesta_correcta": "B",
+    "tags": [],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  }
+]

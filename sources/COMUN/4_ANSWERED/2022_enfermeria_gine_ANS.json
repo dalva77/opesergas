@@ -1,0 +1,254 @@
+[
+  {
+    "numero": 1,
+    "numero_original": "1.",
+    "enunciado": "De acuerdo con la Ley de prevención de riesgos laborales, ¿cómo se denomina el órgano científico técnico especializado de la Administración General del Estado que tiene como misión el análisis y estudio de las condiciones de seguridad y salud en el trabajo, así como la promoción y apoyo a la mejora de las mismas?",
+    "opciones": {
+      "A": "Inspección de Trabajo y Seguridad Social.",
+      "B": "Comisión Nacional de Seguridad y Salud en el Trabajo.",
+      "C": "Instituto Nacional de Seguridad y Salud en el Trabajo.",
+      "D": "Comisión de Coordinación Interadministrativa en materia de salud laboral."
+    },
+    "raw_ocr": "1. De acuerdo con la Ley de prevención de riesgos laborales, ¿cómo se denomina el órgano científico técnico especializado de la Administración General del Estado que tiene como misión el análisis y estudio de las condiciones de seguridad y salud en el trabajo, así como la promoción y apoyo a la mejora de las mismas?\n\nA) Inspección de Trabajo y Seguridad Social.\nB) Comisión Nacional de Seguridad y Salud en el Trabajo.\nC) Instituto Nacional de Seguridad y Salud en el Trabajo.\n\nD) Comisión de Coordinación Interadministrativa en materia de salud laboral.",
+    "fuente": "2022_enfermeria_gine",
+    "anno": 2022,
+    "respuesta_correcta": "C",
+    "tags": [],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 2,
+    "numero_original": "2.",
+    "enunciado": "De acuerdo con el Estatuto Marco, NO es una modalidad de nombramiento temporal de interinidad:",
+    "opciones": {
+      "A": "La sustitución de personal fijo o temporal.",
+      "B": "La ejecución de programas de carácter temporal.",
+      "C": "El exceso o acumulación de tareas.",
+      "D": "La existencia de plaza vacante."
+    },
+    "raw_ocr": "2. De acuerdo con el Estatuto Marco, NO es una modalidad de nombramiento temporal de interinidad:\nA) La sustitución de personal fijo o temporal.\n\nB) La ejecución de programas de carácter temporal.\n\nC) El exceso o acumulación de tareas.\n\nD) La existencia de plaza vacante.",
+    "fuente": "2022_enfermeria_gine",
+    "anno": 2022,
+    "respuesta_correcta": "A",
+    "tags": [],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 3,
+    "numero_original": "3.",
+    "enunciado": "NO es una función del Servicio Gallego de Salud:",
+    "opciones": {
+      "A": "La celebración de contratos de servicios sanitarios con organizaciones, centros, servicios y establecimientos públicos y privados.",
+      "B": "La aprobación del Plan de Salud de Galicia.",
+      "C": "El desarrollo de los programas de actuación sanitaria.",
+      "D": "La gestión de las prestaciones farmacéuticas y complementarias que corresponda en el ámbito de sus competencias."
+    },
+    "raw_ocr": "3. NO es una función del Servicio Gallego de Salud:\n\nA) La celebración de contratos de servicios sanitarios con organizaciones, centros, servicios y establecimientos\npúblicos y privados.\n\nB) La aprobación del Plan de Salud de Galicia.\n\nC) El desarrollo de los programas de actuación sanitaria.\n\nD) La gestión de las prestaciones farmacéuticas y complementarias que corresponda en el ámbito de sus\ncompetencias.",
+    "fuente": "2022_enfermeria_gine",
+    "anno": 2022,
+    "respuesta_correcta": "B",
+    "tags": [],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 4,
+    "numero_original": "4.",
+    "enunciado": "Indique el Título del Estatuto de Autonomía donde se reconoce y regula el régimen básico de la Xunta de Galicia y su Presidente:",
+    "opciones": {
+      "A": "El Título Tercero.",
+      "B": "El Título Segundo.",
+      "C": "El Título Preliminar.",
+      "D": "El Título Primero."
+    },
+    "raw_ocr": "4. Indique el Título del Estatuto de Autonomía donde se reconoce y regula el régimen básico de la Xunta de\nGalicia y su Presidente:\n\nA) El Título Tercero.\n\nB) El Título Segundo.\n\nC) El Título Preliminar.\n\nD) El Título Primero.",
+    "fuente": "2022_enfermeria_gine",
+    "anno": 2022,
+    "respuesta_correcta": "D",
+    "tags": [],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 5,
+    "numero_original": "5.",
+    "enunciado": "De acuerdo con el Estatuto Marco, ¿en cuál de los siguientes casos NO se producirá la pérdida de la condición de personal estatutario fijo?",
+    "opciones": {
+      "A": "En la declaración de una incapacidad permanente para la profesión habitual.",
+      "B": "En la declaración de una incapacidad parcial.",
+      "C": "En la declaración de una incapacidad absoluta para todo trabajo.",
+      "D": "En la renuncia."
+    },
+    "raw_ocr": "5. De acuerdo con el Estatuto Marco, ¿en cuál de los siguientes casos NO se producirá la pérdida de la\ncondición de personal estatutario fijo?\n\nA) En la declaración de una incapacidad permanente para la profesión habitual.\n\nB) En la declaración de una incapacidad parcial.\n\nC) En la declaración de una incapacidad absoluta para todo trabajo.\n\nD) En la renuncia.",
+    "fuente": "2022_enfermeria_gine",
+    "anno": 2022,
+    "respuesta_correcta": "B",
+    "tags": [],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 6,
+    "numero_original": "6.",
+    "enunciado": "De acuerdo con la Ley de Salud de Galicia, NO es un principio rector del Sistema Público de Salud de Galicia:",
+    "opciones": {
+      "A": "La adecuación de las prestaciones sociales y económicas a las necesidades de salud de la población.",
+      "B": "La promoción de la comercialización de productos y recursos sanitarios.",
+      "C": "La participación e implicación de profesionales en el sistema sanitario.",
+      "D": "La acreditación y evaluación continua de los servicios sanitarios prestados en la Comunidad Autónoma."
+    },
+    "raw_ocr": "6. De acuerdo con la Ley de Salud de Galicia, NO es un principio rector del Sistema Público de Salud de Galicia:\n\nA) La adecuación de las prestaciones sociales y económicas a las necesidades de salud de la población.\n\nB) La promoción de la comercialización de productos y recursos sanitarios.\nC) La participación e implicación de profesionales en el sistema sanitario.\n\nD) La acreditación y evaluación continua de los servicios sanitarios prestados en la Comunidad Autónoma.",
+    "fuente": "2022_enfermeria_gine",
+    "anno": 2022,
+    "respuesta_correcta": "B",
+    "tags": [],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 7,
+    "numero_original": "7.",
+    "enunciado": "Uno de los siguientes está reconocido como derecho fundamental por la Constitución Española. Indique cuál:",
+    "opciones": {
+      "A": "El derecho a defender España.",
+      "B": "El derecho a la protección de la salud.",
+      "C": "El derecho a la propiedad privada y a la herencia.",
+      "D": "El derecho de asociación."
+    },
+    "raw_ocr": "7. Uno de los siguientes está reconocido como derecho fundamental por la Constitución Española. Indique\ncuál:\n\nA) El derecho a defender España.\n\nB) El derecho a la protección de la salud.\n\nC) El derecho a la propiedad privada y a la herencia.\n\nD) El derecho de asociación.",
+    "fuente": "2022_enfermeria_gine",
+    "anno": 2022,
+    "respuesta_correcta": "D",
+    "tags": [],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 8,
+    "numero_original": "8.",
+    "enunciado": "De acuerdo con la Ley General de Sanidad, ¿cuál de los siguientes NO es un derecho de los ciudadanos respecto a las administraciones públicas sanitarias?",
+    "opciones": {
+      "A": "El derecho a la gestión directa y supervisión de los establecimientos y centros sanitarios.",
+      "B": "La confidencialidad de toda la información relacionada con su proceso.",
+      "C": "El respeto a su personalidad, dignidad humana e intimidad.",
+      "D": "Ninguno de los anteriores lo es."
+    },
+    "raw_ocr": "8. De acuerdo con la Ley General de Sanidad, ¿cuál de los siguientes NO es un derecho de los ciudadanos\n\nrespecto a las administraciones públicas sanitarias?\n\nA) El derecho a la gestión directa y supervisión de los establecimientos y centros sanitarios.\n\nB) La confidencialidad de toda la información relacionada con su proceso.\n\nC) El respecto a su personalidad, dignidad humana e intimidad.\n\nD) Ninguno de los anteriores lo es.",
+    "fuente": "2022_enfermeria_gine",
+    "anno": 2022,
+    "respuesta_correcta": "A",
+    "tags": [],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 9,
+    "numero_original": "9.",
+    "enunciado": "De acuerdo con el Decreto de provisión de plazas de personal estatutario del Servicio Gallego de Salud, ¿quién de los siguientes cesará en primer lugar, en virtud de la incorporación a su plaza de un profesional estatutario fijo?",
+    "opciones": {
+      "A": "El personal temporal.",
+      "B": "El personal en promoción profesional en plaza vacante.",
+      "C": "El personal en comisión de servicios en plaza vacante.",
+      "D": "El personal docente e investigador, de menor a mayor antigüedad."
+    },
+    "raw_ocr": "9. De acuerdo con el Decreto de provisión de plazas de personal estatutario del Servicio Gallego de Salud,\n\n¿quién de los siguientes cesará en primer lugar, en virtud de la incorporación a su plaza de un profesional\nestatutario fijo?\n\nA) El personal temporal.\n\nB) El personal en promoción profesional en plaza vacante.\n\nC) El personal en comisión de servicios en plaza vacante.\n\nD) El personal docente e investigador, de menor a mayor antigúedad.",
+    "fuente": "2022_enfermeria_gine",
+    "anno": 2022,
+    "respuesta_correcta": "C",
+    "tags": [],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 10,
+    "numero_original": "10.",
+    "enunciado": "Conforme a la Ley gallega reguladora del consentimiento informado y de la historia clínica, ¿cómo se denomina el documento por el cual una persona mayor de edad y libre, manifiesta anticipadamente su voluntad, a fin de que ésta sea cumplida en el momento en que llegue a situaciones en las que por las circunstancias no sea capaz de expresarla personalmente, sobre los cuidados y tratamiento de su salud, o una vez llegado el fallecimiento, sobre el destino de su cuerpo o de los órganos del mismo?",
+    "opciones": {
+      "A": "Consentimiento informado por sustitución.",
+      "B": "Testamento de últimas voluntades.",
+      "C": "Diligencias de consentimiento final.",
+      "D": "Documento de instrucciones previas."
+    },
+    "raw_ocr": "10. Conforme a la Ley gallega reguladora del consentimiento informado y de la historia clínica, ¿cómo se\ndenomina el documento por el cual una persona mayor de edad y libre, manifiesta anticipadamente su\nvoluntad, a fin de que ésta sea cumplida en el momento en que llegue a situaciones en las que por las\n\ncircunstancias no sea capaz de expresarla personalmente, sobre los cuidados y tratamiento de su salud, o una\nvez llegado el fallecimiento, sobre el destino de su cuerpo o de los órganos del mismo?\n\nA) Consentimiento informado por sustitución.\nB) Testamento de últimas voluntades.\nC)  Diligencias de consentimiento final.\n\nD) Documento de instrucciones previas.",
+    "fuente": "2022_enfermeria_gine",
+    "anno": 2022,
+    "respuesta_correcta": "D",
+    "tags": [],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 11,
+    "numero_original": "11.",
+    "enunciado": "De acuerdo con la Ley General de Sanidad y respecto a la salud mental, se considerarán de un modo especial los problemas referentes a:",
+    "opciones": {
+      "A": "La formación ocupacional de estos pacientes.",
+      "B": "La psiquiatría infantil y psicogeriatría.",
+      "C": "La psiquiatría juvenil y deficiencias en materia de atención de enfermería.",
+      "D": "Todos los anteriores."
+    },
+    "raw_ocr": "11. De acuerdo con la Ley General de Sanidad y respecto a la salud mental, se considerarán de un modo especial\nlos problemas referentes a:\n\nA) La formación ocupacional de estos pacientes.\n\nB) La psiquiatría infantil y psicogeriatría.\n\nC) La psiquiatría juvenil y deficiencias en materia de atención de enfermería.\n\nD) Todos los anteriores.",
+    "fuente": "2022_enfermeria_gine",
+    "anno": 2022,
+    "respuesta_correcta": "B",
+    "tags": [],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 12,
+    "numero_original": "12.",
+    "enunciado": "De acuerdo con el Estatuto Marco, y respecto a su categoría de origen, ¿en qué situación se encuentra aquel estatutario fijo que realice funciones en promoción interna temporal?",
+    "opciones": {
+      "A": "En excedencia voluntaria.",
+      "B": "En suspensión provisional de funciones.",
+      "C": "En servicios especiales.",
+      "D": "En ninguno de los anteriores."
+    },
+    "raw_ocr": "12. De acuerdo con el EstAtuto Marco, y respecto a su categoría de origen, ¿en qué situación se encuentra aquel estatutario fijo que realice funciones en promoción interna temporal?\n\nA) En excedencia voluntaria.\n\nB) En suspensión provisional de funciones.\n\nC) En servicios especiales.\n\nD) En ninguno de los anteriores.",
+    "fuente": "2022_enfermeria_gine",
+    "anno": 2022,
+    "respuesta_correcta": "D",
+    "tags": [],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  }
+]
