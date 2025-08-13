@@ -1,22 +1,22 @@
-import httpx
-from pathlib import Path
-import sys
-import os
-import logging
-import json
-import argparse
 import asyncio
+import argparse
+import json
+import logging
+import os
+import sys
+from pathlib import Path
+import httpx
 
 # flake8: noqa: E501
 
 
 # ==============================================================================
-# SCRIPT DE LIMPIEZA DE PREGUNTAS OCR CON LLM (VERSIÓN 3)
+# SCRIPT DE LIMPIEZA DE PREGUNTAS OCR CON LLM (VERSIÓN 4)
 #
 # NUEVAS FUNCIONALIDADES:
-# - Se añade el campo `numero_original` para conservar el número tal cual aparece en el OCR.
-# - Se añade el argumento `--fuente` para etiquetar el origen de las preguntas.
-# - Se incluyen campos `stats` para futuro seguimiento de rendimiento.
+# - El proveedor de IA es opcional, con 'openai' como valor por defecto.
+# - Se añade el argumento obligatorio `--anno` para especificar el año del examen.
+# - El campo `anno` se añade a la estructura JSON final de cada pregunta.
 #
 # ------------------------------------------------------------------------------
 # INSTRUCCIONES DE USO:
@@ -30,9 +30,12 @@ import asyncio
 #    - Para OpenAI:
 #      export OPENAI_API_KEY="TU_API_KEY_DE_OPENAI"
 #
-# 3. EJECUTAR EL SCRIPT:
-#    python tu_script.py preguntas_sergas.txt --fuente "OPE SERGAS 2021" --provider openai
+# 3. EJEMPLO DE EJECUCIÓN:
+#    python tu_script.py preguntas_sergas.txt --fuente "OPE SERGAS" --anno 2021
+#    (Usará OpenAI por defecto)
 #
+#    python tu_script.py preguntas_mir.txt --fuente "Examen MIR" --anno 2023 --provider gemini
+#    (Especificando el uso de Gemini)
 # ==============================================================================
 
 
@@ -42,8 +45,6 @@ logging.basicConfig(
     format='%(asctime)s - %(levelname)s - %(message)s',
     stream=sys.stdout
 )
-
-# ... (Las funciones call_gemini_api y call_openai_api no necesitan cambios) ...
 
 
 async def call_gemini_api(client: httpx.AsyncClient, prompt_text: str, max_retries: int = 5) -> str | None:
@@ -103,7 +104,14 @@ async def call_openai_api(client: httpx.AsyncClient, prompt_text: str, max_retri
         "Content-Type": "application/json"
     }
 
-    instructions, user_data = prompt_text.split("Ahora procesa el siguiente bloque:")
+    # Separamos el prompt en instrucciones de sistema y datos de usuario
+    try:
+        instructions, user_data = prompt_text.split("Ahora procesa el siguiente bloque:")
+    except ValueError:
+        logging.error("El formato del prompt es incorrecto. No se pudo dividir en instrucciones y datos.")
+        # Usamos el prompt completo como contenido de usuario para intentar recuperarnos
+        instructions = "Procesa el siguiente texto y devuélvelo en formato JSON."
+        user_data = prompt_text
 
     payload = {
         "model": "gpt-4o-mini",
@@ -147,10 +155,7 @@ async def call_openai_api(client: httpx.AsyncClient, prompt_text: str, max_retri
 
 
 def build_prompt(raw_question_block: str) -> str:
-    """
-    Construye el prompt detallado para enviar al LLM.
-    AHORA INCLUYE INSTRUCCIONES PARA 'numero_original'.
-    """
+    """Construye el prompt detallado para enviar al LLM."""
     return f"""
 Actúa como un asistente experto en la limpieza y estructuración de datos para exámenes de oposición de sanidad en España. Tu tarea es corregir los errores de OCR de un bloque de texto y formatearlo en una estructura JSON precisa.
 
@@ -224,11 +229,14 @@ async def main():
         formatter_class=argparse.RawTextHelpFormatter
     )
     parser.add_argument("input_file", type=Path, help="Fichero de texto con las preguntas OCR en bruto.")
-    # <-- MODIFICADO: Argumento 'fuente' para identificar el origen. Es requerido.
     parser.add_argument("--fuente", type=str, required=True,
-                        help="Identificador y fuente del examen (ej. 'OPE SERGAS 2021').")
-    parser.add_argument("--provider", type=str, choices=['gemini',
-                        'openai'], required=True, help="Proveedor de LLM a utilizar.")
+                        help="Identificador y fuente del examen (ej. 'OPE SERGAS').")
+    # <-- MODIFICACIÓN 2: Se añade el argumento obligatorio 'anno'
+    parser.add_argument("--anno", type=int, required=True,
+                        help="Año del examen (ej. 2021). Este valor se añadirá a cada pregunta.")
+    # <-- MODIFICACIÓN 1: El argumento 'provider' ahora es opcional y tiene 'openai' por defecto
+    parser.add_argument("--provider", type=str, choices=['gemini', 'openai'], default='openai',
+                        help="Proveedor de LLM a utilizar (por defecto: 'openai').")
     parser.add_argument("-o", "--output_file", type=Path,
                         help="Fichero JSON de salida. Por defecto: [input_file_name].json")
     parser.add_argument("-s", "--separator", type=str, default="---",
@@ -254,7 +262,7 @@ async def main():
         sys.exit(1)
 
     logging.info(
-        f"📄 Encontrados {len(question_blocks)} bloques de preguntas para procesar de la fuente '{args.fuente}'.")
+        f"📄 Encontrados {len(question_blocks)} bloques para procesar de la fuente '{args.fuente}' del año {args.anno}.")
 
     # --- Bucle de procesamiento CONCURRENTE ---
     processed_questions = []
@@ -268,13 +276,10 @@ async def main():
 
     logging.info("✅ Todas las respuestas de la API han sido recibidas. Procediendo a parsear.")
 
-    # --- Parseo y validación de las respuestas (VERSIÓN A PRUEBA DE PYLANCE) ---
+    # --- Parseo y validación de las respuestas ---
     for i, response in enumerate(api_responses):
-        # Usamos una "Type Guard". Solo si 'response' es un string, entramos al bloque.
-        if isinstance(response, str) and response:  # Comprobamos que es string y no está vacío
+        if isinstance(response, str) and response:
             try:
-                # DENTRO DE ESTE BLOQUE, PYLANCE SABE AL 100% QUE 'response' ES UN 'str'.
-                # La queja desaparecerá.
                 clean_json_str = response.strip().removeprefix("```json").removesuffix("```").strip()
 
                 if not clean_json_str:
@@ -285,6 +290,8 @@ async def main():
 
                 # Añadimos los metadatos
                 data["fuente"] = args.fuente
+                # <-- MODIFICACIÓN 2: Se añade el año a la estructura de datos
+                data["anno"] = args.anno
                 data["respuesta_correcta"] = None
                 data["tags"] = []
                 data["stats"] = {
@@ -303,12 +310,9 @@ async def main():
                 logging.error(f"Error inesperado al procesar la respuesta del bloque {i + 1}: {e}")
 
         else:
-            # Si no es un string, es un error (Excepción) o una respuesta vacía (None).
-            # Lo manejamos aquí fuera.
             if isinstance(response, Exception):
                 logging.error(f"Error en la tarea para el bloque {i + 1}: {response}")
             else:
-                # Esto cubre el caso de 'None' o un string vacío inicial.
                 logging.warning(f"Respuesta inválida o vacía para el bloque {i + 1}. Saltando.")
 
     # --- Guardado del resultado final ---

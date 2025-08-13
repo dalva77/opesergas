@@ -1,0 +1,254 @@
+[
+  {
+    "numero": 1,
+    "numero_original": "1.",
+    "enunciado": "¿Cuál de las siguientes NO es una prestación sanitaria del Sistema Público de Salud de Galicia?",
+    "opciones": {
+      "A": "La salud pública, de atención primaria, de atención hospitalaria.",
+      "B": "La atención de urgencias y la atención farmacéutica.",
+      "C": "La atención ortoprotésica, de productos dietéticos y de transporte sanitario.",
+      "D": "Las actividades o servicios que sean prestados con recursos no públicos."
+    },
+    "raw_ocr": "1. Cual de las siguientes NO es una prestación sanitaria del Sistema Público de Salud de Galicia:\nA) La salud pública, de atención primaria, de atención hospitalaria.\n\nB) La atención de urgencias y la atención farmacéutica.\nC) La atención ortoprotésica, de productos dietéticos y de transporte sanitario.\n\nD) Las actividades o servicios que sean prestados con recursos no públicos.",
+    "fuente": "2024_tecnico_dietetica",
+    "anno": 2024,
+    "respuesta_correcta": null,
+    "tags": [],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 2,
+    "numero_original": "2.",
+    "enunciado": "Según el Estatuto Marco, el tiempo de trabajo correspondiente a la jornada ordinaria no excederá de:",
+    "opciones": {
+      "A": "10 horas.",
+      "B": "14 horas.",
+      "C": "12 horas ininterrumpidas.",
+      "D": "14 horas ininterrumpidas."
+    },
+    "raw_ocr": "2. Según el Estatuto Marco, el tiempo de trabajo correspondiente a la jornada ordinaria no excederá de:\n\nA) 10 horas.\n\nB) 14 horas.\n\nC) 12 horas ininterrumpidas.\n\nD) 14 horas ininterrumpidas.",
+    "fuente": "2024_tecnico_dietetica",
+    "anno": 2024,
+    "respuesta_correcta": null,
+    "tags": [],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 3,
+    "numero_original": "3.",
+    "enunciado": "Con respecto a la historia clínica, la Ley 3/2001, de 28 de mayo, reguladora del consentimiento informado y de la historia clínica, establece que:",
+    "opciones": {
+      "A": "El soporte documental de la historia clínica debe garantizar su autenticidad, integridad, seguridad y conservación.",
+      "B": "Los datos de órdenes médicas no forman parte de la historia clínica.",
+      "C": "Deberá ser única por paciente, al menos en cada Servicio de Salud.",
+      "D": "El paciente tiene derecho de acceso a la documentación de la historia clínica aunque no a obtener copia de los datos que figuran en la misma."
+    },
+    "raw_ocr": "3. Con respecto a la historia clínica, la Ley 3/2001, de 28 de mayo, reguladora del consentimiento informado y de la historia clínica, establece que:\n\nA) El soporte documental de la historia clínica debe garantizar su autenticidad, integridad, seguridad y\nconservación.\n\nB) Los datos de órdenes médicas no forman parte de la historia clínica.\n\nC) Deberá ser única por paciente, al menos en cada Servicio de Salud.\n\nD) El paciente tiene derecho de acceso a la documentación de la historia clínica aunque no a obtener copia de\nlos datos que figuran en la misma.",
+    "fuente": "2024_tecnico_dietetica",
+    "anno": 2024,
+    "respuesta_correcta": null,
+    "tags": [],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 4,
+    "numero_original": "4.",
+    "enunciado": "Según el artículo 11 del Estatuto de Autonomía de Galicia, el Parlamento:",
+    "opciones": {
+      "A": "Es el órgano colegiado de gobierno de Galicia.",
+      "B": "Será elegido por un plazo de cuatro años, de acuerdo con un sistema de representación mayoritaria.",
+      "C": "El número de parlamentarios será 85.",
+      "D": "Está constituido por Diputados elegidos por sufragio universal, igual, libre, directo y secreto."
+    },
+    "raw_ocr": "4. Según el artículo 11 del Estatuto de Autonomía de Galicia, el Parlamento:\n\nA) Es el órgano colegiado de gobierno de Galicia.\n\nB) Será elegido por un plazo de cuatro años, de acuerdo con un sistema de representación mayoritaria.\n\nC) El número de parlamentarios será 85.\n\nD) Está constituido por Diputados elegidos por sufragio universal, igual, libre, directo y secreto.",
+    "fuente": "2024_tecnico_dietetica",
+    "anno": 2024,
+    "respuesta_correcta": null,
+    "tags": [],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 5,
+    "numero_original": "5.",
+    "enunciado": "Según la Ley 31/1995 de Prevención de Riesgos Laborales, la posibilidad de que un trabajador sufra un determinado daño derivado del trabajo es:",
+    "opciones": {
+      "A": "Una condición del puesto de trabajo.",
+      "B": "Un riesgo laboral grave e inminente.",
+      "C": "Un riesgo laboral.",
+      "D": "Un incumplimiento de la acción preventiva que es responsabilidad del servicio de prevención."
+    },
+    "raw_ocr": "5. Según la Ley 31/1995 de Prevención de Riesgos Laborales, la posibilidad de que un trabajador sufra un\ndeterminado daño derivado del trabajo es:\n\nA) Una condición del puesto de trabajo.\n\nB) Un riesgo laboral grave e inminente.\n\nC) Un riesgo laboral.\n\nD) Un incumplimiento de la acción preventiva que es responsabilidad del servicio de prevención.",
+    "fuente": "2024_tecnico_dietetica",
+    "anno": 2024,
+    "respuesta_correcta": null,
+    "tags": [],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 6,
+    "numero_original": "6.",
+    "enunciado": "Según el Decreto 206/2005 de provisión de plazas de personal estatutario del Servicio Gallego de Salud, los procesos de selección, movilidad y promoción interna que se convoquen abarcarán como mínimo con carácter general el ámbito de cobertura territorial de:",
+    "opciones": {
+      "A": "Comunidad Autónoma.",
+      "B": "Zona sanitaria.",
+      "C": "Área sanitaria.",
+      "D": "Distrito sanitario."
+    },
+    "raw_ocr": "6. Según el Decreto 206/2005 de provisión de plazas de personal estatutario del Servicio Gallego de Salud, los procesos de selección, movilidad y promoción interna que se convoquen abarcarán como mínimo con carácter\ngeneral el ámbito de cobertura territorial de:\n\nA) Comunidad Autónoma.\nB) Zona sanitaria.\nC) Área sanitaria.\n\nD) Distrito sanitario.",
+    "fuente": "2024_tecnico_dietetica",
+    "anno": 2024,
+    "respuesta_correcta": null,
+    "tags": [],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 7,
+    "numero_original": "7.",
+    "enunciado": "¿Cuál de los siguientes derechos está reconocido en la Constitución Española como un principio rector de la política social y económica?",
+    "opciones": {
+      "A": "El derecho de petición individual y colectiva.",
+      "B": "El derecho a sindicarse libremente.",
+      "C": "El derecho a la salud.",
+      "D": "El derecho a la educación."
+    },
+    "raw_ocr": "7. Cual de los siguientes derechos está reconocido en la Constitución Española como un principio rector de la\npolítica social y económica:\n\nA) El derecho de petición individual y colectiva.\nB) El derecho a sindicarse libremente.\nC) El derecho a la salud.\n\nD) El derecho a la educación.",
+    "fuente": "2024_tecnico_dietetica",
+    "anno": 2024,
+    "respuesta_correcta": null,
+    "tags": [],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 8,
+    "numero_original": "8.",
+    "enunciado": "La retribución complementaria que se abona en función del nivel del puesto que se desempeña es:",
+    "opciones": {
+      "A": "Complemento de productividad.",
+      "B": "Complemento de carrera.",
+      "C": "Complemento de destino.",
+      "D": "Complemento específico."
+    },
+    "raw_ocr": "8. La retribución complementaria que se abona en función del nivel del puesto que se desempeña es:\nA) Complemento de productividad.\n\nB) Complemento de carrera.\n\nC) Complemento de destino.\n\nD) Complemento específico.",
+    "fuente": "2024_tecnico_dietetica",
+    "anno": 2024,
+    "respuesta_correcta": null,
+    "tags": [],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 9,
+    "numero_original": "9.",
+    "enunciado": "Es una competencia sanitaria que corresponde a la Administración estatal:",
+    "opciones": {
+      "A": "El control sanitario del medio ambiente.",
+      "B": "La reglamentación, autorización y registro u homologación, según proceda, de los medicamentos de uso humano y veterinario.",
+      "C": "La provisión directa de servicios sanitarios.",
+      "D": "Control sanitario de la distribución y suministro de alimentos, bebidas y demás productos relacionados con el uso o consumo humano."
+    },
+    "raw_ocr": "9. Es una competencia sanitaria que corresponde a la Administración estatal:\nA) El control sanitario del medio ambiente.\n\nB) La reglamentación, autorización y registro u homologación, según proceda, de los medicamentos de uso\nhumano y veterinario.\n\nC) La provisión directa de servicios sanitarios.\n\nD) Control sanitario de la distribución y suministro de alimentos, bebidas y demás productos relacionados con\nel uso o consumo humano.",
+    "fuente": "2024_tecnico_dietetica",
+    "anno": 2024,
+    "respuesta_correcta": null,
+    "tags": [],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 10,
+    "numero_original": "10.",
+    "enunciado": "La convocatoria de un proceso de selección fija que se publique en el Diario Oficial de Galicia deberá prever:",
+    "opciones": {
+      "A": "Lugar de realización de los ejercicios de la fase de oposición.",
+      "B": "Contenido de las pruebas de selección, baremos y programas aplicables a las mismas, así como el sistema de calificación.",
+      "C": "Composición del tribunal de cualificación.",
+      "D": "La relación por localidad e institución sanitaria de las plazas ofertadas a los aspirantes seleccionados."
+    },
+    "raw_ocr": "10. La convocatoria de un proceso de selección fija que se publique en el Diario Oficial de Galicia deberá\nprever:\n\nA) Lugar de realización de los ejercicios de la fase de oposición.\n\nB) Contenido de las pruebas de selección, baremos y programas aplicables a las mismas, así como el sistema\nde calificación.\n\nC) Composición del tribunal de cualificación.\n\nD) La relación por localidad e institución sanitaria de las plazas ofertadas a los aspirantes seleccionados.",
+    "fuente": "2024_tecnico_dietetica",
+    "anno": 2024,
+    "respuesta_correcta": null,
+    "tags": [],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 11,
+    "numero_original": "11.",
+    "enunciado": "El presidente de la Xunta de Galicia:",
+    "opciones": {
+      "A": "Será elegido por los Consejeros de la Xunta.",
+      "B": "Ostenta la representación del Estado en Galicia.",
+      "C": "Será nombrado por el Rey.",
+      "D": "Puede interponer recursos de inconstitucionalidad."
+    },
+    "raw_ocr": "11. El presidente de la Xunta de Galicia:\n\nA) Será elegido por los Consejeros de la Xunta.\n\nB) Ostenta la representación del Estado en Galicia.\n\nC) Será nombrado por el Rey.\n\nD) Puede interponer recursos de inconstitucionalidad.",
+    "fuente": "2024_tecnico_dietetica",
+    "anno": 2024,
+    "respuesta_correcta": null,
+    "tags": [],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 12,
+    "numero_original": "12.",
+    "enunciado": "Los aspirantes nombrados en un proceso selectivo convocado mediante concurso-oposición deberán tomar posesión en el plazo de .... desde el día siguiente al de la publicación de la resolución en el Diario Oficial de Galicia:",
+    "opciones": {
+      "A": "1 mes.",
+      "B": "15 días.",
+      "C": "15 días hábiles.",
+      "D": "10 días hábiles."
+    },
+    "raw_ocr": "12. Los aspirantes nombrados en un proceso selectivo convocado mediante concurso-oposición deberán tomar\nposesión en el plazo de .... desde el día siguiente al de la publicación de la resolución en el Diario Oficial de Galicia:\n\nA) 1 mes.\n\nB) 15 días.\n\nC) 15 días hábiles.\nD) 10 días hábiles.",
+    "fuente": "2024_tecnico_dietetica",
+    "anno": 2024,
+    "respuesta_correcta": null,
+    "tags": [],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  }
+]

@@ -1,0 +1,254 @@
+[
+  {
+    "numero": 1,
+    "numero_original": "1.",
+    "enunciado": "Según el Estatuto Marco del personal estatutario de los servicios de salud, al profesional que no se incorpore al destino obtenido en un procedimiento de movilidad voluntaria dentro de los plazos establecidos o las prórrogas de los mismos que legal o reglamentariamente procedan, el Servicio de Salud en el que prestó servicios tiene que declararlo en:",
+    "opciones": {
+      "A": "Excedencia por incompatibilidad.",
+      "B": "Reingreso provisional.",
+      "C": "Servicios especiales.",
+      "D": "Excedencia voluntaria por interés particular."
+    },
+    "raw_ocr": "1. Según el Estatuto Marco del personal estatutario de los servicios de salud, al profesional que no se incorpore al destino obtenido en un procedimiento de movilidad voluntaria dentro de los plazos establecidos o las prórrogas de los mismos que legal o reglamentariamente procedan, el Servicio de Salud en el que prestó\nservicios tiene que declararlo en:\n\nA) Excedencia por incompatibilidad.\n\nB) Reingreso provisional.\nC) Servicios especiales.\nD) Excedencia voluntaria por interés particular.",
+    "fuente": "2022_servicios_generales",
+    "anno": 2022,
+    "respuesta_correcta": null,
+    "tags": [],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 2,
+    "numero_original": "2.",
+    "enunciado": "Según el artículo 8 de la Ley 31/1995, de 8 de noviembre, de prevención de riesgos laborales, indica cuál es el órgano científico y técnico especializado de la Administración General del Estado cuya misión es el análisis y estudio de las condiciones de seguridad y salud en el trabajo, así como la promoción y apoyo a la mejora de las mismas:",
+    "opciones": {
+      "A": "El Comité de Seguridad y Salud.",
+      "B": "La Inspección de Trabajo y Seguridad Social.",
+      "C": "La Comisión Nacional de Seguridad y Salud en el Trabajo.",
+      "D": "El Instituto Nacional de Seguridad e Higiene en el Trabajo."
+    },
+    "raw_ocr": "2. Según el artículo 8 de la Ley 31/1995, de 8 de noviembre, de prevención de riesgos laborales, indica cuál es el órgano científico y técnico especializado de la Administración General del Estado cuya misión es el análisis y estudio de las condiciones de seguridad y salud en el trabajo, así como la promoción y apoyo a la mejora de las mismas:\n\nA) El Comité de Seguridad y Salud.\n\nB) La Inspección de Trabajo y Seguridad Social.\nC) La Comisión Nacional de Seguridad y Salud en el Trabajo.\n\nD) El Instituto Nacional de Seguridad e Higiene en el Trabajo.",
+    "fuente": "2022_servicios_generales",
+    "anno": 2022,
+    "respuesta_correcta": null,
+    "tags": [],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 3,
+    "numero_original": "3.",
+    "enunciado": "Según el artículo 15 de la Ley 14/1986, de 25 de abril, General de Sanidad indica el organismo que acreditará los servicios de referencia, a los que podrán acceder todos los usuarios del Sistema Nacional de Salud una vez finalizadas las posibilidades de diagnóstico y tratamiento de los servicios especializados de la Comunidad Autónoma donde residen:",
+    "opciones": {
+      "A": "La Consejería de Sanidad de la Comunidad Autónoma en la que residan.",
+      "B": "La Inspección de Trabajo y Seguridad Social.",
+      "C": "El Consejo Interterritorial del Sistema Nacional de Salud.",
+      "D": "El Ministerio de Sanidad y Consumo."
+    },
+    "raw_ocr": "3. Según el artículo 15 de la Ley 14/1986, de 25 de abril, General de Sanidad indica el organismo que\nacreditará los servicios de referencia, a los que podrán acceder todos los usuarios del Sistema Nacional de\nSalud una vez finalizadas las posibilidades de diagnóstico y tratamiento de los servicios especializados de la Comunidad Autónoma donde residen:\n\nA) La Consejería de Sanidad de la Comunidad Autónoma en la que residan.\n\nB) La Inspección de Trabajo y Seguridad Social.\n\nC) El Consejo Interterritorial del Sistema Nacional de Salud.\n\nD) El Ministerio de Sanidad y Consumo.",
+    "fuente": "2022_servicios_generales",
+    "anno": 2022,
+    "respuesta_correcta": null,
+    "tags": [],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 4,
+    "numero_original": "4.",
+    "enunciado": "Según el artículo 26 del Decreto 206/2005, de 22 de julio, sobre provisión de plazas de personal estatutario en el Servicio Gallego de Salud, indica cuál es un requisito para acceder a los procesos de promoción interna:",
+    "opciones": {
+      "A": "Estar en servicio activo en instituciones sanitarias del Servicio Gallego de Salud y con nombramiento como personal estatutario fijo durante al menos 2 años en la categoría de procedencia.",
+      "B": "Estar en servicio activo en instituciones sanitarias del Servicio Gallego de Salud y con nombramiento como personal estatutario temporal durante al menos 5 años en la categoría de procedencia.",
+      "C": "Estar en situación de excedencia voluntaria en instituciones sanitarias del Servicio Gallego de Salud.",
+      "D": "Tener la condición de personal estatutario temporal de otra categoría de nivel académico inferior a aquel al que se pretende acceder."
+    },
+    "raw_ocr": "4. Según el artículo 26 del Decreto 206/2005, de 22 de julio, sobre provisión de plazas de personal estatutario en el Servicio Gallego de Salud, indica cuál es un requisito para acceder a los procesos de promoción interna:\n\nA) Estar en servicio activo en instituciones sanitarias del Servicio Gallego de Salud y con nombramiento como\npersonal estatutario fijo durante al menos 2 años en la categoría de procedencia.\n\nB) Estar en servicio activo en instituciones sanitarias del Servicio Gallego de Salud y con nombramiento como\npersonal estatutario temporal durante al menos 5 años en la categoría de procedencia.\n\nC) Estar en situación de excedencia voluntaria en instituciones sanitarias del Servicio Gallego de Salud.\n\nD) Tener la condición de personal estatutario temporal de otra categoría de nivel académico inferior a aquel al que se pretende acceder.",
+    "fuente": "2022_servicios_generales",
+    "anno": 2022,
+    "respuesta_correcta": null,
+    "tags": [],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 5,
+    "numero_original": "5.",
+    "enunciado": "El artículo 5 apartado b) de la Ley 31/1995, de 8 de noviembre, de prevención de riesgos laborales, indica que la elaboración de la política preventiva se llevará a cabo con la participación:",
+    "opciones": {
+      "A": "De los empresarios y los trabajadores a través de sus organizaciones empresariales y sindicales más representativas.",
+      "B": "De la Administración General del Estado y de los trabajadores a través de sus organizaciones sindicales más representativas.",
+      "C": "De las Administraciones de las Comunidades Autónomas y de los trabajadores a través de sus organizaciones sindicales más representativas.",
+      "D": "De las entidades que integran la Administración local y de los trabajadores a través de sus organizaciones sindicales más representativas."
+    },
+    "raw_ocr": "5. El artículo 5 apartado b) de la Ley 31/1995, de 8 de noviembre, de prevención de riesgos laborales, indica\nque la elaboración de la política preventiva se llevará a cabo con la participación:\n\nA) De los empresarios y los trabajadores a través de sus organizaciones empresariales y sindicales más\nrepresentativas.\n\nB) De la Administración General del Estado y de los trabajadores a través de sus organizaciones sindicales más representativas.\n\nC) De las Administraciones de las Comunidades Autónomas y de los trabajadores a través de sus\norganizaciones sindicales más representativas.\n\nD) De las entidades que integran la Administración local y de los trabajadores a través de sus organizaciones\nsindicales más representativas.",
+    "fuente": "2022_servicios_generales",
+    "anno": 2022,
+    "respuesta_correcta": null,
+    "tags": [],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 6,
+    "numero_original": "6.",
+    "enunciado": "Según el artículo 10 de la Ley Orgánica 1/1981, de 6 de abril, del Estatuto de Autonomía para Galicia, solicitar del Gobierno la adopción de proyectos de ley y presentar ante la Mesa del Congreso de los Diputados proposiciones de Ley es una función de:",
+    "opciones": {
+      "A": "Del Presidente de la Junta.",
+      "B": "Del Vicepresidente de la Junta.",
+      "C": "Del Consejo Asesor de la Junta.",
+      "D": "Del Parlamento."
+    },
+    "raw_ocr": "6. Según el artículo 10 de la Ley Orgánica 1/1981, de 6 de abril, del Estatuto de Autonomía para Galicia,\nsolicitar del Gobierno la adopción de proyectos de ley y presentar ante la Mesa del Congreso de los Diputados\nproposiciones de Ley es una función de:\n\nA) Del Presidente de la Junta.\n\nB) Del Vicepresidente de la Junta.\n\nC) Del Consejo Asesor de la Junta.\n\nD) Del Parlamento.",
+    "fuente": "2022_servicios_generales",
+    "anno": 2022,
+    "respuesta_correcta": null,
+    "tags": [],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 7,
+    "numero_original": "7.",
+    "enunciado": "El artículo 41 de la Ley gallega 11/2007, de 27 de julio, para la prevención y tratamiento integral de la violencia de género, establece el procedimiento abreviado para la percepción de la renta de integración social de Galicia para las mujeres que sufren violencia de género y cumplen los requisitos legales para su percepción. El reconocimiento del derecho a la prestación y su pago efectivo se realizará:",
+    "opciones": {
+      "A": "En un plazo máximo de quince días desde la solicitud formulada por la interesada ante los servicios sociales correspondientes.",
+      "B": "En un plazo máximo de un mes desde la solicitud formulada por la interesada ante los servicios sociales correspondientes.",
+      "C": "En un plazo máximo de tres meses desde la solicitud formulada por la interesada ante los servicios sociales correspondientes.",
+      "D": "No se establece un plazo máximo."
+    },
+    "raw_ocr": "7. El artículo 41 de la Ley gallega 11/2007, de 27 de julio, para la prevención y tratamiento integral de la\nviolencia de género, establece el procedimiento abreviado para la percepción de la renta de integración social de Galicia para las mujeres que sufren violencia de género y cumplen los requisitos legales para su percepción. El reconocimiento del derecho a la prestación y su pago efectivo se realizará:\n\nA) En un plazo máximo de quince días desde la solicitud formulada por la interesada ante los servicios sociales correspondientes.\n\nB) En un plazo máximo de un mes desde la solicitud formulada por la interesada ante los servicios sociales\ncorrespondientes.\n\nC) En un plazo máximo de tres meses desde la solicitud formulada por la interesada ante los servicios sociales correspondientes.\n\nD) No se establece un plazo máximo.",
+    "fuente": "2022_servicios_generales",
+    "anno": 2022,
+    "respuesta_correcta": null,
+    "tags": [],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 8,
+    "numero_original": "8.",
+    "enunciado": "Según la Constitución Española, indica cuál de los siguientes es un derecho fundamental indicado en la Sección primera, de los derechos fundamentales y de las libertades públicas:",
+    "opciones": {
+      "A": "El hombre y la mujer tienen derecho a contraer matrimonio con plena igualdad jurídica.",
+      "B": "Derecho a la propiedad privada y a la herencia.",
+      "C": "Derecho a la libertad de cátedra.",
+      "D": "Derecho de defender a España."
+    },
+    "raw_ocr": "8. Según la Constitución Española, indica cúal de los siguientes es un derecho fundamental indicado en la\nSección primera, de los derechos fundamentales y de las libertades públicas:\n\nA) El hombre y la mujer tienen derecho a contraer matrimonio con plena igualdad jurídica.\n\nB) Derecho a la propiedad privada y a la herencia.\n\nC) Derecho a la libertad de cátedra.\n\nD) Derecho de defender a España.",
+    "fuente": "2022_servicios_generales",
+    "anno": 2022,
+    "respuesta_correcta": null,
+    "tags": [],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 9,
+    "numero_original": "9.",
+    "enunciado": "Según el artículo 52 de la Ley 11/2007, de 27 de julio, gallega para la prevención y tratamiento integral de la violencia de género, indica quién es el encargado de recibir la comunicación de la totalidad de las órdenes de protección que se dicten en el territorio de Galicia y llevará a cabo un seguimiento individualizado de cada caso, con la finalidad de facilitarles cuanta información demanden y articular una actuación ordenada de los servicios asistenciales y de protección:",
+    "opciones": {
+      "A": "La Comisión contra la Violencia de Género.",
+      "B": "El Punto de Coordinación de las Órdenes de Protección.",
+      "C": "El punto de encuentro familiar.",
+      "D": "El Servicio de Atención 24 horas."
+    },
+    "raw_ocr": "9. Según el artículo 52 de la Ley 11/2007, de 27 de julio, gallega para la prevención y tratamiento integral de la violencia de género, indica quién es el encargado de recibir la comunicación de la totalidad de las órdenes de protección que se dicten en el territorio de Galicia y llevará a cabo un seguimiento individualizado de cada caso, con la finalidad de facilitarles cuanta información demanden y articular una actuación ordenada de los servicios asistenciales y de protección:\n\nA) La Comisión contra la Violencia de Género.\n\nB) El Punto de Coordinación de las Órdenes de Protección.\n\nC) El punto de encuentro familiar.\n\nD) El Servicio de Atención 24 horas.",
+    "fuente": "2022_servicios_generales",
+    "anno": 2022,
+    "respuesta_correcta": null,
+    "tags": [],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 10,
+    "numero_original": "10.",
+    "enunciado": "Según la Ley 8/2008, de 10 de julio, de Salud de Galicia, la definición, comunicación y establecimiento de objetivos y garantías de cumplimiento de los criterios de gestión incorporados en la prestación de servicios sanitarios es una competencia:",
+    "opciones": {
+      "A": "De la Consejería de Sanidad.",
+      "B": "De la Inspección de Trabajo y Seguridad Social.",
+      "C": "Del Consejo Interterritorial del Sistema Nacional de Salud.",
+      "D": "De las Comisiones de Centro de las áreas sanitarias."
+    },
+    "raw_ocr": "10. Según la Ley 8/2008, de 10 de julio, de Salud de Galicia, la definición, comunicación y establecimiento de objetivos y garantías de cumplimiento de los criterios de gestión incorporados en la prestación de servicios sanitarios es una competencia:\n\nA) De la Consejeria de Sanidad.\nB) De la Inspección de Trabajo y Seguridad Social.\nC) Del Consejo Interterritorial del Sistema Nacional de Salud.\n\nD) De las Comisiones de Centro de las áreas sanitarias.",
+    "fuente": "2022_servicios_generales",
+    "anno": 2022,
+    "respuesta_correcta": null,
+    "tags": [],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 11,
+    "numero_original": "11.",
+    "enunciado": "Según el artículo 1 de la Constitución Española, España se constituye en un Estado:",
+    "opciones": {
+      "A": "Socialista, que propugna como valor fundamental el pluralismo político.",
+      "B": "Socialdemócrata, que propugna como valores singulares la libertad, la justicia, la igualdad y los derechos humanos.",
+      "C": "Social y democrático de derecho, que propugna como valores superiores de su ordenamiento jurídico la libertad, la justicia, la igualdad y el pluralismo político.",
+      "D": "Monárquico, que propugna como valores superiores de su ordenamiento jurídico la igualdad, la justicia y el pluralismo político."
+    },
+    "raw_ocr": "11. Según el artículo 1 de la Constitución Española, España se constituye en un Estado:\n\nA) Socialista, que propugna como valor fundamental el pluralismo político.\n\nB) Socialdemócrata, que propugna como valores singulares la libertad, la justicia, la igualdad y los derechos\nhumanos.\n\nC) Social y democrático de derecho, que propugna como valores superiores de su ordenamiento jurídico la\nlibertad, la justicia, la igualdad y el pluralismo político.\n\nD) Monárquico, que propugna como valores superiores de su ordenaminento jurídico la igualdad, la justicia y\nel pluralismo político.",
+    "fuente": "2022_servicios_generales",
+    "anno": 2022,
+    "respuesta_correcta": null,
+    "tags": [],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 12,
+    "numero_original": "12.",
+    "enunciado": "Según el artículo 16 de la Ley Orgánica 1/1981, de 6 de abril, del Estatuto de Autonomía para Galicia, los Vicepresidentes y Consejeros de la Junta de Galicia serán nombrados y cesados:",
+    "opciones": {
+      "A": "Por el Parlamento.",
+      "B": "Por el Consejo Asesor de la Junta.",
+      "C": "Por el Presidente de la Junta.",
+      "D": "Por el Rey."
+    },
+    "raw_ocr": "12. Según el artículo 16 de la Ley Orgánica 1/1981, de 6 de abril, del Estatuto de Autonomía para Galicia, los Vicepresidentes y Consejeros de la Junta de Galicia serán nombrados y cesados:\n\nA) Por el Parlamento.\n\nB) Por el Consejo Asesor de la Junta.\n\nC) Por el Presidente de la Junta.\n\nD) Por el Rey.",
+    "fuente": "2022_servicios_generales",
+    "anno": 2022,
+    "respuesta_correcta": null,
+    "tags": [],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  }
+]

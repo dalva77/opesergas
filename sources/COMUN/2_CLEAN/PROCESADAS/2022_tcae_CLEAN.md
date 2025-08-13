@@ -122,6 +122,7 @@ D) La puntuación de la fase de concurso podrá aplicarse para superar la fase d
 11. Es una actuación que compete a la Administración estatal según la Ley General de Sanidad:
 
 A) El control sanitario de edificios y lugares de vivienda y convivencia humana.
+
 B) El nombramiento de los Consejos de Salud de Área.
 
 C) La reglamentación, autorización y registro u homologación de los medicamentos de uso humano y
@@ -132,6 +133,7 @@ D) El control sanitario de la distribución y suministro de alimentos y bebidas.
 ---
 
 12. Indique cuál de las siguientes NO es una clasificación del personal estatutario según el Estatuto Marco:
+
 A) La función desarrollada.
 
 B) El nivel del título exigido para el ingreso.

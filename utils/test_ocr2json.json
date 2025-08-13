@@ -1,0 +1,128 @@
+[
+  {
+    "numero": 1,
+    "numero_original": "1.",
+    "enunciado": "¿Cómo se denomina la posibilidad de que un trabajador sufra un daño a consecuencia de su trabajo?",
+    "opciones": {
+      "A": "Enfermedad profesional.",
+      "B": "Accidente laboral.",
+      "C": "Daño derivado del trabajo.",
+      "D": "Riesgo laboral."
+    },
+    "raw_ocr": "1. ¿Cómo se denomina la posibilidad de que un trabajador sufra un daño a consecuencia de su trabajo?\n\nA) Enfermedad profesional.\n\nB) Accidente laboral.\nC) Daño derivado del trabajo.\n\nD) Riesgo laboral.",
+    "fuente": "2024_aux_discap",
+    "anno": 2024,
+    "respuesta_correcta": null,
+    "tags": [],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 2,
+    "numero_original": "2.",
+    "enunciado": "El título preliminar de la Constitución dice que España es:",
+    "opciones": {
+      "A": "Una república federal.",
+      "B": "Una monarquía parlamentaria.",
+      "C": "Una monarquía constitucional.",
+      "D": "Un régimen autoritario."
+    },
+    "raw_ocr": "2. El título preliminar de la Constitución dice que España es:\n\nA) Una república federal.\n\nB) Una monarquía parlamentaria.\n\nC) Una monarquía constitucional.\n\nD) Un régimen autoritario.",
+    "fuente": "2024_aux_discap",
+    "anno": 2024,
+    "respuesta_correcta": null,
+    "tags": [],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 3,
+    "numero_original": "3.",
+    "enunciado": "¿Quién es el presidente del Servicio Gallego de Salud?",
+    "opciones": {
+      "A": "El presidente de la Xunta.",
+      "B": "El conselleiro de Sanidad.",
+      "C": "El gerente del Servicio Gallego de Salud.",
+      "D": "El Servicio Gallego de Salud no tiene presidente."
+    },
+    "raw_ocr": "3. ¿Quién es el presidente del Servicio Gallego de Salud?\nA) El presidente de la Xunta.\n\nB) El conselleiro de Sanidad.\n\nC) El gerente del Servicio Gallego de Salud.\n\nD) El Servicio Gallego de Salud no tiene presidente.",
+    "fuente": "2024_aux_discap",
+    "anno": 2024,
+    "respuesta_correcta": null,
+    "tags": [],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 4,
+    "numero_original": "4.",
+    "enunciado": "¿Cuánto tiempo tienen los aspirantes nombrados para incorporarse al destino adjudicado tras la finalización del proceso selectivo?",
+    "opciones": {
+      "A": "2 meses.",
+      "B": "15 días.",
+      "C": "1 mes.",
+      "D": "20 días."
+    },
+    "raw_ocr": "4. ¿Cuánto tiempo tienen los aspirantes nombrados para incorporarse al destino adjudicado tras la finalización del proceso selectivo?\nA) 2 meses.\nB) 15 días.\n\nC) 1 mes.\nD) 20 días.",
+    "fuente": "2024_aux_discap",
+    "anno": 2024,
+    "respuesta_correcta": null,
+    "tags": [],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 5,
+    "numero_original": "5.",
+    "enunciado": "El Estatuto de autonomía dice que Galicia es:",
+    "opciones": {
+      "A": "Una región de España.",
+      "B": "Una nación.",
+      "C": "Un conjunto de provincias.",
+      "D": "Una nacionalidad histórica."
+    },
+    "raw_ocr": "5. El Estatuto de autonomía dice que Galicia es:\nA) Una región de España.\n\nB) Una nación.\n\nC) Un conjunto de provincias.\n\nD) Una nacionalidad histórica.",
+    "fuente": "2024_aux_discap",
+    "anno": 2024,
+    "respuesta_correcta": null,
+    "tags": [],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 11,
+    "numero_original": "11.",
+    "enunciado": "¿Cuál es la opción correcta?",
+    "opciones": {
+      "A": "La igualdad de género significa que los hombres y las mujeres tienen los mismos derechos.",
+      "B": "La igualdad de género está prohibida por la Constitución española.",
+      "C": "La igualdad de género equivale a que hombres y mujeres son idénticos.",
+      "D": "La desigualdad entre hombres y mujeres se debe a causas naturales."
+    },
+    "raw_ocr": "11. ¿Cuál es la opción correcta?\n\nA) La igualdad de género significa que los hombres y las mujeres tienen los mismos derechos.\nB) La igualdad de género está prohibida por la Constitución española.\nC) La igualdad de género equivale a que hombres y mujeres son idénticos.\n\nD) La desigualdad entre hombres y mujeres se debe a causas naturales.",
+    "fuente": "2024_aux_discap",
+    "anno": 2024,
+    "respuesta_correcta": null,
+    "tags": [],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  }
+]

@@ -1,0 +1,254 @@
+[
+  {
+    "numero": 1,
+    "numero_original": "1.",
+    "enunciado": "De acuerdo con el artículo 3 de la Ley 14/1986, de 25 de abril, General de Sanidad, los medios y actuaciones del sistema sanitario estarán orientados prioritariamente:",
+    "opciones": {
+      "A": "A la promoción del bienestar integral y a la prevención de las enfermedades.",
+      "B": "A la promoción de la salud y a la prevención de las enfermedades.",
+      "C": "A la promoción del bienestar integral y a la educación sanitaria.",
+      "D": "A la promoción de la salud y el tratamiento de las enfermedades."
+    },
+    "raw_ocr": "1. De acuerdo con el artículo 3 de la Ley 14/1986, de 25 de abril, General de Sanidad, los medios y\nactuaciones del sistema sanitario estarán orientados prioritariamente:\n\nA) A la promoción del bienestar integral y a la prevención de las enfermedades.\n\nB) A la promoción de la salud y a la prevención de las enfermedades.\n\nC) A la promoción del bienestar integral y a la educación sanitaria.\n\nD) A la promoción de la salud y el tratamiento de las enfermedades.",
+    "fuente": "2022_terapia_ocup",
+    "anno": 2022,
+    "respuesta_correcta": null,
+    "tags": [],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 2,
+    "numero_original": "2.",
+    "enunciado": "De conformidad con el artículo 20 de la Ley gallega 3/2001, de 28 de mayo, reguladora del consentimiento informado y de la historia clínica de los pacientes, ¿cuál de la siguiente información NO tiene que ser conservada indefinidamente?",
+    "opciones": {
+      "A": "Hojas de petición de interconsulta.",
+      "B": "Hojas de alta voluntaria.",
+      "C": "Informes de necropsia.",
+      "D": "Informes de exploraciones complementarias."
+    },
+    "raw_ocr": "2. De conformidad con el artículo 20 de la Ley gallega 3/2001, de 28 de mayo, reguladora del consentimiento\ninformado y de la historia clínica de los pacientes, cuál de la siguiente información NO tiene que ser\nconservada indefinidamente:\n\nA) Hojas de petición de interconsulta.\n\nB) Hojas de alta voluntaria.\n\nC) Informes de necropsia.\n\nD) Informes de exploraciones complementarias.",
+    "fuente": "2022_terapia_ocup",
+    "anno": 2022,
+    "respuesta_correcta": null,
+    "tags": [],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 3,
+    "numero_original": "3.",
+    "enunciado": "De conformidad con la Ley 55/2003, de 16 de diciembre, del Estatuto Marco del personal estatutario de los servicios de salud, el personal tendrá derecho a un período mínimo de descanso ininterrumpido entre el fin de una jornada y el inicio de la siguiente de:",
+    "opciones": {
+      "A": "8 horas.",
+      "B": "10 horas.",
+      "C": "12 horas.",
+      "D": "14 horas."
+    },
+    "raw_ocr": "3. De conformidad con la Ley 55/2003, de 16 de diciembre, del Estatuto Marco del personal estatutario de los\nservicios de salud, el personal tendrá derecho a un período mínimo de descanso ininterrumpido entre el fin de\nuna jornada y el inicio de la siguiente de:\n\nA) 8 horas.\n\nB) 10 horas.\n\nC) 12 horas.\n\nD) 14 horas.",
+    "fuente": "2022_terapia_ocup",
+    "anno": 2022,
+    "respuesta_correcta": null,
+    "tags": [],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 4,
+    "numero_original": "4.",
+    "enunciado": "Según la Ley 8/2008, de salud de Galicia, la dirección del Sistema Público de Salud de Galicia le corresponde a:",
+    "opciones": {
+      "A": "El presidente de la Xunta de Galicia.",
+      "B": "El consello de la Xunta de Galicia.",
+      "C": "El consello gallego de salud.",
+      "D": "La consellería competente en materia de sanidad, sin perjuicio de las competencias atribuidas al consello de la Xunta de Galicia."
+    },
+    "raw_ocr": "4. Según la Ley 8/2008, de salud de Galicia, la dirección del Sistema Público de Salud de Galicia, le\ncorresponde a:\n\nA) El presidente de la Xunta de Galicia.\n\nB) El consello de la Xunta de Galicia.\n\nC) El consello gallego de salud.\n\nD) La consellería competente en materia de sanidad, sin perjuicio de las competencias atribuidas al consello de la Xunta de Galicia.",
+    "fuente": "2022_terapia_ocup",
+    "anno": 2022,
+    "respuesta_correcta": null,
+    "tags": [],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 5,
+    "numero_original": "5.",
+    "enunciado": "La provisión de plazas de personal estatutario del Servicio Gallego de Salud, según el Decreto 206/2005, de 22 de julio, que la regula, se regirá por los siguientes principios básicos:",
+    "opciones": {
+      "A": "Igualdad, mérito, capacidad y publicidad en la selección, promoción y movilidad del personal del organismo.",
+      "B": "Mérito y capacidad en la selección del personal del organismo.",
+      "C": "Igualdad y publicidad en la movilidad del personal del organismo.",
+      "D": "Publicidad en la selección y movilidad del personal del organismo."
+    },
+    "raw_ocr": "5. La provisión de plazas de personal estatutario del Servicio Gallego de Salud, según el Decreto 206/2005, de 22 de julio, que la regula, se regirá por los siguientes principios básicos:\n\nA) Igualdad, mérito, capacidad y publicidad en la selección, promoción y movilidad del personal del organismo.\nB) Mérito y capacidad en la selección del personal del organismo.\n\nC) Igualdad y publicidad en la movilidad del personal del organismo.\n\nD) Publicidad en la selección y movilidad del personal del organismo.",
+    "fuente": "2022_terapia_ocup",
+    "anno": 2022,
+    "respuesta_correcta": null,
+    "tags": [],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 6,
+    "numero_original": "6.",
+    "enunciado": "Según la Ley gallega 3/2001, de 28 de mayo, reguladora del consentimiento informado y de la historia clínica del paciente, la historia clínica:",
+    "opciones": {
+      "A": "Es propiedad del paciente.",
+      "B": "No puede contener valoraciones ni informaciones sobre la situación del paciente.",
+      "C": "Debe destruirse una vez transcurran cinco años desde el fallecimiento del paciente.",
+      "D": "Contendrá suficiente información para identificar al paciente y documentar su proceso de atención sanitaria."
+    },
+    "raw_ocr": "6. Según la Ley gallega 3/2001, de 28 de mayo, reguladora del consentimiento informado y de la historia\nclínica del paciente, la historia clínica:\n\nA) Es propiedad del paciente.\n\nB) No puede contener valoraciones ni informaciones sobre la situación del paciente.\n\nC) Debe destruirse una vez transcurran cinco años desde el fallecimiento del paciente.\n\nD) Contendrá suficiente información para identificar al paciente y documentar su proceso de atención sanitaria.",
+    "fuente": "2022_terapia_ocup",
+    "anno": 2022,
+    "respuesta_correcta": null,
+    "tags": [],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 7,
+    "numero_original": "7.",
+    "enunciado": "La ley 8/2008, de salud de Galicia, establece que la atención especializada se caracteriza por:",
+    "opciones": {
+      "A": "Un enfoque global e integrado de la atención de la salud.",
+      "B": "La verificación del cumplimiento de los estándares definidos.",
+      "C": "Alta intensidad de los cuidados requeridos.",
+      "D": "La canalización de la asistencia requerida por el paciente en cualquier punto del sistema."
+    },
+    "raw_ocr": "7. La ley 8/2008, de salud de Galicia, establece que la atención especializada se caracteriza por:\nA) Un enfoque global e integrado de la atención de la salud.\nB) La verificación del cumplimiento de los estándares definidos.\nC) Alta intensidad de los cuidados requeridos.\nD) La canalización de la asistencia requerida por el paciente en cualquier punto del sistema.",
+    "fuente": "2022_terapia_ocup",
+    "anno": 2022,
+    "respuesta_correcta": null,
+    "tags": [],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 8,
+    "numero_original": "8.",
+    "enunciado": "Conforme a lo previsto en la Ley 55/2003, de 16 de diciembre, del Estatuto Marco del personal estatutario de los servicios de salud, el complemento de carrera profesional está destinado a retribuir:",
+    "opciones": {
+      "A": "El nivel del puesto.",
+      "B": "El grado reconocido.",
+      "C": "La especial dedicación y responsabilidad.",
+      "D": "El especial rendimiento."
+    },
+    "raw_ocr": "8. Conforme a lo previsto en la Ley 55/2003, de 16 de diciembre, del Estatuto Marco del personal estatutario\nde los servicios de salud, el complemento de carrera profesional está destinado a retribuir:\nA) El nivel del puesto.\nB) El grado reconocido.\nC) La especial dedicación y responsabilidad.\n\nD) El especial rendimiento.",
+    "fuente": "2022_terapia_ocup",
+    "anno": 2022,
+    "respuesta_correcta": null,
+    "tags": [],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 9,
+    "numero_original": "9.",
+    "enunciado": "Según la Ley 31/1995, de 8 de noviembre, de prevención de riesgos laborales, se considera como \"daños derivados del trabajo\":",
+    "opciones": {
+      "A": "Las lesiones físicas sufridas con motivo u ocasión del trabajo.",
+      "B": "Las enfermedades profesionales.",
+      "C": "Las enfermedades, patologías o lesiones sufridas con motivo u ocasión del trabajo.",
+      "D": "Las lesiones o enfermedades sufridas como consecuencia de un accidente de trabajo."
+    },
+    "raw_ocr": "9. Según la Ley 31/1995, de 8 de noviembre, de prevención de riesgos laborales, se considera como \"daños\nderivados del trabajo\":\n\nA) Las lesiones físicas sufridas con motivo u ocasión del trabajo.\nB) Las enfermedades profesionales.\nC) Las enfermedades, patologías o lesiones sufridas con motivo u ocasión del trabajo.\n\nD) Las lesiones o enfermedades sufridas como consecuencia de un accidente de trabajo.",
+    "fuente": "2022_terapia_ocup",
+    "anno": 2022,
+    "respuesta_correcta": null,
+    "tags": [],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 10,
+    "numero_original": "10.",
+    "enunciado": "Conforme al Decreto 206/2005, de provisión de plazas de personal estatutario del Servicio Gallego de Salud, señale cuál es un requisito para el personal en servicio activo, para ser admitido en un concurso de traslados:",
+    "opciones": {
+      "A": "Tomar posesión de la plaza desempeñada 6 meses antes, como mínimo, a la fecha de finalización del plazo de presentación de instancias.",
+      "B": "Tomar posesión de la plaza desempeñada 1 año antes, como mínimo, a la fecha de finalización del plazo de presentación de instancias.",
+      "C": "Tomar posesión de la plaza desempeñada 18 meses antes, como mínimo, a la fecha de finalización del plazo de presentación de instancias.",
+      "D": "Tomar posesión de la plaza desempeñada 2 años antes, como mínimo, a la fecha de finalización del plazo de presentación de instancias."
+    },
+    "raw_ocr": "10. Conforme al Decreto 206/2005, de provisión de plazas de personal estatutario del Servicio Gallego de\nSalud, señale cuál es un requisito para el personal en servicio activo, para ser admitido en un concurso de\ntraslados:\n\nA) Tomar posesión de la plaza desempeñada 6 meses antes, como mínimo, a la fecha de finalización del plazo\nde presentación de instancias.\n\nB) Tomar posesión de la plaza desempeñada 1 año antes, como mínimo, a la fecha de finalización del plazo de\npresentación de instancias.\n\nC) Tomar posesión de la plaza desempeñada 18 meses antes, como mínimo, a la fecha de finalización del\nplazo de presentación de instancias.\n\nD) Tomar posesión de la plaza desempeñada 2 años antes, como mínimo, a la fecha de finalización del plazo\nde presentación de instancias.",
+    "fuente": "2022_terapia_ocup",
+    "anno": 2022,
+    "respuesta_correcta": null,
+    "tags": [],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 11,
+    "numero_original": "11.",
+    "enunciado": "De acuerdo con el artículo 67 de la Ley 8/2008, de salud de Galicia, modificado por la Ley 1/2018, el Sistema Público de salud de Galicia se ordena territorialmente en:",
+    "opciones": {
+      "A": "Áreas sanitarias, distritos sanitarios y zonas sanitarias.",
+      "B": "Áreas sanitarias, hospitales y atención primaria.",
+      "C": "Estructuras sanitarias, distritos sanitarios y zonas básicas de salud.",
+      "D": "Áreas de gestión integrada, distritos sanitarios y comarcas sanitarias."
+    },
+    "raw_ocr": "11. De acuerdo con el artículo 67 de la Ley 8/2008, de salud de Galicia, modificado por la Ley 1/2018, el\nSistema Público de salud de Galicia se ordena territorialmente en:\nA) Áreas sanitarias, distritos sanitarios y zonas sanitarias.\n\nB) Áreas sanitarias, hospitales y atención primaria.\nC) Estructuras sanitarias, distritos sanitarios y zonas básicas de salud\n\nD) Áreas de gestión integrada, distritos sanitarios y comarcas sanitarias.",
+    "fuente": "2022_terapia_ocup",
+    "anno": 2022,
+    "respuesta_correcta": null,
+    "tags": [],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  },
+  {
+    "numero": 12,
+    "numero_original": "12.",
+    "enunciado": "A efectos de la Ley 11/2007, de 27 de julio, gallega para la prevención y el tratamiento integral de la violencia de género, la situación de violencia se acreditará mediante:",
+    "opciones": {
+      "A": "Sentencia de cualquier orden jurisdiccional que declare que la mujer sufrió violencia en cualquiera de las modalidades definidas en la Ley.",
+      "B": "Certificación o informe de los servicios sociales y/o sanitarios de la Administración pública autonómica o local.",
+      "C": "Certificación de los servicios de acogida de la Administración pública autonómica o local.",
+      "D": "Todas las respuestas son correctas."
+    },
+    "raw_ocr": "12. A efectos de la Ley 11/2007, de 27 de julio, gallega para la prevención y el tratamiento integral de la\nviolencia de género, la situación de violencia se acreditará mediante:\n\nA) Sentencia de cualquier orden jurisdiccional que declare que la mujer sufrió violencia en cualquiera de las\nmodalidades definidas en la Ley.\n\nB) Certificación o informe de los servicios sociales y/o sanitarios de la Administración pública autonómica o\nlocal.\n\nC) Certificación de los servicios de acogida de la Administración pública autonómica o local.\n\nD) Todas las respuestas son correctas.",
+    "fuente": "2022_terapia_ocup",
+    "anno": 2022,
+    "respuesta_correcta": null,
+    "tags": [],
+    "stats": {
+      "veces_preguntada": 0,
+      "veces_acertada": 0,
+      "veces_fallada": 0
+    }
+  }
+]
