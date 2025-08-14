@@ -1,0 +1,6 @@
+Esta carpeta contiene un backup de la base de datos en su estado original antes 
+de usarse para generar ningun test
+
+Contiene las preguntas de la parte comun de distintas categorias en 3 OPEs distintas,
+y las preguntas de la parte especifica de la OPE SERGAS 2021
+
