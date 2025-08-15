@@ -12,6 +12,7 @@ from src import database_manager as db_manager
 
 # --- Fixtures de Pytest ---
 
+
 @pytest.fixture
 def temp_db(tmp_path, monkeypatch):
     """
@@ -26,7 +27,7 @@ def temp_db(tmp_path, monkeypatch):
     """
     # 1. Crear el fichero de BBDD temporal
     db_path = tmp_path / "test_questions.db"
-    
+
     # 2. Redirigir la constante DB_PATH del módulo
     monkeypatch.setattr(db_manager, 'DB_PATH', str(db_path))
 
@@ -64,8 +65,6 @@ def temp_db(tmp_path, monkeypatch):
     yield
 
 
-
-
 # --- Tests para initialize_database ---
 
 def test_initialize_database_crea_tablas_si_no_existen(temp_db):
@@ -95,7 +94,7 @@ def test_initialize_database_no_altera_datos_existentes(temp_db):
     """
     # Arrange: Ejecutar la inicialización una vez y añadir datos de prueba.
     db_manager.initialize_database()
-    
+
     conn_setup = db_manager.get_db_connection()
     cursor_setup = conn_setup.cursor()
     cursor_setup.execute(
@@ -114,7 +113,7 @@ def test_initialize_database_no_altera_datos_existentes(temp_db):
     cursor_assert.execute("SELECT total_preguntas, aciertos FROM examenes WHERE id = 1")
     examen = cursor_assert.fetchone()
     conn_assert.close()
-    
+
     assert examen is not None, "El examen de prueba fue eliminado."
     assert examen['total_preguntas'] == 10, "El valor de 'total_preguntas' fue alterado."
     assert examen['aciertos'] == 8, "El valor de 'aciertos' fue alterado."
@@ -149,8 +148,8 @@ def test_get_questions_devuelve_formato_correcto(temp_db):
     assert 'texto' in question.keys()
     assert 'opcion_a' in question.keys()
     assert question['texto'] == '¿Capital de Francia?' or \
-           question['texto'] == '¿2 + 2?' or \
-           question['texto'] == '¿Color del cielo?'
+        question['texto'] == '¿2 + 2?' or \
+        question['texto'] == '¿Color del cielo?'
 
 
 # --- Tests para el Flujo de Examen ---
@@ -192,7 +191,7 @@ def test_save_result_crea_fila_en_resultados(temp_db):
     # Arrange: Crear las tablas y una sesión de examen de prueba
     db_manager.initialize_database()
     exam_id = db_manager.create_exam_session(total_preguntas=1)
-    
+
     # Datos del resultado a guardar
     result_data = {
         "examen_id": exam_id,
@@ -261,3 +260,91 @@ def test_update_question_stats_incrementa_contadores_fallo(temp_db):
     assert stats['veces_preguntada'] == 21
     assert stats['veces_acertada'] == 15
     assert stats['veces_fallada'] == 6
+
+
+def test_finalize_exam_session_actualiza_examen(temp_db):
+    """
+    Verifica que finalize_exam_session() actualiza correctamente la fila
+    del examen con el número de aciertos y lo marca como finalizado.
+    """
+    # Arrange: Crear las tablas y una sesión de examen de prueba
+    db_manager.initialize_database()
+    exam_id = db_manager.create_exam_session(total_preguntas=10)
+
+    # Act
+    aciertos = 8
+    db_manager.finalize_exam_session(examen_id=exam_id, aciertos=aciertos)
+
+    # Assert
+    conn = db_manager.get_db_connection()
+    cursor = conn.cursor()
+    cursor.execute("SELECT * FROM examenes WHERE id = ?", (exam_id,))
+    examen = cursor.fetchone()
+    conn.close()
+
+    assert examen is not None, "No se encontró el examen."
+    assert examen['finalizado'] == 1, "El examen no se marcó como finalizado."
+    assert examen['aciertos'] == aciertos, "El número de aciertos no se guardó correctamente."
+
+
+# --- Tests para Flujo Transaccional ---
+
+def test_save_exam_flow_guarda_todo_atomicamente(temp_db):
+    """
+    Test de integración para save_exam_flow.
+
+    Verifica que la función:
+    1. Crea la sesión de examen.
+    2. Guarda todos los resultados individuales.
+    3. Actualiza las estadísticas de cada pregunta.
+    4. Finaliza el examen con el recuento de aciertos.
+    5. Realiza todas las operaciones dentro de una única transacción.
+    """
+    # Arrange
+    db_manager.initialize_database()
+    questions = db_manager.get_questions(3)
+    user_answers = [
+        {"pregunta_id": questions[0]['id'], "respuesta_usuario": "B", "es_correcta": True},
+        {"pregunta_id": questions[1]['id'], "respuesta_usuario": "A", "es_correcta": False},
+        {"pregunta_id": questions[2]['id'], "respuesta_usuario": "C", "es_correcta": True},
+    ]
+
+    # Leer los valores iniciales de la pregunta que se va a acertar
+    conn_setup = db_manager.get_db_connection()
+    cursor_setup = conn_setup.cursor()
+    cursor_setup.execute("SELECT * FROM preguntas WHERE id = ?", (questions[0]['id'],))
+    initial_stats_q1 = cursor_setup.fetchone()
+    conn_setup.close()
+
+    # Act
+    exam_id = db_manager.save_exam_flow(
+        total_preguntas=len(questions),
+        results_data=user_answers
+    )
+
+    # Assert
+    assert isinstance(exam_id, int)
+
+    conn = db_manager.get_db_connection()
+    cursor = conn.cursor()
+
+    # 1. Verificar que el examen se finalizó correctamente
+    cursor.execute("SELECT * FROM examenes WHERE id = ?", (exam_id,))
+    examen = cursor.fetchone()
+    assert examen is not None
+    assert examen['finalizado'] == 1
+    assert examen['aciertos'] == 2
+    assert examen['total_preguntas'] == 3
+
+    # 2. Verificar que los resultados se guardaron
+    cursor.execute("SELECT * FROM resultados WHERE examen_id = ?", (exam_id,))
+    resultados = cursor.fetchall()
+    assert len(resultados) == 3
+
+    # 3. Verificar que las estadísticas de una pregunta se actualizaron
+    cursor.execute("SELECT * FROM preguntas WHERE id = ?", (questions[0]['id'],))
+    stats_q1 = cursor.fetchone()
+    assert stats_q1['veces_preguntada'] == initial_stats_q1['veces_preguntada'] + 1
+    assert stats_q1['veces_acertada'] == initial_stats_q1['veces_acertada'] + 1
+
+    conn.close()

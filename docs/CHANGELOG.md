@@ -1,5 +1,21 @@
 # Changelog del Proyecto Opesergas
 
+## [0.2.0] - 2025-08-15
+
+### Added
+
+*   **Finalización de la Lógica de Negocio (Fase 1):**
+    *   Implementada y testeada la función `finalize_exam_session` para completar un examen.
+    *   Implementada y testeada la función transaccional `save_exam_flow`, que gestiona de forma atómica todo el proceso de guardado de un examen.
+    *   La suite de tests ahora cubre el 100% del `database_manager`.
+
+### Fixed
+
+*   **Entorno de Testing:**
+    *   Añadido un fichero `pytest.ini` para configurar el `pythonpath`, solucionando errores de `ModuleNotFoundError` durante la recolección de tests.
+*   **Robustez del Código:**
+    *   Corregido un `warning` de Pylance en `_create_exam_session` para gestionar de forma segura un posible retorno `None` de `cursor.lastrowid`, evitando potenciales `TypeError`.
+
 ## [0.1.0] - 2025-08-14
 
 ### Added

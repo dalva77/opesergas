@@ -1,5 +1,7 @@
 # Proyecto Opesergas
 
+**Versión actual: 0.2.0**
+
 ## Tabla de Contenidos
 
 1. [Descripción](#1-descripción)
@@ -72,10 +74,10 @@ opesergas/
 
 El desarrollo del proyecto se ha planificado en las siguientes fases o hitos (milestones):
 
-* **Fase 1: Lógica de Negocio y Preparación del Entorno (En curso)**
+* **Fase 1: Lógica de Negocio y Preparación del Entorno (Completada)**
   * **Objetivo:** Construir y verificar el núcleo de la aplicación, asegurando que la lógica de la base de datos sea robusta y fiable antes de desarrollar cualquier interfaz de usuario.
 
-* **Fase 2: Implementación del Producto Mínimo Viable (MVP)**
+* **Fase 2: Implementación del Producto Mínimo Viable (MVP) (En curso)**
   * **Objetivo:** Desarrollar la interfaz de usuario con Streamlit que permita a un usuario realizar un examen completo (configuración, ejecución y revisión de resultados).
 
 * **Fase 3: Documentación y Refinamiento**

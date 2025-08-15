@@ -20,8 +20,8 @@ Este documento contiene la lista de tareas planificadas para el desarrollo de la
   * [x] Implementar `create_exam_session()` para iniciar un nuevo examen.
   * [x] Implementar `save_result()` para guardar la respuesta de un usuario.
   * [x] Implementar `update_question_stats()` para actualizar las estadísticas de una pregunta.
-  * [ ] Implementar `finalize_exam_session()` para marcar un examen como completado.
-  * [ ] Implementar la función transaccional `save_exam_flow()` que agrupe las operaciones de guardado.
+  * [x] Implementar `finalize_exam_session()` para marcar un examen como completado.
+  * [x] Implementar la función transaccional `save_exam_flow()` que agrupe las operaciones de guardado.
 
 * **Tarea 1.3: Creación de Tests para el Gestor de Base de Datos**
   * [x] Crear el fichero `tests/test_database_manager.py`.
@@ -30,8 +30,8 @@ Este documento contiene la lista de tareas planificadas para el desarrollo de la
   * [x] Escribir tests para `create_exam_session()`.
   * [x] Escribir tests para `save_result()`.
   * [x] Escribir tests para `update_question_stats()`.
-  * [ ] Escribir un test para `finalize_exam_session()`.
-  * [ ] Escribir un test para la función transaccional `save_exam_flow()`.
+  * [x] Escribir un test para `finalize_exam_session()`.
+  * [x] Escribir un test para la función transaccional `save_exam_flow()`.
 
 ---
 

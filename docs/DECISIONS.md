@@ -38,3 +38,18 @@ Este documento recoge las decisiones de arquitectura y diseño clave tomadas dur
   * **Escalabilidad:** La arquitectura de múltiples páginas de Streamlit (`pages/`) permite añadir nuevas funcionalidades (como una página de estadísticas) de forma modular sin afectar al código existente.
 
 ---
+
+### Decisión 3: Arquitectura y Flujo de la Interfaz de Usuario (MVP)
+
+*   **Fecha:** 2025-08-15
+*   **Decisión:** El flujo completo de un examen se gestionará dentro de un único script (`pages/1_Nuevo_Examen.py`), utilizando el objeto `st.session_state` de Streamlit para controlar el estado y presentar diferentes "pantallas" lógicas al usuario de forma secuencial. La interacción con la base de datos se minimizará: una lectura al inicio y una única escritura transaccional al final.
+*   **Contexto:** Se necesita un patrón de diseño para la interfaz que sea compatible con el modelo de ejecución de Streamlit (que re-ejecuta el script en cada interacción) y que, al mismo tiempo, ofrezca una experiencia de usuario fluida y sea resiliente a errores o cierres inesperados.
+*   **Justificación:**
+    *   **Gestión de Estado Idiomática:** El uso de `st.session_state` es la forma nativa y recomendada por Streamlit para mantener la información a lo largo de las interacciones del usuario, evitando soluciones más complejas.
+    *   **Flujo Lógico Multi-Pantalla:** El script `pages/1_Nuevo_Examen.py` implementará la siguiente lógica condicional basada en el estado:
+        1.  **Pantalla de Configuración (Estado por defecto):** Si `'exam_in_progress'` no está en `st.session_state`, se muestra la interfaz para elegir el número de preguntas. Al empezar, se cargan las preguntas en el estado de sesión y se activa el flag `'exam_in_progress'`.
+        2.  **Pantalla de Realización:** Mientras `'exam_in_progress'` sea `True`, se muestra la pregunta actual. Las respuestas del usuario se van acumulando en `st.session_state` sin tocar la base de datos.
+        3.  **Pantalla de Resultados:** Una vez respondidas todas las preguntas, se muestra el resumen. En este punto, y solo en este punto, se llama a la función `database_manager.save_exam_flow()` para persistir todos los datos (examen, resultados, estadísticas) de forma atómica.
+    *   **Resiliencia y Consistencia:** Este diseño garantiza la robustez del sistema:
+        *   **A Nivel de Aplicación:** `st.session_state` es volátil. Si la aplicación se cierra a mitad de un examen, el estado se pierde y el usuario comienza de cero en el siguiente arranque, sin estados inconsistentes.
+        *   **A Nivel de Base de Datos:** Dado que todas las operaciones de escritura están encapsuladas en una única transacción (`save_exam_flow`), es imposible que un examen quede guardado a medias en la base de datos. O se guarda todo, o no se guarda nada.
