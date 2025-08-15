@@ -111,3 +111,106 @@ def get_questions(num_questions: int) -> list[sqlite3.Row]:
         return _get_questions(conn, num_questions)
     finally:
         conn.close()
+
+
+def _create_exam_session(conn: sqlite3.Connection, total_preguntas: int) -> int:
+    """
+    Crea una nueva sesión de examen en la base de datos. (Función interna)
+
+    Args:
+        conn (sqlite3.Connection): Conexión a la base de datos.
+        total_preguntas (int): Número de preguntas del examen.
+
+    Returns:
+        int: El ID de la nueva fila de examen creada.
+    """
+    cursor = conn.cursor()
+    cursor.execute(
+        'INSERT INTO examenes (total_preguntas) VALUES (?)',
+        (total_preguntas,)
+    )
+    return cursor.lastrowid
+
+
+def create_exam_session(total_preguntas: int) -> int:
+    """
+    Crea una nueva sesión de examen en la base de datos. (Función pública)
+
+    Args:
+        total_preguntas (int): Número de preguntas del examen.
+
+    Returns:
+        int: El ID de la nueva fila de examen creada.
+    """
+    conn = get_db_connection()
+    try:
+        with conn:
+            exam_id = _create_exam_session(conn, total_preguntas)
+        return exam_id
+    finally:
+        conn.close()
+
+
+def _save_result(conn: sqlite3.Connection, examen_id: int, pregunta_id: int, respuesta_usuario: str, es_correcta: bool):
+    """
+    Guarda el resultado de una única pregunta en la base de datos. (Función interna)
+    """
+    cursor = conn.cursor()
+    cursor.execute(
+        '''
+        INSERT INTO resultados (examen_id, pregunta_id, respuesta_usuario, es_correcta)
+        VALUES (?, ?, ?, ?)
+        ''',
+        (examen_id, pregunta_id, respuesta_usuario, es_correcta)
+    )
+
+
+def save_result(examen_id: int, pregunta_id: int, respuesta_usuario: str, es_correcta: bool):
+    """
+    Guarda el resultado de una única pregunta en la base de datos. (Función pública)
+    """
+    conn = get_db_connection()
+    try:
+        with conn:
+            _save_result(conn, examen_id, pregunta_id, respuesta_usuario, es_correcta)
+    finally:
+        conn.close()
+
+
+def _update_question_stats(conn: sqlite3.Connection, pregunta_id: int, es_correcta: bool):
+    """
+    Actualiza las estadísticas de una pregunta. (Función interna)
+    """
+    cursor = conn.cursor()
+    if es_correcta:
+        cursor.execute(
+            '''
+            UPDATE preguntas
+            SET veces_preguntada = veces_preguntada + 1,
+                veces_acertada = veces_acertada + 1
+            WHERE id = ?
+            ''',
+            (pregunta_id,)
+        )
+    else:
+        cursor.execute(
+            '''
+            UPDATE preguntas
+            SET veces_preguntada = veces_preguntada + 1,
+                veces_fallada = veces_fallada + 1
+            WHERE id = ?
+            ''',
+            (pregunta_id,)
+        )
+
+
+def update_question_stats(pregunta_id: int, es_correcta: bool):
+    """
+    Actualiza las estadísticas de una pregunta. (Función pública)
+    """
+    conn = get_db_connection()
+    try:
+        with conn:
+            _update_question_stats(conn, pregunta_id, es_correcta)
+    finally:
+        conn.close()

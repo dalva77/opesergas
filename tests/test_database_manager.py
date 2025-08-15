@@ -42,16 +42,19 @@ def temp_db(tmp_path, monkeypatch):
             opcion_b TEXT,
             opcion_c TEXT,
             opcion_d TEXT,
-            respuesta_correcta TEXT
+            respuesta_correcta TEXT,
+            veces_preguntada INTEGER DEFAULT 0,
+            veces_acertada INTEGER DEFAULT 0,
+            veces_fallada INTEGER DEFAULT 0
         )
     ''')
     sample_questions = [
-        (1, '¿Capital de Francia?', 'Madrid', 'París', 'Londres', 'Berlín', 'B'),
-        (2, '¿2 + 2?', '3', '4', '5', '6', 'B'),
-        (3, '¿Color del cielo?', 'Verde', 'Rojo', 'Azul', 'Amarillo', 'C')
+        (1, '¿Capital de Francia?', 'Madrid', 'París', 'Londres', 'Berlín', 'B', 10, 5, 5),
+        (2, '¿2 + 2?', '3', '4', '5', '6', 'B', 20, 15, 5),
+        (3, '¿Color del cielo?', 'Verde', 'Rojo', 'Azul', 'Amarillo', 'C', 5, 5, 0)
     ]
     cursor.executemany(
-        'INSERT INTO preguntas VALUES (?, ?, ?, ?, ?, ?, ?)',
+        'INSERT INTO preguntas VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)',
         sample_questions
     )
     conn.commit()
@@ -148,3 +151,113 @@ def test_get_questions_devuelve_formato_correcto(temp_db):
     assert question['texto'] == '¿Capital de Francia?' or \
            question['texto'] == '¿2 + 2?' or \
            question['texto'] == '¿Color del cielo?'
+
+
+# --- Tests para el Flujo de Examen ---
+
+def test_create_exam_session_crea_fila_y_devuelve_id(temp_db):
+    """
+    Verifica que create_exam_session() inserta una nueva fila en la tabla 'examenes'
+    con los valores por defecto correctos y devuelve el ID del nuevo examen.
+    """
+    # Arrange: Asegurarse de que las tablas existen
+    db_manager.initialize_database()
+
+    # Act
+    num_preguntas = 15
+    exam_id = db_manager.create_exam_session(total_preguntas=num_preguntas)
+
+    # Assert: Verificar que se devolvió un ID válido
+    assert isinstance(exam_id, int)
+    assert exam_id > 0
+
+    # Assert: Verificar que la fila fue creada correctamente en la BBDD
+    conn = db_manager.get_db_connection()
+    cursor = conn.cursor()
+    cursor.execute("SELECT * FROM examenes WHERE id = ?", (exam_id,))
+    examen = cursor.fetchone()
+    conn.close()
+
+    assert examen is not None, "No se encontró la sesión de examen en la BBDD."
+    assert examen['total_preguntas'] == num_preguntas
+    assert examen['finalizado'] == 0, "El examen no debería estar finalizado."
+    assert examen['aciertos'] is None, "Los aciertos deberían ser NULL al inicio."
+
+
+def test_save_result_crea_fila_en_resultados(temp_db):
+    """
+    Verifica que save_result() inserta correctamente una fila en la tabla
+    'resultados' con los datos proporcionados.
+    """
+    # Arrange: Crear las tablas y una sesión de examen de prueba
+    db_manager.initialize_database()
+    exam_id = db_manager.create_exam_session(total_preguntas=1)
+    
+    # Datos del resultado a guardar
+    result_data = {
+        "examen_id": exam_id,
+        "pregunta_id": 1,  # ID de una de las preguntas de prueba
+        "respuesta_usuario": "B",
+        "es_correcta": True
+    }
+
+    # Act
+    db_manager.save_result(**result_data)
+
+    # Assert: Verificar que la fila fue creada en la BBDD
+    conn = db_manager.get_db_connection()
+    cursor = conn.cursor()
+    cursor.execute("SELECT * FROM resultados WHERE examen_id = ?", (exam_id,))
+    resultado = cursor.fetchone()
+    conn.close()
+
+    assert resultado is not None, "No se encontró el resultado en la BBDD."
+    assert resultado['pregunta_id'] == result_data['pregunta_id']
+    assert resultado['respuesta_usuario'] == result_data['respuesta_usuario']
+    assert resultado['es_correcta'] == result_data['es_correcta']
+
+
+def test_update_question_stats_incrementa_contadores_acierto(temp_db):
+    """
+    Verifica que update_question_stats() incrementa 'veces_preguntada' y
+    'veces_acertada' en caso de un acierto.
+    """
+    # Arrange: Los valores iniciales para la pregunta 1 son 10, 5, 5
+    pregunta_id = 1
+
+    # Act
+    db_manager.update_question_stats(pregunta_id=pregunta_id, es_correcta=True)
+
+    # Assert
+    conn = db_manager.get_db_connection()
+    cursor = conn.cursor()
+    cursor.execute("SELECT * FROM preguntas WHERE id = ?", (pregunta_id,))
+    stats = cursor.fetchone()
+    conn.close()
+
+    assert stats['veces_preguntada'] == 11
+    assert stats['veces_acertada'] == 6
+    assert stats['veces_fallada'] == 5
+
+
+def test_update_question_stats_incrementa_contadores_fallo(temp_db):
+    """
+    Verifica que update_question_stats() incrementa 'veces_preguntada' y
+    'veces_fallada' en caso de un fallo.
+    """
+    # Arrange: Los valores iniciales para la pregunta 2 son 20, 15, 5
+    pregunta_id = 2
+
+    # Act
+    db_manager.update_question_stats(pregunta_id=pregunta_id, es_correcta=False)
+
+    # Assert
+    conn = db_manager.get_db_connection()
+    cursor = conn.cursor()
+    cursor.execute("SELECT * FROM preguntas WHERE id = ?", (pregunta_id,))
+    stats = cursor.fetchone()
+    conn.close()
+
+    assert stats['veces_preguntada'] == 21
+    assert stats['veces_acertada'] == 15
+    assert stats['veces_fallada'] == 6

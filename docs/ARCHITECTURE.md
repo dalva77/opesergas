@@ -9,9 +9,10 @@ Este documento describe la arquitectura de alto nivel de la aplicación, sus com
 La aplicación está diseñada siguiendo una **arquitectura de tres capas**, que separa claramente la presentación (interfaz de usuario), la lógica de negocio (gestión de datos) y el almacenamiento de datos (base de datos).
 
 El objetivo de esta arquitectura es conseguir un sistema:
-*   **Modular:** Cada componente tiene una responsabilidad única.
-*   **Testable:** La lógica de negocio se puede probar de forma aislada.
-*   **Mantenible:** Los cambios en un componente tienen un impacto mínimo en los demás.
+
+* **Modular:** Cada componente tiene una responsabilidad única.
+* **Testable:** La lógica de negocio se puede probar de forma aislada.
+* **Mantenible:** Los cambios en un componente tienen un impacto mínimo en los demás.
 
 A continuación se muestra un diagrama de los componentes principales y sus interacciones:
 
@@ -21,8 +22,8 @@ A continuación se muestra un diagrama de los componentes principales y sus inte
 │  Interfaz de Usuario    │
 │ (Streamlit)             │
 │                         │
-│  - app.py               │
-│  - pages/*.py           │
+│  - app.py (Raíz)        │
+│  - pages/*.py (Raíz)    │
 │                         │
 └───────────┬─────────────┘
             │
@@ -31,7 +32,7 @@ A continuación se muestra un diagrama de los componentes principales y sus inte
 ┌─────────────────────────┐
 │                         │
 │  Lógica de Negocio      │
-│ (database_manager.py)   │
+│ (src/database_manager.py) │
 │                         │
 │  - Conexión a BBDD      │
 │  - Consultas SQL        │
@@ -57,59 +58,74 @@ A continuación se muestra un diagrama de los componentes principales y sus inte
 
 ### 2.1. Interfaz de Usuario (Capa de Presentación)
 
-*   **Tecnología:** **Streamlit**.
-*   **Ficheros:** `app.py`, `pages/1_Nuevo_Examen.py`, etc.
-*   **Responsabilidades:**
-    *   Presentar la información al usuario de forma interactiva.
-    *   Capturar las entradas del usuario (ej. número de preguntas, selección de respuestas).
-    *   Gestionar el estado de la sesión de la interfaz de usuario (usando `st.session_state`).
-    *   Mostrar los resultados y el feedback al usuario.
-*   **Interacciones:**
-    *   **NO** interactúa directamente con la base de datos.
-    *   **SÍ** llama a las funciones expuestas por el `database_manager.py` para solicitar datos o para enviar operaciones a realizar (ej. "dame 10 preguntas", "guarda este resultado").
+* **Tecnología:** **Streamlit**.
+* **Ficheros:** `app.py` (punto de entrada) y los scripts dentro de `pages/`. Ambos residen en la **raíz del proyecto** para asegurar la compatibilidad con el sistema de páginas de Streamlit.
+* **Responsabilidades:**
+  * Presentar la información al usuario de forma interactiva.
+  * Capturar las entradas del usuario (ej. número de preguntas, selección de respuestas).
+  * Gestionar el estado de la sesión de la interfaz de usuario (usando `st.session_state`).
+  * Mostrar los resultados y el feedback al usuario.
+* **Interacciones:**
+  * **NO** interactúa directamente con la base de datos.
+  * **SÍ** llama a las funciones públicas expuestas por el `database_manager.py` para solicitar datos o ejecutar operaciones.
 
 ### 2.2. Lógica de Negocio (Capa de Lógica)
 
-*   **Tecnología:** **Python estándar**.
-*   **Fichero:** `database_manager.py`.
-*   **Responsabilidades:**
-    *   Actuar como la única puerta de enlace (`gateway`) a la base de datos.
-    *   Contener toda la lógica de negocio:
-        *   Cómo se seleccionan las preguntas.
-        *   Cómo se crea una sesión de examen.
-        *   Cómo se calculan y actualizan las estadísticas.
-        *   Cómo se guardan los resultados.
-    *   Abstraer los detalles de las consultas SQL. La capa de presentación no sabe SQL, solo llama a funciones como `get_questions()`.
-*   **Interacciones:**
-    *   Es invocado por la capa de Interfaz de Usuario.
-    *   Ejecuta consultas y transacciones (lectura y escritura) sobre la base de datos SQLite.
+* **Tecnología:** **Python estándar**.
+* **Fichero:** `src/database_manager.py`.
+* **Responsabilidades:**
+  * Actuar como la única puerta de enlace (`gateway`) a la base de datos.
+  * Contener toda la lógica de negocio: selección de preguntas, creación de exámenes, cálculo de estadísticas, etc.
+  * Gestionar las transacciones para garantizar la consistencia de los datos (atomicidad).
+  * Abstraer los detalles de las consultas SQL. La capa de presentación no sabe SQL, solo llama a funciones como `get_questions()`.
+* **Interacciones:**
+  * Es invocado por la capa de Interfaz de Usuario.
+  * Ejecuta consultas y transacciones (lectura y escritura) sobre la base de datos SQLite.
 
 ### 2.3. Almacenamiento de Datos (Capa de Datos)
 
-*   **Tecnología:** **SQLite**.
-*   **Fichero:** `database/questions.db`.
-*   **Responsabilidades:**
-    *   Almacenar de forma persistente todos los datos de la aplicación.
-    *   Garantizar la integridad de los datos a través de su esquema (claves primarias, claves foráneas, etc.).
-    *   Las tablas principales son:
-        *   `preguntas`: El banco central de preguntas.
-        *   `examenes`: Registra cada examen que se realiza.
-        *   `resultados`: Almacena la respuesta de un usuario a una pregunta específica dentro de un examen.
-*   **Interacciones:**
-    *   Solo es accedida por la capa de Lógica de Negocio (`database_manager.py`).
+* **Tecnología:** **SQLite**.
+* **Fichero:** `database/questions.db`.
+  * **Nota Importante:** Este fichero es la base de datos "activa" de la aplicación. Está incluido en el fichero `.gitignore` para evitar que los datos de sesión del usuario se suban al repositorio. Para la configuración inicial, debe copiarse desde `backup_database/questions.db`.
+* **Responsabilidades:**
+  * Almacenar de forma persistente todos los datos de la aplicación.
+  * Garantizar la integridad de los datos a través de su esquema.
+* **Esquema de Tablas:**
+  * **`preguntas`**: El banco central de preguntas. Su estructura es la siguiente:
+    ```sql
+    CREATE TABLE preguntas (
+        id INTEGER PRIMARY KEY AUTOINCREMENT,
+        numero INTEGER NOT NULL,
+        numero_original TEXT,
+        enunciado TEXT NOT NULL,
+        opciones TEXT NOT NULL,       -- Objeto de opciones serializado como string JSON
+        raw_ocr TEXT,
+        fuente TEXT NOT NULL,
+        anno INTEGER NOT NULL,
+        respuesta_correcta TEXT,
+        tags TEXT,                    -- Lista de tags serializada como string JSON
+        veces_preguntada INTEGER NOT NULL DEFAULT 0,
+        veces_acertada INTEGER NOT NULL DEFAULT 0,
+        veces_fallada INTEGER NOT NULL DEFAULT 0,
+        UNIQUE(numero, fuente, anno)
+    );
+    ```
+  * **`examenes`**: Registra cada examen que se realiza (fecha, total de preguntas, aciertos, etc.).
+  * **`resultados`**: Almacena la respuesta de un usuario a una pregunta específica dentro de un examen.
 
 ---
 
 ## 3. Flujo de Datos (Ejemplo: Realizar un Examen)
 
-1.  **Usuario (en UI):** Pide un nuevo examen de 10 preguntas.
-2.  **`1_Nuevo_Examen.py` (UI):** Llama a `database_manager.get_questions(10)`.
-3.  **`database_manager.py` (Lógica):** Ejecuta una `SELECT` en `database/questions.db` y devuelve la lista de preguntas a la UI.
-4.  **Usuario (en UI):** Responde a una pregunta.
-5.  **`1_Nuevo_Examen.py` (UI):** Al finalizar el examen, recopila todas las respuestas y llama a `database_manager.save_exam_results(...)` con los datos.
-6.  **`database_manager.py` (Lógica):** Inicia una transacción en la base de datos para:
-    *   Crear una nueva fila en la tabla `examenes`.
-    *   Crear múltiples filas en la tabla `resultados` (una por cada pregunta).
-    *   Actualizar los contadores (`veces_preguntada`, `veces_acertada`, etc.) en la tabla `preguntas`.
-7.  **`database_manager.py` (Lógica):** Devuelve un mensaje de éxito a la UI.
-8.  **`1_Nuevo_Examen.py` (UI):** Muestra al usuario la pantalla de resultados.
+1. **Usuario (en UI):** Pide un nuevo examen de 10 preguntas.
+2. **`pages/1_Nuevo_Examen.py` (UI):** Llama a `database_manager.get_questions(10)`.
+3. **`src/database_manager.py` (Lógica):** Abre una conexión, ejecuta una `SELECT` en `database/questions.db`, devuelve la lista de preguntas a la UI y cierra la conexión.
+4. **Usuario (en UI):** Responde a todas las preguntas.
+5. **`pages/1_Nuevo_Examen.py` (UI):** Al finalizar, recopila todas las respuestas y llama a una única función transaccional como `database_manager.save_exam_flow(...)`.
+6. **`src/database_manager.py` (Lógica):** Inicia una transacción en la base de datos para ejecutar de forma atómica todas las operaciones necesarias:
+    * Crear una nueva fila en la tabla `examenes`.
+    * Crear múltiples filas en la tabla `resultados`.
+    * Actualizar los contadores en la tabla `preguntas` para cada pregunta.
+    * Marcar el examen como finalizado.
+7. **`src/database_manager.py` (Lógica):** Confirma (`commit`) la transacción si todo ha ido bien, o la revierte (`rollback`) en caso de error, y devuelve un mensaje de éxito a la UI.
+8. **`pages/1_Nuevo_Examen.py` (UI):** Muestra al usuario la pantalla de resultados.

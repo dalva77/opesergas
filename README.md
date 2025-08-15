@@ -40,37 +40,39 @@ A continuación se muestra la estructura de ficheros y carpetas del proyecto. La
 opesergas/
 ├── .flake8               # Fichero de configuración para el linter Flake8.
 ├── .gitignore            # Especifica los ficheros que Git debe ignorar.
+├── app.py                # Punto de entrada principal de la aplicación Streamlit.
 ├── GEMINI.md             # Instrucciones específicas para la IA durante el desarrollo.
 ├── README.md             # Este fichero.
 ├── requirements.txt      # Lista de dependencias de Python para el proyecto.
 │
-├── database/             # Carpeta donde residirá la base de datos activa de la aplicación.
-│
 ├── backup_database/
-│   ├── backup_description.txt # Descripción del contenido de la BBDD de backup.
 │   └── questions.db      # BBDD inicial con la tabla 'preguntas' ya poblada.
+│
+├── database/             # Carpeta donde reside la base de datos activa de la aplicación.
+│   └── questions.db      # (Ignorado por Git)
 │
 ├── docs/                 # Carpeta con toda la documentación del proyecto.
 │   ├── AI_CONTEXT.MD
 │   ├── ARCHITECTURE.md
-│   ├── BACKLOG.md
-│   ├── CHANGELOG.md
-│   ├── DECISIONS.md
-│   └── TEMPLATE_AI_CONTEXT.md
+│   └── ...
+│
+├── pages/                # Páginas de la aplicación Streamlit (ej. Nuevo Examen).
+│
+├── src/                  # Código fuente principal de la aplicación.
+│   └── database_manager.py # Módulo con toda la lógica de negocio y BBDD.
+│
+├── tests/                # Tests unitarios para el código de la aplicación.
+│   └── test_database_manager.py
 │
 └── utils/                # Scripts de apoyo para el pipeline de datos (no son parte de la app).
-    ├── add_answers.py    # Script para añadir respuestas correctas a los JSON.
-    ├── json2db.py        # Script para migrar los datos de JSON a la BBDD SQLite.
-    ├── ocr.py            # Script para extraer texto de los PDFs de exámenes.
-    ├── ocr2json.py       # Script para limpiar el texto OCR y estructurarlo en JSON.
-    └── tests/            # Carpeta para tests de los scripts de utilidades.
+    └── ...
 ```
 
 ## 4. Características Clave
 
 El desarrollo del proyecto se ha planificado en las siguientes fases o hitos (milestones):
 
-* **Fase 1: Lógica de Negocio y Preparación del Entorno**
+* **Fase 1: Lógica de Negocio y Preparación del Entorno (En curso)**
   * **Objetivo:** Construir y verificar el núcleo de la aplicación, asegurando que la lógica de la base de datos sea robusta y fiable antes de desarrollar cualquier interfaz de usuario.
 
 * **Fase 2: Implementación del Producto Mínimo Viable (MVP)**
