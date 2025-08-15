@@ -247,7 +247,7 @@ def finalize_exam_session(examen_id: int, aciertos: int):
         conn.close()
 
 
-def save_exam_flow(total_preguntas: int, results_data: list[dict]) -> int:
+def save_exam_flow(results: list[dict]) -> int:
     """
     Guarda una sesión de examen completa de forma transaccional.
 
@@ -256,15 +256,16 @@ def save_exam_flow(total_preguntas: int, results_data: list[dict]) -> int:
     todas las operaciones se completen con éxito o ninguna lo haga (atomicidad).
 
     Args:
-        total_preguntas (int): El número total de preguntas en el examen.
-        results_data (list[dict]): Una lista de diccionarios, donde cada uno
-            representa un resultado y contiene: 'pregunta_id', 'respuesta_usuario'
-            y 'es_correcta'.
+        results (list[dict]): Una lista de diccionarios, donde cada uno
+            representa un resultado y contiene: 'question_id', 'selected_option'
+            y 'is_correct'.
 
     Returns:
         int: El ID del examen creado y guardado.
     """
     conn = get_db_connection()
+    total_preguntas = len(results)
+
     try:
         with conn:
             # 1. Crear la sesión de examen
@@ -272,27 +273,27 @@ def save_exam_flow(total_preguntas: int, results_data: list[dict]) -> int:
 
             # 2. Guardar cada resultado y actualizar estadísticas
             aciertos = 0
-            for result in results_data:
-                es_correcta = result['es_correcta']
+            for result in results:
+                es_correcta = result['is_correct']
                 if es_correcta:
                     aciertos += 1
-                
+
                 _save_result(
                     conn,
                     examen_id=exam_id,
-                    pregunta_id=result['pregunta_id'],
-                    respuesta_usuario=result['respuesta_usuario'],
+                    pregunta_id=result['question_id'],
+                    respuesta_usuario=result['selected_option'],
                     es_correcta=es_correcta
                 )
                 _update_question_stats(
                     conn,
-                    pregunta_id=result['pregunta_id'],
+                    pregunta_id=result['question_id'],
                     es_correcta=es_correcta
                 )
 
             # 3. Finalizar el examen
             _finalize_exam_session(conn, exam_id, aciertos)
-        
+
         return exam_id
     finally:
         conn.close()

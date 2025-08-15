@@ -1,5 +1,26 @@
 # Changelog del Proyecto Opesergas
 
+## [0.3.0] - 2025-08-16
+
+### Added
+
+*   **Implementación del MVP (Fase 2):**
+    *   Creado el punto de entrada de la aplicación `app.py` con la página de bienvenida y la inicialización de la base de datos.
+    *   Implementado el flujo completo de examen en `pages/1_Nuevo_Examen.py`, incluyendo las pantallas de configuración, realización y revisión de resultados.
+
+### Changed
+
+*   **Refactorización de la API de `database_manager`:**
+    *   Se ha modificado la firma de la función `save_exam_flow` para aceptar una única lista de resultados (`results`), mejorando la abstracción y el desacoplamiento con la interfaz de usuario.
+    *   La lógica para calcular el total de preguntas y aciertos ahora reside completamente en el backend.
+
+### Fixed
+
+*   **Bug de Integración:**
+    *   Solucionado un `TypeError` que ocurría al finalizar un examen debido a una discrepancia en los argumentos entre la UI y el `database_manager`.
+*   **Suite de Pruebas:**
+    *   Actualizado el test `test_save_exam_flow_guarda_todo_atomicamente` para alinearlo con la nueva firma de la función refactorizada, manteniendo la cobertura del 100%.
+
 ## [0.2.0] - 2025-08-15
 
 ### Added

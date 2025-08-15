@@ -1,6 +1,6 @@
 # Proyecto Opesergas
 
-**Versión actual: 0.2.0**
+**Versión actual: 0.3.0**
 
 ## Tabla de Contenidos
 
@@ -77,11 +77,11 @@ El desarrollo del proyecto se ha planificado en las siguientes fases o hitos (mi
 * **Fase 1: Lógica de Negocio y Preparación del Entorno (Completada)**
   * **Objetivo:** Construir y verificar el núcleo de la aplicación, asegurando que la lógica de la base de datos sea robusta y fiable antes de desarrollar cualquier interfaz de usuario.
 
-* **Fase 2: Implementación del Producto Mínimo Viable (MVP) (En curso)**
-  * **Objetivo:** Desarrollar la interfaz de usuario con Streamlit que permita a un usuario realizar un examen completo (configuración, ejecución y revisión de resultados).
+* **Fase 2: Implementación del Producto Mínimo Viable (MVP) (Completada)**
+  * **Objetivo:** Desarrollar la interfaz de usuario con Streamlit que permita a un usuario realizar un examen completo y ver sus resultados. La aplicación ya es funcional.
 
-* **Fase 3: Documentación y Refinamiento**
-  * **Objetivo:** Completar toda la documentación del proyecto y planificar futuras mejoras sobre el MVP, como un panel de estadísticas avanzadas o filtros de preguntas.
+* **Fase 3: Validación y Refinamiento (En curso)**
+  * **Objetivo:** Realizar pruebas exhaustivas sobre el MVP, completar la documentación y planificar futuras mejoras, como un panel de estadísticas avanzadas o filtros de preguntas.
 
 ## 5. Instalación
 

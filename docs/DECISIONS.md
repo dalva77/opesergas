@@ -53,3 +53,18 @@ Este documento recoge las decisiones de arquitectura y diseño clave tomadas dur
     *   **Resiliencia y Consistencia:** Este diseño garantiza la robustez del sistema:
         *   **A Nivel de Aplicación:** `st.session_state` es volátil. Si la aplicación se cierra a mitad de un examen, el estado se pierde y el usuario comienza de cero en el siguiente arranque, sin estados inconsistentes.
         *   **A Nivel de Base de Datos:** Dado que todas las operaciones de escritura están encapsuladas en una única transacción (`save_exam_flow`), es imposible que un examen quede guardado a medias en la base de datos. O se guarda todo, o no se guarda nada.
+
+---
+
+### Decisión 4: Refactorización del Backend frente a Adaptación del Frontend
+
+*   **Fecha:** 2025-08-16
+*   **Decisión:** Ante un bug de integración (`TypeError`) causado por una discrepancia entre la API del `database_manager` y la llamada desde la UI, se decidió **refactorizar el backend** en lugar de adaptar el frontend.
+*   **Contexto y Alternativas:**
+    *   Al finalizar el primer examen del MVP, la aplicación falló. La causa era que la UI enviaba los datos con una estructura y nombres de clave (`results`, `questions_to_update`) que la función `save_exam_flow` no esperaba.
+    *   **Alternativa 1 (Rechazada):** Modificar el código de `pages/1_Nuevo_Examen.py` para que preparase y enviase los datos exactamente como la función `save_exam_flow` los requería (`total_preguntas`, `results_data`). Esta era la solución más rápida.
+    *   **Alternativa 2 (Elegida):** Modificar la función `save_exam_flow` en `src/database_manager.py` para que aceptara una estructura de datos más simple y genérica (`results`), derivando internamente toda la información que necesitaba.
+*   **Justificación:**
+    *   **Calidad Arquitectónica:** La Alternativa 2, aunque requería más trabajo (modificar el backend y sus tests), fue elegida porque refuerza el principio de **Separación de Responsabilidades**. La lógica de cómo se procesan y calculan los resultados debe residir en la capa de negocio, no en la de presentación.
+    *   **Bajo Acoplamiento:** La API del `database_manager` se vuelve más limpia y abstracta. La UI ya no necesita conocer los detalles internos de cómo se guardará un examen; simplemente entrega la lista de respuestas. Esto reduce el acoplamiento y facilita futuras modificaciones.
+    *   **Mantenibilidad:** Centralizar la lógica en el backend hace que el sistema sea más fácil de mantener y depurar a largo plazo. Se priorizó la robustez y el buen diseño sobre la velocidad de implementación a corto plazo.

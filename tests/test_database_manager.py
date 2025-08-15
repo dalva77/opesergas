@@ -304,9 +304,9 @@ def test_save_exam_flow_guarda_todo_atomicamente(temp_db):
     db_manager.initialize_database()
     questions = db_manager.get_questions(3)
     user_answers = [
-        {"pregunta_id": questions[0]['id'], "respuesta_usuario": "B", "es_correcta": True},
-        {"pregunta_id": questions[1]['id'], "respuesta_usuario": "A", "es_correcta": False},
-        {"pregunta_id": questions[2]['id'], "respuesta_usuario": "C", "es_correcta": True},
+        {"question_id": questions[0]['id'], "selected_option": "B", "is_correct": True},
+        {"question_id": questions[1]['id'], "selected_option": "A", "is_correct": False},
+        {"question_id": questions[2]['id'], "selected_option": "C", "is_correct": True},
     ]
 
     # Leer los valores iniciales de la pregunta que se va a acertar
@@ -317,10 +317,7 @@ def test_save_exam_flow_guarda_todo_atomicamente(temp_db):
     conn_setup.close()
 
     # Act
-    exam_id = db_manager.save_exam_flow(
-        total_preguntas=len(questions),
-        results_data=user_answers
-    )
+    exam_id = db_manager.save_exam_flow(results=user_answers)
 
     # Assert
     assert isinstance(exam_id, int)
