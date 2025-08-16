@@ -52,7 +52,8 @@ elif st.session_state.exam_in_progress:
         # Guardar la respuesta seleccionada en el estado de sesión
         user_choice = st.radio(
             "Selecciona tu respuesta:",
-            options_list,
+            options=list(options_dict.keys()),  # Usar las claves como opciones reales
+            format_func=lambda key: f"{key.upper()}) {options_dict[key]}",  # Formatear para el usuario
             key=f"q_{question['id']}",
             index=None  # Por defecto no hay nada seleccionado
         )
@@ -63,12 +64,8 @@ elif st.session_state.exam_in_progress:
 
         if st.button(button_text):
             if user_choice is not None:
-                # Mapear la respuesta de texto a la clave (ej. 'a', 'b', 'c')
-                selected_key = next(
-                    (key for key, value in options_dict.items() if value == user_choice),
-                    None
-                )
-                st.session_state.user_answers[q_index] = selected_key
+                # user_choice ya es la clave ('a', 'b', etc.), no se necesita mapeo
+                st.session_state.user_answers[q_index] = user_choice
                 st.session_state.current_question_index += 1
                 st.rerun()
             else:
