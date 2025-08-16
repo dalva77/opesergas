@@ -1,0 +1,6 @@
+# config.toml
+
+[database]
+# Cambia el modo para usar una base de datos diferente.
+# Opciones válidas: "production" o "dummy".
+mode = "dummy"

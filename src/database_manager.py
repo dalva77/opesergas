@@ -9,26 +9,24 @@ entre la lógica de la aplicación y la base de datos SQLite.
 import sqlite3
 import os
 import datetime
-
-# --- Configuración ---
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-ROOT_DIR = os.path.dirname(BASE_DIR)
-DB_PATH = os.path.join(ROOT_DIR, 'database', 'questions.db')
+from src import config_manager  # Importar el nuevo módulo
 
 
 # --- Funciones de Gestión de la Base de Datos ---
 
 def get_db_connection():
     """
-    Establece y devuelve una conexión a la base de datos SQLite.
-
-    La conexión se configura para devolver filas que se comportan como diccionarios
-    (claves de columna como nombres), lo que facilita el manejo de los datos.
-
-    Returns:
-        sqlite3.Connection: Objeto de conexión a la base de datos.
+    Crea y devuelve una conexión a la base de datos especificada en
+    el fichero de configuración.
     """
-    conn = sqlite3.connect(DB_PATH)
+    db_path = config_manager.get_database_path()
+
+    # Asegurarse de que el directorio de la base de datos exista
+    db_dir = os.path.dirname(db_path)
+    if not os.path.exists(db_dir):
+        os.makedirs(db_dir)
+
+    conn = sqlite3.connect(db_path)
     conn.row_factory = sqlite3.Row
     return conn
 

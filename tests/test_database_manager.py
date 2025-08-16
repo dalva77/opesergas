@@ -8,7 +8,9 @@ base de datos real de la aplicación.
 
 import pytest
 import sqlite3
+import datetime
 from src import database_manager as db_manager
+from src import config_manager  # MODIFICADO: Importar el config_manager
 
 # --- Fixtures de Pytest ---
 
@@ -20,7 +22,7 @@ def temp_db(tmp_path, monkeypatch):
 
     Esta fixture realiza las siguientes acciones:
     1. Crea un fichero de base de datos temporal usando la fixture `tmp_path` de pytest.
-    2. Usa `monkeypatch` para que `database_manager.DB_PATH` apunte a este fichero.
+    2. Usa `monkeypatch` para que `config_manager.get_database_path()` apunte a este fichero.
     3. Puebla la BBDD temporal con la tabla `preguntas` y datos de prueba.
     4. Cede el control al test.
     5. `tmp_path` se encarga de la limpieza automática del fichero después del test.
@@ -28,8 +30,10 @@ def temp_db(tmp_path, monkeypatch):
     # 1. Crear el fichero de BBDD temporal
     db_path = tmp_path / "test_questions.db"
 
-    # 2. Redirigir la constante DB_PATH del módulo
-    monkeypatch.setattr(db_manager, 'DB_PATH', str(db_path))
+    # 2. MODIFICADO: En lugar de parchear una constante o una función en db_manager,
+    # parcheamos la función get_database_path() en el módulo config_manager.
+    # Esto obliga a que cualquier llamada a get_db_connection() use nuestra BBDD temporal.
+    monkeypatch.setattr(config_manager, 'get_database_path', lambda: str(db_path))
 
     # 3. Conectar y poblar la BBDD con datos iniciales
     conn = sqlite3.connect(db_path)
@@ -348,20 +352,18 @@ def test_save_exam_flow_guarda_todo_atomicamente(temp_db):
     conn.close()
 
 
-import datetime
-
 # --- Test para verificar la inserción explícita de la fecha ---
 
 def test_save_exam_flow_inserts_date_explicitly(tmp_path, monkeypatch):
     """
     Verifica que save_exam_flow inserta una fecha válida incluso cuando
     el esquema de la BBDD es estricto y no tiene un valor por defecto.
-
-    Este test fallará con un IntegrityError antes de la corrección.
     """
     # Arrange: Crear una BBDD temporal con un esquema ESTRICTO
     db_path = tmp_path / "strict_test.db"
-    monkeypatch.setattr(db_manager, 'DB_PATH', str(db_path))
+
+    # MODIFICADO: Misma corrección que en la fixture temp_db
+    monkeypatch.setattr(config_manager, 'get_database_path', lambda: str(db_path))
 
     conn = sqlite3.connect(db_path)
     cursor = conn.cursor()

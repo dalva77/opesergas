@@ -42,6 +42,7 @@ elif st.session_state.exam_in_progress:
         st.markdown(question['enunciado'])
 
         # Las opciones están como string JSON, hay que parsearlas
+        options_dict = {}  # Inicializar para evitar UnboundLocalError
         try:
             options_dict = json.loads(question['opciones'])
             options_list = list(options_dict.values())
