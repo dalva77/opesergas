@@ -27,6 +27,7 @@ if 'exam_in_progress' not in st.session_state:
         st.session_state.current_question_index = 0
         st.session_state.user_answers = [None] * len(questions_data)
         st.session_state.exam_in_progress = True
+        st.session_state.exam_saved = False  # Flag para evitar guardado múltiple
         st.rerun()
 
 # Pantalla 2: REALIZACIÓN DEL EXAMEN (Estado "en progreso")
@@ -53,7 +54,7 @@ elif st.session_state.exam_in_progress:
             "Selecciona tu respuesta:",
             options_list,
             key=f"q_{question['id']}",
-            index=None # Por defecto no hay nada seleccionado
+            index=None  # Por defecto no hay nada seleccionado
         )
 
         # Lógica de navegación
@@ -98,8 +99,10 @@ elif st.session_state.exam_in_progress:
                 'was_correct': is_correct
             })
 
-        # 2. Guardar el examen en la BBDD (transacción única)
-        db.save_exam_flow(results=results_to_save)
+        # 2. Guardar el examen en la BBDD (solo si no se ha guardado antes)
+        if not st.session_state.get('exam_saved', False):
+            db.save_exam_flow(results=results_to_save)
+            st.session_state.exam_saved = True
 
         # 3. Mostrar resumen
         score = (correct_answers / len(st.session_state.questions)) * 100
@@ -117,7 +120,7 @@ elif st.session_state.exam_in_progress:
             correct_answer_text = options_dict.get(correct_answer_key, "N/A")
 
             with st.container(border=True):
-                st.markdown(f"**{i+1}. {question['enunciado']}**")
+                st.markdown(f"**{i + 1}. {question['enunciado']}**")
                 if user_answer_key == correct_answer_key:
                     st.success(f"✅ Tu respuesta: {user_answer_text}")
                 else:
