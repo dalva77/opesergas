@@ -58,11 +58,12 @@ Este documento contiene la lista de tareas planificadas para el desarrollo de la
 **Objetivo:** Completar la documentación del proyecto y realizar mejoras basadas en el MVP.
 
 *   **Tarea 3.1: Rellenar Ficheros de Documentación**
-    *   [ ] Actualizar `README.md` con la descripción final, estructura de ficheros y guías de uso.
+    *   [x] Actualizar `README.md` con la descripción final, estructura de ficheros y guías de uso.
     *   [x] Rellenar `ARCHITECTURE.md` con la descripción de los componentes.
     *   [x] Rellenar `DECISIONS.md` con las decisiones tomadas.
     *   [x] Mantener `CHANGLOG.md` actualizado.
-*   **Tarea 3.2: Mejoras Futuras (Post-MVP)**
+*   **Tarea 3.2: Mejoras y Correcciones (Post-MVP)**
+    *   [ ] Investigar y corregir el nombre de la página principal ("app") en el menú lateral.
     *   [ ] Implementar la página de `Estadisticas.py`.
     *   [ ] Añadir filtros para la selección de preguntas (por `tags`, `fuente`, `anno`).
     *   [ ] Mejorar el diseño visual de la aplicación.

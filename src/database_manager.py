@@ -8,6 +8,7 @@ entre la lógica de la aplicación y la base de datos SQLite.
 
 import sqlite3
 import os
+import datetime
 
 # --- Configuración ---
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -45,7 +46,7 @@ def _initialize_database(conn: sqlite3.Connection):
     cursor.execute('''
         CREATE TABLE IF NOT EXISTS examenes (
             id INTEGER PRIMARY KEY AUTOINCREMENT,
-            fecha TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+            fecha TEXT NOT NULL,
             finalizado BOOLEAN NOT NULL DEFAULT 0,
             total_preguntas INTEGER NOT NULL,
             aciertos INTEGER
@@ -125,9 +126,10 @@ def _create_exam_session(conn: sqlite3.Connection, total_preguntas: int) -> int:
         int: El ID de la nueva fila de examen creada.
     """
     cursor = conn.cursor()
+    fecha_actual = datetime.datetime.now().isoformat()
     cursor.execute(
-        'INSERT INTO examenes (total_preguntas) VALUES (?)',
-        (total_preguntas,)
+        'INSERT INTO examenes (fecha, total_preguntas) VALUES (?, ?)',
+        (fecha_actual, total_preguntas)
     )
     exam_id = cursor.lastrowid
     if exam_id is None:

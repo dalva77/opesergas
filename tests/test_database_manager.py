@@ -97,9 +97,10 @@ def test_initialize_database_no_altera_datos_existentes(temp_db):
 
     conn_setup = db_manager.get_db_connection()
     cursor_setup = conn_setup.cursor()
+    # Añadir la fecha en el INSERT para cumplir con el nuevo esquema
     cursor_setup.execute(
-        "INSERT INTO examenes (id, total_preguntas, aciertos) VALUES (?, ?, ?)",
-        (1, 10, 8)
+        "INSERT INTO examenes (id, fecha, total_preguntas, aciertos) VALUES (?, ?, ?, ?)",
+        (1, datetime.datetime.now().isoformat(), 10, 8)
     )
     conn_setup.commit()
     conn_setup.close()
@@ -345,3 +346,80 @@ def test_save_exam_flow_guarda_todo_atomicamente(temp_db):
     assert stats_q1['veces_acertada'] == initial_stats_q1['veces_acertada'] + 1
 
     conn.close()
+
+
+import datetime
+
+# --- Test para verificar la inserción explícita de la fecha ---
+
+def test_save_exam_flow_inserts_date_explicitly(tmp_path, monkeypatch):
+    """
+    Verifica que save_exam_flow inserta una fecha válida incluso cuando
+    el esquema de la BBDD es estricto y no tiene un valor por defecto.
+
+    Este test fallará con un IntegrityError antes de la corrección.
+    """
+    # Arrange: Crear una BBDD temporal con un esquema ESTRICTO
+    db_path = tmp_path / "strict_test.db"
+    monkeypatch.setattr(db_manager, 'DB_PATH', str(db_path))
+
+    conn = sqlite3.connect(db_path)
+    cursor = conn.cursor()
+    # Crear tabla 'preguntas' (versión completa para el test)
+    cursor.execute('''
+        CREATE TABLE preguntas (
+            id INTEGER PRIMARY KEY,
+            enunciado TEXT,
+            veces_preguntada INTEGER DEFAULT 0,
+            veces_acertada INTEGER DEFAULT 0,
+            veces_fallada INTEGER DEFAULT 0
+        )
+    ''')
+    cursor.execute("INSERT INTO preguntas (id, enunciado) VALUES (1, 'Test Q1')")
+    # Crear tabla 'examenes' con la restricción NOT NULL, sin DEFAULT
+    cursor.execute('''
+        CREATE TABLE examenes (
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            fecha TEXT NOT NULL,
+            finalizado BOOLEAN,
+            total_preguntas INTEGER,
+            aciertos INTEGER
+        )
+    ''')
+    # Crear tabla 'resultados' (necesaria para la FK)
+    cursor.execute('''
+        CREATE TABLE resultados (
+            id INTEGER PRIMARY KEY,
+            examen_id INTEGER,
+            pregunta_id INTEGER,
+            respuesta_usuario TEXT,
+            es_correcta BOOLEAN
+        )
+    ''')
+    conn.commit()
+    conn.close()
+
+    # Datos del examen a guardar
+    results_data = [{'question_id': 1, 'selected_option': 'a', 'is_correct': True}]
+
+    # Act: Ejecutar la función que fallará
+    exam_id = db_manager.save_exam_flow(results=results_data)
+
+    # Assert: Verificar que la fecha fue insertada correctamente
+    conn = sqlite3.connect(db_path)
+    conn.row_factory = sqlite3.Row
+    cursor = conn.cursor()
+    cursor.execute("SELECT fecha FROM examenes WHERE id = ?", (exam_id,))
+    record = cursor.fetchone()
+    conn.close()
+
+    assert record is not None, "No se creó el registro del examen."
+    fecha_str = record['fecha']
+    assert isinstance(fecha_str, str), "La fecha no es un string."
+    assert len(fecha_str) > 0, "La fecha está vacía."
+
+    # Verificar que el string tiene un formato de fecha válido
+    try:
+        datetime.datetime.fromisoformat(fecha_str)
+    except ValueError:
+        pytest.fail(f"La fecha '{fecha_str}' no tiene un formato ISO válido.")

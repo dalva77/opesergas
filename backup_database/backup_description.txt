@@ -4,3 +4,6 @@ de usarse para generar ningun test
 Contiene las preguntas de la parte comun de distintas categorias en 3 OPEs distintas,
 y las preguntas de la parte especifica de la OPE SERGAS 2021
 
+Tambien contiee una copia de una base de datos "dummy" de 10 preguntas para usar en tests. Si se quiere usar, hay que moverla a la carpeta database y renombrarla como la base de datos real
+
+

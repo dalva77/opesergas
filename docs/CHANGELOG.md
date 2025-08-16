@@ -1,5 +1,24 @@
 # Changelog del Proyecto Opesergas
 
+## [0.4.0] - 2025-08-16
+
+### Added
+
+*   **Tema de la Aplicación:** Creado un fichero `.streamlit/config.toml` para definir un color primario azul, mejorando la consistencia visual de la UI.
+*   **Base de Datos para Pruebas:** Añadido un script `utils/create_dummy_db.py` que genera una base de datos de prueba con 10 preguntas, facilitando el testeo manual.
+*   **Test de Robustez:** Añadido un nuevo test (`test_save_exam_flow_inserts_date_explicitly`) para asegurar que la lógica de la BBDD inserta la fecha explícitamente, siguiendo un enfoque TDD.
+
+### Changed
+
+*   **Mejora UI Examen:** Las opciones de respuesta ahora muestran su letra original (ej. "A) Opción A") para mayor claridad, utilizando `format_func` de `st.radio`.
+*   **Refactorización `database_manager`:** La aplicación ahora es explícitamente responsable de generar e insertar la fecha de creación del examen, eliminando la dependencia de la configuración `DEFAULT` de la BBDD. Esto hace el código más robusto y portable.
+
+### Fixed
+
+*   **Bug Crítico de Idempotencia:** Solucionado un bug que guardaba un examen múltiples veces si la página de resultados se recargaba. Se ha añadido un flag `exam_saved` al `st.session_state`.
+*   **Bug Crítico de BBDD:** Solucionado un `IntegrityError` que ocurría al usar una BBDD con un esquema estricto.
+*   **Suite de Pruebas:** Actualizada y corregida toda la suite de tests para alinearla con el nuevo esquema de BBDD más estricto, asegurando que todos los 11 tests pasen.
+
 ## [0.3.0] - 2025-08-16
 
 ### Added

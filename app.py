@@ -7,7 +7,7 @@ database_manager.initialize_database()
 
 # --- CONFIGURACIÓN DE LA PÁGINA ---
 st.set_page_config(
-    page_title="Opesergas",
+    page_title="Inicio",
     page_icon="✅",
     layout="wide",
     initial_sidebar_state="expanded"

@@ -1,33 +1,37 @@
 ### Resumen de Contexto para el Desarrollo de la App de Tests
 
-**Asunto:** Implementación del MVP, resolución de bug de integración y refactorización del `database_manager`.
+**Asunto:** Validación del MVP, corrección de bugs críticos y mejoras de la interfaz de usuario.
 
 **1. Objetivo de la Sesión**
 
-El objetivo era iniciar y completar la **Fase 2: Implementación del Producto Mínimo Viable (MVP)**, creando la interfaz de usuario con Streamlit para que un usuario pudiera realizar un examen completo.
+El objetivo era realizar un testeo exhaustivo del MVP funcional, identificar y solucionar bugs, y aplicar mejoras visuales y de usabilidad a la interfaz del examen.
 
-**2. Estado Actual del Proyecto**
+**2. Hitos Clave Alcanzados**
 
-*   **MVP Funcional Implementado:**
-    *   Se ha creado el punto de entrada de la aplicación, `app.py`, que incluye un mensaje de bienvenida y la inicialización de la base de datos.
-    *   Se ha implementado el flujo completo de examen en `pages/1_Nuevo_Examen.py`, gestionando las tres pantallas lógicas (configuración, realización y resultados) a través de `st.session_state`.
+1.  **Corrección de Bug Crítico (Idempotencia):**
+    *   Se solucionó un bug grave que provocaba que un examen finalizado se guardara repetidamente en la base de datos si la página de resultados se recargaba.
+    *   La solución consistió en añadir un flag `exam_saved` al `st.session_state`.
 
-*   **Bug de Integración Resuelto:**
-    *   Al probar el flujo, se detectó un `TypeError` al finalizar un examen. La causa era una **discrepancia entre los argumentos** enviados por la UI (`1_Nuevo_Examen.py`) y los que esperaba la función `save_exam_flow` en el backend (`src/database_manager.py`).
+2.  **Mejoras en la Interfaz de Usuario (UI/UX):**
+    *   Se modificó la presentación de las opciones de respuesta para que muestren su letra original (ej. "A) Opción A").
+    *   Se cambió el color de acento de los widgets interactivos a azul, aplicando un tema personalizado a través de un fichero `.streamlit/config.toml`.
 
-*   **Refactorización Arquitectónica:**
-    *   Se discutieron dos posibles soluciones: adaptar la UI (más rápido) o refactorizar el backend (arquitectónicamente más sólido).
-    *   Se tomó la decisión de **refactorizar `save_exam_flow`** para que aceptara una estructura de datos más simple (`results`), mejorando la abstracción y el desacoplamiento entre la UI y la lógica de negocio.
-    *   Este cambio implicó **actualizar también la suite de tests** en `tests/test_database_manager.py` para alinearla con la nueva firma de la función. Durante el proceso, se corrigió un `KeyError` en los datos de prueba.
+3.  **Creación de Entorno de Pruebas Manual:**
+    *   Se generó y depuró un script (`utils/create_dummy_db.py`) que crea una base de datos de SQLite (`dummy_questions.db`) con un esquema 100% consistente con la aplicación, facilitando las pruebas manuales.
 
-*   **Estado Final:**
-    *   El bug ha sido solucionado.
-    *   La aplicación es funcional y se puede realizar un examen de principio a fin.
-    *   El `database_manager` ha sido mejorado y su suite de tests sigue teniendo una **cobertura del 100%**, validando la nueva implementación.
+4.  **Corrección de Bug Crítico (Lógica de BBDD y TDD):**
+    *   El uso de la BBDD dummy reveló un bug latente en `database_manager.py` relacionado con la inserción de la fecha del examen.
+    *   Se siguió un **enfoque TDD**: se escribió un nuevo test que fallaba, se refactorizó el `database_manager` para que fuera más explícito y robusto, y se corrigió toda la suite de tests para asegurar la consistencia, logrando que los 11 tests pasaran.
 
-**3. Próximos Pasos (Punto de Partida para la Siguiente Sesión)**
+**3. Estado Actual**
 
-*   **Tarea Prioritaria:** Realizar un **testeo exhaustivo y manual** del flujo completo para verificar dos puntos críticos:
-    1.  Que la lógica de validación en `1_Nuevo_Examen.py` identifica y muestra correctamente las respuestas acertadas y falladas.
-    2.  Que, tras finalizar el examen, los datos se persisten de forma correcta en las tablas `examenes`, `resultados` y `preguntas` de la base de datos.
-*   Una vez validado el MVP, se podrá continuar con las tareas de la **Fase 3: Documentación y Refinamiento**, como la creación de la página de estadísticas.
+*   El MVP es ahora **estable y robusto**.
+*   La interfaz de usuario es más clara y visualmente coherente.
+*   Se dispone de una base de datos de prueba fiable.
+*   La suite de tests es más completa y estricta.
+
+**4. Próximos Pasos (Punto de Partida para la Siguiente Sesión)**
+
+*   **Tarea Prioritaria:** Investigar y solucionar por qué el cambio de nombre de la página principal a "Inicio" no funcionó. El menú lateral sigue mostrando "app" a pesar de haber modificado el `page_title` en `app.py`.
+*   Una vez resuelto lo anterior, iniciar las tareas de la **Fase 3: Documentación y Refinamiento**.
+*   La próxima funcionalidad a desarrollar, según el `BACKLOG.md`, es la **página de Estadísticas**.
